@@ -1,0 +1,31 @@
+{
+  "official_release": "v1.30.4",
+  "source_commit": "2adda384347dd43e76d6295d77fe1f13623b2808",
+  "license": "LTK Patcher License v1.0 (2026-07-14)",
+  "static_protocol_check": "Rose1.4.9 adapter command framing matches LTK1.30.4 source; no runtime execution",
+  "dll_game_build_cutoff_unix": 1793228801,
+  "dll_game_build_cutoff_utc": "2026-10-28T23:06:41Z",
+  "preparation": "Authenticode security directory zeroed, trailing WIN_CERTIFICATE removed, checksum cleared. No game tooling executed.",
+  "files": [
+    {
+      "name": "ltk_patcher_host.exe",
+      "source": "https://raw.githubusercontent.com/LeagueToolkit/ltk-manager/v1.30.4/src-tauri/resources/ltk_patcher_host.exe",
+      "original_sha256": "27de1bfdbf37129e42c12b18cc7b4f75c15d39bcd7afefe65c4c33d0e99fe856",
+      "original_bytes": 1239304,
+      "runtime_sha256": "2d05f2a4224805e419fe6952214579d0fc469c52e718c7a6b1dd7d9729a98613",
+      "runtime_bytes": 1223680,
+      "removed_certificate_bytes": 15624,
+      "signature_removed": true
+    },
+    {
+      "name": "ltk_patcher_dll.dll",
+      "source": "https://raw.githubusercontent.com/LeagueToolkit/ltk-manager/v1.30.4/src-tauri/resources/ltk_patcher_dll.dll",
+      "original_sha256": "0b024a3a839f55ff7cf7ee93d9ed2078bcbb07d3b7f320463d678f8a6209e5ff",
+      "original_bytes": 834816,
+      "runtime_sha256": "1fe703397b9222cdb41d3fe3198305d2236c97e4788b484544265c6af38ce55d",
+      "runtime_bytes": 819200,
+      "removed_certificate_bytes": 15616,
+      "signature_removed": true
+    }
+  ]
+}

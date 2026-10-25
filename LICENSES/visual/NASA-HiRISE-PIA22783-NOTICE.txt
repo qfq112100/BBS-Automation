@@ -1,0 +1,50 @@
+NASA / HiRISE photograph attribution and provenance notice
+=========================================================
+
+Selected photograph: The Velvety Blue Dunes of Melas Chasma
+NASA Photojournal ID: PIA22783
+HiRISE observation: ESP_055322_1680
+Credit exactly as shown on the official NASA source page:
+NASA/JPL-Caltech/Univ. of Arizona
+
+Official source page:
+https://science.nasa.gov/photojournal/the-velvety-blue-dunes-of-melas-chasma/
+Legacy source page (redirects to the page above):
+https://photojournal.jpl.nasa.gov/catalog/PIA22783
+Original downloaded JPEG:
+https://images-assets.nasa.gov/image/PIA22783/PIA22783~orig.jpg
+NASA's detailed metadata:
+https://images-assets.nasa.gov/image/PIA22783/metadata.json
+
+The original is 2880 x 1800 pixels, 678951 bytes.
+SHA256: c11dd0ca433ad471f5528d04cf7769b93b7fad9ecaba4e3636e8818e2fdbf9a8
+
+This is actual Mars Reconnaissance Orbiter/HiRISE camera observation acquired
+May 16, 2018, published October 1, 2018. NASA's original scientific processing
+uses color-infrared bands; the blue/purple sands are not an AI-generated image.
+The asset agent made no crop, recolor, decoration, painting, texture or other
+image transformation. The original downloaded JPEG bytes are preserved.
+
+Reuse basis: public-domain NASA/HiRISE mission imagery, subject to NASA/HiRISE
+image-use policy. The image is credited to the NASA/JPL-Caltech/University of
+Arizona mission team and contains no identified person, trademark, NASA insignia,
+or separate third-party copyright restriction on the retrieved image source/API.
+Please retain the exact credit above in the application's readable About/licenses.
+Do not imply NASA, JPL, Caltech or the University of Arizona endorses this product.
+
+Official policy references:
+https://www.uahirise.org/media/usage.php
+https://www.nasa.gov/nasa-brand-center/images-and-media/
+https://www.jpl.nasa.gov/jpl-image-use-policy/
+
+IMPORTANT EVIDENCE STATUS, 2026-10-23:
+The official photograph source page, NASA search record and NASA detailed
+metadata were successfully retrieved and are preserved under resources/assets/
+evidence. The live HiRISE policy endpoint is presently returning its own HTTP502
+maintenance/error page; the NASA brand policy returned HTTP429 and JPL HTTP403.
+No error page is presented as license text. This NOTICE is an attribution and
+provenance summary, NOT a purported verbatim copy of an unavailable policy.
+Policy-body capture remains incomplete and should be rechecked when the
+publishers' policy sites are available. Avoid treating every NASA-hosted image
+as public domain: citizen-processed Juno imagery can have separate NC licenses;
+such alternatives were rejected and are not part of this delivery.

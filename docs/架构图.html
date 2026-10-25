@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BBS自动化 · 模块架构图</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'JetBrains Mono', 'Noto Sans SC', monospace;
+      background: #020617;
+      min-height: 100vh;
+      padding: 2rem;
+      color: white;
+    }
+    .container { max-width: 1240px; margin: 0 auto; }
+    .header { margin-bottom: 2rem; }
+    .header-row { display: flex; align-items: center; gap: 1rem; margin-bottom: 0.5rem; }
+    .pulse-dot { width: 12px; height: 12px; background: #22d3ee; border-radius: 50%; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+    h1 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.025em; }
+    .subtitle { color: #94a3b8; font-size: 0.875rem; margin-left: 1.75rem; }
+    .diagram-container {
+      background: rgba(15, 23, 42, 0.5);
+      border-radius: 1rem;
+      border: 1px solid #1e293b;
+      padding: 1.5rem;
+      overflow-x: auto;
+    }
+    svg { width: 100%; min-width: 1000px; display: block; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; margin-top: 2rem; }
+    .card { background: rgba(15, 23, 42, 0.5); border-radius: 0.75rem; border: 1px solid #1e293b; padding: 1.25rem; }
+    .card-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem; }
+    .card-dot { width: 8px; height: 8px; border-radius: 50%; }
+    .card-dot.cyan { background: #22d3ee; }
+    .card-dot.emerald { background: #34d399; }
+    .card-dot.rose { background: #fb7185; }
+    .card-dot.violet { background: #a78bfa; }
+    .card h3 { font-size: 0.875rem; font-weight: 600; }
+    .card ul { list-style: none; color: #94a3b8; font-size: 0.75rem; line-height: 1.6; }
+    .card li { margin-bottom: 0.375rem; }
+    .footer { text-align: center; margin-top: 1.5rem; color: #475569; font-size: 0.75rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="header-row">
+        <div class="pulse-dot"></div>
+        <h1>BBS自动化 · 模块架构</h1>
+      </div>
+      <p class="subtitle">LOLBackup 3.3 DIRECT · 候选 3.3.0.0 · 原生 Win32 C++17 · 同步四层 + 独立工具 worker：完整应用按需释放</p>
+    </div>
+
+    <div class="diagram-container">
+      <svg viewBox="0 0 1240 1110" role="img" aria-label="DIRECT 同步四层与独立工具工作线程架构">
+        <defs>
+          <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#64748b" />
+          </marker>
+          <marker id="arrowhead-rose" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#fb7185" />
+          </marker>
+          <marker id="arrowhead-violet" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#a78bfa" />
+          </marker>
+          <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5"/>
+          </pattern>
+        </defs>
+
+        <rect width="100%" height="100%" fill="url(#grid)" />
+
+        <!-- ==================== 箭头（先画，位于组件之下） ==================== -->
+        <line x1="360" y1="172" x2="360" y2="202" stroke="#22d3ee" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <line x1="360" y1="317" x2="360" y2="347" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <line x1="360" y1="462" x2="360" y2="492" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+
+        <line x1="622" y1="240" x2="676" y2="240" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <line x1="622" y1="392" x2="676" y2="392" stroke="#fbbf24" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <path d="M 622 300 L 650 300 L 650 545 L 676 545" fill="none" stroke="#fb7185" stroke-width="1.5" stroke-dasharray="5,4" marker-end="url(#arrowhead-rose)"/>
+
+        <line x1="210" y1="612" x2="210" y2="756" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arrowhead-violet)"/>
+        <line x1="490" y1="612" x2="490" y2="756" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arrowhead-violet)"/>
+
+        <line x1="322" y1="788" x2="376" y2="788" stroke="#22d3ee" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <line x1="378" y1="820" x2="324" y2="820" stroke="#fb7185" stroke-width="1.5" marker-end="url(#arrowhead-rose)"/>
+        <line x1="1030" y1="452" x2="1030" y2="756" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="5,4" marker-end="url(#arrowhead)"/>
+
+        <!-- 箭头标签 -->
+        <text x="632" y="232" fill="#94a3b8" font-size="8">查询</text>
+        <text x="632" y="384" fill="#fbbf24" font-size="8">读写</text>
+        <text x="656" y="360" fill="#fb7185" font-size="8">门禁</text>
+        <text x="222" y="700" fill="#a78bfa" font-size="8">写入 / 读取</text>
+        <text x="502" y="700" fill="#a78bfa" font-size="8">镜像</text>
+        <text x="349" y="780" fill="#22d3ee" font-size="8" text-anchor="middle">备份</text>
+        <text x="349" y="836" fill="#fb7185" font-size="8" text-anchor="middle">还原</text>
+        <text x="1040" y="600" fill="#fbbf24" font-size="8">落盘</text>
+
+        <!-- ==================== 左列：界面 → 服务 → 引擎 → 文件 ==================== -->
+
+        <!-- 界面层 -->
+        <rect x="100" y="70" width="520" height="100" rx="6" fill="#0f172a"/>
+        <rect x="100" y="70" width="520" height="100" rx="6" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+        <text x="360" y="94" fill="white" font-size="12" font-weight="600" text-anchor="middle">界面层 · src/app/main.cpp</text>
+        <text x="360" y="112" fill="#94a3b8" font-size="9" text-anchor="middle">五页：概览 · 备份任务 · 日志 · 设置 · 工具中心</text>
+        <text x="360" y="128" fill="#94a3b8" font-size="9" text-anchor="middle">托盘菜单 · 对话框 · 快捷键 · 单实例 · 窗口记忆</text>
+        <text x="360" y="144" fill="#94a3b8" font-size="9" text-anchor="middle">原生绘制 · 深浅主题 · DPI 适配 · 内嵌字体与图标</text>
+        <text x="360" y="160" fill="#22d3ee" font-size="8" text-anchor="middle">BBS 原生 UI · 工具独立子进程 · 按需释放运行时</text>
+
+        <!-- 服务层 -->
+        <rect x="100" y="205" width="520" height="110" rx="6" fill="#0f172a"/>
+        <rect x="100" y="205" width="520" height="110" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="360" y="228" fill="white" font-size="12" font-weight="600" text-anchor="middle">服务层 · src/core/service</text>
+        <text x="360" y="246" fill="#94a3b8" font-size="9" text-anchor="middle">串行任务队列（IO 与监控互不阻塞）</text>
+        <text x="360" y="262" fill="#94a3b8" font-size="9" text-anchor="middle">独立监视默认 500ms · 在线 / 离线 / 未知</text>
+        <text x="360" y="278" fill="#94a3b8" font-size="9" text-anchor="middle">首次在线立即调度 · 原子取消 · 无还原失败冻结</text>
+        <text x="360" y="294" fill="#94a3b8" font-size="9" text-anchor="middle">JSON 事件推送 · UI 只认服务最终回执</text>
+        <text x="360" y="310" fill="#34d399" font-size="8" text-anchor="middle">启动选项注入：探测函数 / 时钟 / 同步周期 / 阶段屏障</text>
+
+        <!-- 同步引擎 -->
+        <rect x="100" y="350" width="520" height="110" rx="6" fill="#0f172a"/>
+        <rect x="100" y="350" width="520" height="110" rx="6" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="360" y="373" fill="white" font-size="12" font-weight="600" text-anchor="middle">同步引擎 · src/core/sync_engine</text>
+        <text x="360" y="391" fill="#94a3b8" font-size="9" text-anchor="middle">镜像计划：copyOnly / fullMirror（含删除）</text>
+        <text x="360" y="407" fill="#94a3b8" font-size="9" text-anchor="middle">缓存只枚举一次 · 每文件直接覆盖</text>
+        <text x="360" y="423" fill="#94a3b8" font-size="9" text-anchor="middle">物理目录真值 · 无哈希跳过 / 最终复验</text>
+        <text x="360" y="439" fill="#94a3b8" font-size="9" text-anchor="middle">进度取消只读原子状态 · 无逐块进程探测</text>
+        <text x="360" y="455" fill="#34d399" font-size="8" text-anchor="middle">部分成功显式报错，不伪造 100%</text>
+
+        <!-- 文件层 -->
+        <rect x="100" y="495" width="520" height="117" rx="6" fill="#0f172a"/>
+        <rect x="100" y="495" width="520" height="117" rx="6" fill="rgba(136, 19, 55, 0.4)" stroke="#fb7185" stroke-width="1.5"/>
+        <text x="360" y="518" fill="white" font-size="12" font-weight="600" text-anchor="middle">文件层 · 直接 Win32 IO + 路径范围检查</text>
+        <text x="360" y="536" fill="#94a3b8" font-size="9" text-anchor="middle">CopyFileExW 覆盖 · 权限 / 占用错误如实报告</text>
+        <text x="360" y="552" fill="#94a3b8" font-size="9" text-anchor="middle">无业务暂存原子替换 · 错误可损坏目标</text>
+        <text x="360" y="568" fill="#94a3b8" font-size="9" text-anchor="middle">无所有权认领 / 身份批准 / 对局等待</text>
+        <text x="360" y="584" fill="#94a3b8" font-size="9" text-anchor="middle">仅在线：完整空 Game → 清空受管缓存</text>
+        <text x="360" y="602" fill="#fb7185" font-size="8" text-anchor="middle">绝对路径 · 拒重解析点 · 根不重叠 · 大小写常规语义</text>
+
+        <!-- ==================== 右列：探测 / 配置 / 日志 / 门禁 ==================== -->
+
+        <!-- 探测 -->
+        <rect x="680" y="200" width="460" height="100" rx="6" fill="#0f172a"/>
+        <rect x="680" y="200" width="460" height="100" rx="6" fill="rgba(30, 41, 59, 0.5)" stroke="#94a3b8" stroke-width="1.5"/>
+        <text x="910" y="224" fill="white" font-size="12" font-weight="600" text-anchor="middle">只读探测 · monitor + game_detect</text>
+        <text x="910" y="242" fill="#94a3b8" font-size="9" text-anchor="middle">大厅进程（本会话）· 首次在线立即调度</text>
+        <text x="910" y="258" fill="#94a3b8" font-size="9" text-anchor="middle">工作线程无逐文件 / 逐块进程探测</text>
+        <text x="910" y="274" fill="#94a3b8" font-size="9" text-anchor="middle">Game 识别：文件布局 + 未认证版本资源启发式</text>
+        <text x="910" y="290" fill="#94a3b8" font-size="8" text-anchor="middle">离线 / 未知停止自动工作；手动恢复不等对局</text>
+
+        <!-- 配置 -->
+        <rect x="680" y="340" width="220" height="110" rx="6" fill="#0f172a"/>
+        <rect x="680" y="340" width="220" height="110" rx="6" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="790" y="363" fill="white" font-size="11" font-weight="600" text-anchor="middle">配置 · config</text>
+        <text x="790" y="383" fill="#94a3b8" font-size="8" text-anchor="middle">严格 JSON 解析</text>
+        <text x="790" y="398" fill="#94a3b8" font-size="8" text-anchor="middle">缺字段迁移 · 未知字段保留</text>
+        <text x="790" y="413" fill="#94a3b8" font-size="8" text-anchor="middle">坏字段拒绝读 / 写</text>
+        <text x="790" y="428" fill="#94a3b8" font-size="8" text-anchor="middle">三方字段合并 · 冲突即失败</text>
+        <text x="790" y="443" fill="#fbbf24" font-size="8" text-anchor="middle">跨进程锁 + 原子写</text>
+
+        <!-- 日志 -->
+        <rect x="920" y="340" width="220" height="110" rx="6" fill="#0f172a"/>
+        <rect x="920" y="340" width="220" height="110" rx="6" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="1030" y="363" fill="white" font-size="11" font-weight="600" text-anchor="middle">日志 · logger</text>
+        <text x="1030" y="383" fill="#94a3b8" font-size="8" text-anchor="middle">JSONL · 长路径安全</text>
+        <text x="1030" y="398" fill="#94a3b8" font-size="8" text-anchor="middle">失败可观察轮转</text>
+        <text x="1030" y="413" fill="#94a3b8" font-size="8" text-anchor="middle">traceId · 阶段 · 耗时 · 错误码</text>
+        <text x="1030" y="428" fill="#94a3b8" font-size="8" text-anchor="middle">UI 合并最近 200 条</text>
+        <text x="1030" y="443" fill="#fbbf24" font-size="8" text-anchor="middle">受控导出 · 复制选区</text>
+
+        <!-- 基本范围 -->
+        <rect x="680" y="490" width="220" height="110" rx="6" fill="#0f172a"/>
+        <rect x="680" y="490" width="220" height="110" rx="6" fill="rgba(136, 19, 55, 0.4)" stroke="#fb7185" stroke-width="1.5"/>
+        <text x="790" y="513" fill="white" font-size="11" font-weight="600" text-anchor="middle">基本范围</text>
+        <text x="790" y="533" fill="#94a3b8" font-size="8" text-anchor="middle">根重叠 / 祖先冲突检查</text>
+        <text x="790" y="548" fill="#94a3b8" font-size="8" text-anchor="middle">配置路径与重解析点检查</text>
+        <text x="790" y="563" fill="#94a3b8" font-size="8" text-anchor="middle">无身份批准 / 失败冻结</text>
+        <text x="790" y="578" fill="#94a3b8" font-size="8" text-anchor="middle">失败恢复不阻止定时镜像</text>
+        <text x="790" y="593" fill="#fb7185" font-size="8" text-anchor="middle">离线 / 未知：取消自动工作</text>
+
+        <!-- 右列注解 -->
+        <text x="920" y="520" fill="#94a3b8" font-size="9">运行位置：%LocalAppData%\LOLBackupV3</text>
+        <text x="920" y="538" fill="#94a3b8" font-size="9">缓存默认为其子目录</text>
+        <text x="920" y="556" fill="#94a3b8" font-size="9">单实例锁：每用户每会话</text>
+        <text x="920" y="574" fill="#94a3b8" font-size="9">退出：先取消再等安全停止</text>
+        <text x="920" y="592" fill="#94a3b8" font-size="9">BBS 普通启动不提权；Rose 显式启动可 UAC</text>
+
+        <!-- ==================== 存储层 ==================== -->
+
+        <rect x="100" y="760" width="220" height="100" rx="6" fill="#0f172a"/>
+        <rect x="100" y="760" width="220" height="100" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+        <text x="210" y="784" fill="white" font-size="11" font-weight="600" text-anchor="middle">外服 LOL · Game 目录</text>
+        <text x="210" y="802" fill="#94a3b8" font-size="8" text-anchor="middle">saves/ · shards/</text>
+        <text x="210" y="816" fill="#94a3b8" font-size="8" text-anchor="middle">bot_5.dll · config.ini · hc.dat</text>
+        <text x="210" y="830" fill="#94a3b8" font-size="8" text-anchor="middle">HID.dll · shards.json · user.ini</text>
+        <text x="210" y="848" fill="#94a3b8" font-size="7" text-anchor="middle">外部进程 · 仅只读探测</text>
+
+        <rect x="380" y="760" width="220" height="100" rx="6" fill="#0f172a"/>
+        <rect x="380" y="760" width="220" height="100" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+        <text x="490" y="784" fill="white" font-size="11" font-weight="600" text-anchor="middle">本地缓存</text>
+        <text x="490" y="802" fill="#94a3b8" font-size="8" text-anchor="middle">受管业务项镜像</text>
+        <text x="490" y="816" fill="#94a3b8" font-size="8" text-anchor="middle">物理白名单即恢复源</text>
+        <text x="490" y="830" fill="#94a3b8" font-size="8" text-anchor="middle">离线停止自动工作</text>
+        <text x="490" y="848" fill="#a78bfa" font-size="7" text-anchor="middle">默认在 LocalAppData\LOLBackupV3</text>
+
+        <rect x="660" y="760" width="200" height="100" rx="6" fill="#0f172a"/>
+        <rect x="660" y="760" width="200" height="100" rx="6" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+        <text x="760" y="784" fill="white" font-size="11" font-weight="600" text-anchor="middle">旧管理文件 / 旧历史</text>
+        <text x="760" y="802" fill="#94a3b8" font-size="8" text-anchor="middle">原样保留并忽略</text>
+        <text x="760" y="816" fill="#94a3b8" font-size="8" text-anchor="middle">不参与恢复或删除判定</text>
+        <text x="760" y="830" fill="#94a3b8" font-size="8" text-anchor="middle">不轮转 / 不清理 / 不删除</text>
+        <text x="760" y="848" fill="#a78bfa" font-size="7" text-anchor="middle">白名单旧业务项可显式导入</text>
+
+        <rect x="920" y="760" width="220" height="100" rx="6" fill="#0f172a"/>
+        <rect x="920" y="760" width="220" height="100" rx="6" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="1030" y="784" fill="white" font-size="11" font-weight="600" text-anchor="middle">配置 + 日志</text>
+        <text x="1030" y="802" fill="#94a3b8" font-size="8" text-anchor="middle">config.json · *.jsonl</text>
+        <text x="1030" y="816" fill="#94a3b8" font-size="8" text-anchor="middle">跨用户不共用</text>
+        <text x="1030" y="830" fill="#94a3b8" font-size="8" text-anchor="middle">失败不覆盖原文件</text>
+        <text x="1030" y="848" fill="#fbbf24" font-size="7" text-anchor="middle">受控导出</text>
+
+        <!-- ==================== 图例（右上，独立于所有边界框） ==================== -->
+        <text x="680" y="76" fill="white" font-size="10" font-weight="600">图例</text>
+
+        <rect x="680" y="88" width="16" height="10" rx="2" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="1"/>
+        <text x="704" y="96" fill="#94a3b8" font-size="8">界面层</text>
+        <rect x="680" y="106" width="16" height="10" rx="2" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1"/>
+        <text x="704" y="114" fill="#94a3b8" font-size="8">服务 / 引擎层</text>
+        <rect x="680" y="124" width="16" height="10" rx="2" fill="rgba(136, 19, 55, 0.4)" stroke="#fb7185" stroke-width="1"/>
+        <text x="704" y="132" fill="#94a3b8" font-size="8">直接 IO / 范围检查</text>
+
+        <rect x="920" y="88" width="16" height="10" rx="2" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1"/>
+        <text x="944" y="96" fill="#94a3b8" font-size="8">配置 / 日志</text>
+        <rect x="920" y="106" width="16" height="10" rx="2" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1"/>
+        <text x="944" y="114" fill="#94a3b8" font-size="8">存储</text>
+        <rect x="920" y="124" width="16" height="10" rx="2" fill="rgba(30, 41, 59, 0.5)" stroke="#94a3b8" stroke-width="1"/>
+        <text x="944" y="132" fill="#94a3b8" font-size="8">外部进程 / 只读探测</text>
+
+        <!-- 底部流程注 -->
+        <text x="100" y="890" fill="#34d399" font-size="8">大厅联动四步：① 启动/首次在线先还原 → ② 在线定时完整白名单镜像 → ③ 离线/未知请求取消 → ④ 再次在线先还原</text>
+        <text x="100" y="908" fill="#94a3b8" font-size="8">不等对局，无额外备份或 Game 清理；错误/取消可留下部分或截断目标，无回滚</text>
+        <path d="M 100 120 L 65 120 L 65 985 L 100 985" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="5,4" marker-end="url(#arrowhead-violet)"/>
+        <rect x="100" y="940" width="1040" height="125" rx="6" fill="#0f172a" stroke="#a78bfa" stroke-width="1.5"/>
+        <text x="620" y="963" fill="white" font-size="12" text-anchor="middle">独立工具 worker · src/core/tool_manager · 不占 DIRECT 同步队列</text>
+        <text x="620" y="983" fill="#94a3b8" font-size="9" text-anchor="middle">Rose 1.4.9 + LTK 1.30.4（host / dll / license 直接置于 Rose） · Akari 1.5.1 完整 Electron</text>
+        <text x="620" y="1002" fill="#94a3b8" font-size="9" text-anchor="middle">一个 EXE 分发 → 首次准备释放：%LOCALAPPDATA%/LOLBackupV3/components/&lt;id&gt;/&lt;version&gt;</text>
+        <text x="620" y="1021" fill="#94a3b8" font-size="9" text-anchor="middle">跟随默认 OFF：在线启动 / 离线请求关闭 / 未知忽略 · 已有无效目录只报错，不自动修复</text>
+        <text x="620" y="1042" fill="#a78bfa" font-size="8" text-anchor="middle">正常关闭可缩托盘；确认强停只限受管工具，不结束客户端/游戏 · 不修改现有 Rose 安装</text>
+      </svg>
+    </div>
+
+    <div class="cards">
+      <div class="card"><div class="card-header"><div class="card-dot cyan"></div><h3>DIRECT 数据流</h3></div><ul>
+        <li>• 恢复：物理缓存白名单只枚举一次，每个文件 CopyFileExW 覆盖 Game，同内容也复制。</li>
+        <li>• 不预扫 Game、不哈希跳过、不暂存原子替换、不最终复验；不删 Game 额外项。</li>
+        <li>• 定时镜像：以物理 Game 为真值，覆盖并删除受管差集；仅确认在线时完整空 Game 才清空全部受管缓存。</li>
+        <li>• 手动备份仅复制不额外删除；导入不移动/删除源。</li>
+      </ul></div>
+      <div class="card"><div class="card-header"><div class="card-dot emerald"></div><h3>大厅与定时器</h3></div><ul>
+        <li>• 默认独立采样 500ms，首次观测在线立即安排恢复，不等第二次确认或对局退出。</li>
+        <li>• 持续在线按用户间隔镜像：默认 5 分钟，可设 1–1440 分钟。</li>
+        <li>• 离线/未知即使 Game 随后变空，也无自动复制/删除/最终补派任务；不追加对局结束备份或自动清理 Game。</li>
+        <li>• 空缓存无文件可恢复；失败恢复不冻结未来镜像。</li>
+        <li>• 恢复/逐文件/逐块取消只读原子状态；自动 fullMirror 的 mirror/verified 删除前仅额外一次新鲜 ProbeLobby，确认仍在线才删除，不做内容复验。</li>
+      </ul></div>
+      <div class="card"><div class="card-header"><div class="card-dot rose"></div><h3>范围、风险与验证</h3></div><ul>
+        <li>• 保留配置路径、根不重叠、基本重解析点与白名单检查；不改 ACL 或系统安全策略。</li>
+        <li>• 取消用 PROGRESS_STOP 留下当前部分目标，不用 PROGRESS_CANCEL 删除式清理；直接覆盖可截断旧目标，错误按 Windows 实际结果报告，无回滚。</li>
+        <li>• 无目录所有权/身份批准、持久还原保护、墓碑、历史恢复点或快照；旧元数据保留并忽略。</li>
+        <li>• Windows 权限/占用/磁盘错误如实报告，部分完成不当作成功。</li>
+        <li>• 配置 CAS / 配置原子保存保留，不等于业务原子复制。</li>
+        <li>• 原有隔离目标 + 工具管理测试；不提前宣称全部通过，性能/计数以实测为准。</li>
+      </ul></div>
+    </div>
+
+    <div class="card" style="margin-top:1rem"><div class="card-header"><div class="card-dot violet"></div><h3>工具运行条件、许可与验证边界</h3></div><ul>
+      <li>• 集成单 EXE 约 140 MB 量级，最终大小以发行文件为准；释放完整运行层，不再承诺 4 MB / 无运行文件。</li>
+      <li>• BBS 自身原生静态支持库；工具 x64 条件独立：Rose/Pengu 涉及 .NET 4.7.2，Akari 更新器需官方 VC++ x64。</li>
+      <li>• LTK host/DLL 按许可移除上游签名，保留许可，不加入完整 GPL Manager UI；其他依赖授权独立保留。</li>
+      <li>• Rose 游戏构建阈值 2026-10-28T23:06:41Z 不是电脑时间到期；后续构建需官方 patcher 更新。Akari 不支持腾讯。</li>
+      <li>• --verify-tools 为隔离准备/检查 dry-run；未真实游戏注入，不保证账号/条款安全。<a href="工具中心使用说明.md">完整使用说明</a></li>
+    </ul></div>
+
+    <p class="footer">
+      BBS自动化（LOLBackup 3.3 DIRECT · 候选 3.3.0.0）· 源码模块架构 · DIRECT 候选策略说明；性能以实际测量为准 · 2026-10-24
+    </p>
+  </div>
+</body>
+</html>

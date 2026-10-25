@@ -1,0 +1,759 @@
+{
+  "schema": 1,
+  "version": "3.3.17",
+  "archiveRoot": "BBS自动化源码包_3.3.17",
+  "createdAtUTC": "2026-10-25T05:16:17.852290+00:00",
+  "scope": "BBS source, build/test scripts, visual assets, prebuilt third-party CABs and notices; not complete vendor source.",
+  "excluded": [
+    "real runtime data and credentials",
+    "desktop/game/translation caches",
+    "docs/verification* local runtime evidence",
+    "MakeCAB setup.inf/setup.rpt",
+    "compiled output",
+    "external LLVM toolchain",
+    "standalone release EXE"
+  ],
+  "validationScope": "Archive completeness, CRC and per-file SHA checks only; no new app/game/UI tests.",
+  "files": [
+    {
+      "path": ".clang-format",
+      "bytes": 273,
+      "sha256": "423130d2160ed3b384a8f8ee3cc6f4cfaf6221e8e178df9d4b04c127246aaefc"
+    },
+    {
+      "path": "build.ps1",
+      "bytes": 16502,
+      "sha256": "2c964d862d07bb70a75b8666f976d85c5ddb6993f31bdb6ab71fe6bfec7bb25e"
+    },
+    {
+      "path": "build.sh",
+      "bytes": 2718,
+      "sha256": "37f93dd51a467cbaea96bfcb3395d8969efeb344752a5cc4c8419adf74b8d570"
+    },
+    {
+      "path": "cmake/VerifyBinary.cmake",
+      "bytes": 8205,
+      "sha256": "104cdcbce33a72ce522c94efcde3b4c61cd56df7c49e6116ae1c8bcd79f13651"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "bytes": 7746,
+      "sha256": "02c147bb20bc8289dddcafe59e487833a789d89a554ee44f23769a1c5b2ae9d9"
+    },
+    {
+      "path": "docs/ABC集成_3.3.7_后台候选.md",
+      "bytes": 3443,
+      "sha256": "1672ba0ab6bc733077da77f8f4d38475f1f095b5e44f4b10a47c63373eaf4886"
+    },
+    {
+      "path": "docs/ABC集成与验收_3.3.7.md",
+      "bytes": 3784,
+      "sha256": "dfd1dfceb1f3cd1c0fb7ecaf73524451f4bea6e095c8b3e65f0c2ac00fd4411e"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 6934,
+      "sha256": "42cc4f3a012b9b624294be939f057d544b0a3cc2eaf120d9ead579cfc4506a04"
+    },
+    {
+      "path": "docs/LTK修复记录_3.3.2.md",
+      "bytes": 4911,
+      "sha256": "8ef4a8ecace160441d8010dbcad236b151e5404fe35fa29ab4444a0a7a1d5121"
+    },
+    {
+      "path": "docs/Rose兼容验证_3.3.4.md",
+      "bytes": 4937,
+      "sha256": "273855b2689f35a6ddbdac794dac47a68b4df985f0e8c1ee4d20e25ae2c42ea3"
+    },
+    {
+      "path": "docs/Rose内部依赖说明_3.3.3.md",
+      "bytes": 1958,
+      "sha256": "9707322efd7148d6183d123a0cbefea46279055cd7664f33cdde8cc8d3b64650"
+    },
+    {
+      "path": "docs/UI修复验收_3.3.1.md",
+      "bytes": 3474,
+      "sha256": "41146176c2646d53017465e6a443517869ddfaa625a52d0bf2c100c83f5d3c3d"
+    },
+    {
+      "path": "docs/UI快捷入口与性能_3.3.6.md",
+      "bytes": 3792,
+      "sha256": "3c87c403c018d462a21e8d9b55070bcc3d7bc8cc2798a9dbe83e0d2df8090d54"
+    },
+    {
+      "path": "docs/全面检查与签名对照_3.3.5.md",
+      "bytes": 6308,
+      "sha256": "d8cbfa9138d69e59e0d45b63feee9e4010b322b4c79f502223d10d1c8d72d271"
+    },
+    {
+      "path": "docs/历史README_3.3.7.md",
+      "bytes": 15456,
+      "sha256": "4ce3121d3a9ec8d6be0ccb393977bdd00940cd6b80ea9cddc4de8c3c5ae96c77"
+    },
+    {
+      "path": "docs/工具中心使用说明.md",
+      "bytes": 2736,
+      "sha256": "eac907155ade486fd49db23b2c566b7a1a36da9838dc0e632e2759b969a12ca4"
+    },
+    {
+      "path": "docs/架构图.html",
+      "bytes": 24468,
+      "sha256": "afe894f0ea5cac13aac4e7c0d11e9ab17698e627864246f19df4c399ab885c8d"
+    },
+    {
+      "path": "docs/集成验收报告_3.3.0.md",
+      "bytes": 4685,
+      "sha256": "9d39ea9baf9a3ec51035141731c290d7f1ba2477435fad701040f34f553a3a4c"
+    },
+    {
+      "path": "LICENSES/integrations/akari/bundled-package.json",
+      "bytes": 919,
+      "sha256": "322b27b8bbeec890d1dfc78aeae7de0fa18653f5e2866d47491fc67be116467b"
+    },
+    {
+      "path": "LICENSES/integrations/akari/license-inventory.json",
+      "bytes": 60322,
+      "sha256": "3b0ee7ff4d8129a4802f6354da4779fbfb8ff8302d4a09186a16b56b97c6b31d"
+    },
+    {
+      "path": "LICENSES/integrations/akari/licenses/asar/LICENSE",
+      "bytes": 1085,
+      "sha256": "be8867438c9c9b43b7c450bf35d7e7e5d4caa1c4dd4031f68fc705caeb096413"
+    },
+    {
+      "path": "LICENSES/integrations/akari/licenses/LeagueAkari-LICENSE.txt",
+      "bytes": 1064,
+      "sha256": "10fc4e0b3b20c879b62e91ca87dc0a234fc31c323794b4b4729be8c8fd32295b"
+    },
+    {
+      "path": "LICENSES/integrations/akari/licenses/payload/LICENSE.electron.txt",
+      "bytes": 1096,
+      "sha256": "5154e165bd6c2cc0cfbcd8916498c7abab0497923bafcd5cb07673fe8480087d"
+    },
+    {
+      "path": "LICENSES/integrations/akari/manifest.json",
+      "bytes": 16347,
+      "sha256": "98f25f7073b3b4d35dfbac070d2ae5513b6f2df590317bf0f8772bdebd354842"
+    },
+    {
+      "path": "LICENSES/integrations/akari/pe-imports.json",
+      "bytes": 6062,
+      "sha256": "52d219341d1a5618f07fe9662ce7fc1f49a2dc39734c295217e9c5f27fa64d22"
+    },
+    {
+      "path": "LICENSES/integrations/akari/published-assets.html",
+      "bytes": 16574,
+      "sha256": "5b0e9f1e2542999c4309f8cb91c4c58e65c898c10873a009a3d85c8465a681b2"
+    },
+    {
+      "path": "LICENSES/integrations/copied-files-sha256.json",
+      "bytes": 95076,
+      "sha256": "382bd72a801cceff6539df5a7377d047d48d6ee4ad21d0d6b3cbfa3c23dc96dc"
+    },
+    {
+      "path": "LICENSES/integrations/ltk/latest.json",
+      "bytes": 1820,
+      "sha256": "7005dd5810338b6a7c9e8b00735633764ae9be3647e9a90ae6caf049309cdd01"
+    },
+    {
+      "path": "LICENSES/integrations/ltk/LTK-PATCHER-LICENSE.md",
+      "bytes": 2827,
+      "sha256": "fe4ee9f68082b73082a04764fe1d09a0177f69b9168db240f9e026b91ba44bc4"
+    },
+    {
+      "path": "LICENSES/integrations/ltk/payload-manifest.json",
+      "bytes": 1551,
+      "sha256": "699004d2fb86212634913ed80a40d8dcd04846c46cbf4e0df736bd1ecd60ba5e"
+    },
+    {
+      "path": "LICENSES/integrations/README.md",
+      "bytes": 6334,
+      "sha256": "a1b29ac7ed7c96330e9103cfdfdb7d789c45192d9ee894ba7183d04c10f9ffb4"
+    },
+    {
+      "path": "LICENSES/integrations/rose/licenses/CPython-3.13.14-LICENSE.txt",
+      "bytes": 13809,
+      "sha256": "78b12c3a81360b357002334f0e70ea0e92eebf7a9b358805c03c48484945f3bb"
+    },
+    {
+      "path": "LICENSES/integrations/rose/licenses/payload/_internal/_tk_data/license.terms",
+      "bytes": 2307,
+      "sha256": "0d1e4405f6273f091732764ed89b57066be63ce64869be6c71ea337dc4f2f9b5"
+    },
+    {
+      "path": "LICENSES/integrations/rose/licenses/payload/_internal/cryptography-50.0.0.dist-info/licenses/LICENSE",
+      "bytes": 197,
+      "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb"
+    },
+    {
+      "path": "LICENSES/integrations/rose/licenses/payload/_internal/cryptography-50.0.0.dist-info/licenses/LICENSE.APACHE",
+      "bytes": 11360,
+      "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+    },
+    {
+      "path": "LICENSES/integrations/rose/licenses/payload/_internal/cryptography-50.0.0.dist-info/licenses/LICENSE.BSD",
+      "bytes": 1532,
+      "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb"
+    },
+    {
+      "path": "LICENSES/integrations/rose/licenses/payload/_internal/websockets-12.0.dist-info/LICENSE",
+      "bytes": 1514,
+      "sha256": "3d6a0c050d8bec52fabad502e45fb25bd02bcadbd70dea34d447b6a0ff4e6da8"
+    },
+    {
+      "path": "LICENSES/integrations/rose/licenses/PenguLoader-MIT-LICENSE.txt",
+      "bytes": 1069,
+      "sha256": "6fbd78fc530825225cad163e85137f9d0924984de36f6bde6fec9929a95eb847"
+    },
+    {
+      "path": "LICENSES/integrations/rose/licenses/Rose-MIT-LICENSE.txt",
+      "bytes": 1074,
+      "sha256": "4766c206b030bf2c995ba6c73e19d4dc56302dc2fb4daa0eb9b4715daf2aaf94"
+    },
+    {
+      "path": "LICENSES/integrations/rose/payload-provenance.json",
+      "bytes": 247522,
+      "sha256": "3e36a52bff462b913bdeb176b3540641e11102557341cc8578687044ef5b6c0e"
+    },
+    {
+      "path": "LICENSES/integrations/rose/static-pe-imports.json",
+      "bytes": 36035,
+      "sha256": "8fad6c3cac1521b2e1228d8a69f68055890eb0e7c988adb4f8619cb7eacc869e"
+    },
+    {
+      "path": "LICENSES/integrations/rose/THIRD_PARTY_NOTICES.txt",
+      "bytes": 35946,
+      "sha256": "6b9a35bbbe127f20a399c56f19bea47df68745a4af9566e9bd4e1eb1e0c285a0"
+    },
+    {
+      "path": "LICENSES/nlohmann-json-MIT.txt",
+      "bytes": 1075,
+      "sha256": "89117218e85cf3410358f7451e60cea5b32574379577b1b6617040deb16a90e3"
+    },
+    {
+      "path": "LICENSES/runtime/COPYING.MinGW-w64-runtime.txt",
+      "bytes": 12155,
+      "sha256": "1db8da07b436c68833c0673ffee3d9fcb2526047f3820b81661865dfedc79a1f"
+    },
+    {
+      "path": "LICENSES/runtime/COPYING.MinGW-w64.txt",
+      "bytes": 5905,
+      "sha256": "f38e6194bd3bfa1b654f118e5acefe0aead437bbe669eee43957ccc65a7127f1"
+    },
+    {
+      "path": "LICENSES/runtime/COPYING.winpthreads.txt",
+      "bytes": 2883,
+      "sha256": "63263614cdd29f2f93cba85e992f041b31f9fc7b4033692f31269489a8a1b177"
+    },
+    {
+      "path": "LICENSES/runtime/COPYING.winstorecompat.txt",
+      "bytes": 1099,
+      "sha256": "fa7368d1f93d890c173177475d8ec7aff265a7d08f1f364d66f74d138978ce36"
+    },
+    {
+      "path": "LICENSES/runtime/LLVM-LICENSE.TXT",
+      "bytes": 15141,
+      "sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee"
+    },
+    {
+      "path": "LICENSES/runtime/MinGW-COPYING.txt",
+      "bytes": 2326,
+      "sha256": "99a69660981156c21336fdb5661f89341b013c94e4bf9e1c7467b4745718397f"
+    },
+    {
+      "path": "LICENSES/runtime/README.md",
+      "bytes": 791,
+      "sha256": "f1d8563fc841da11c5f15e99bd51eb0d92b1bfc67a7f603cc5dc5448f617d037"
+    },
+    {
+      "path": "LICENSES/visual/ATTRIBUTION.txt",
+      "bytes": 2527,
+      "sha256": "0e8bbf0a0f3895bf83869091f1e44858ef1d966f67af8a965fedf32876142fc2"
+    },
+    {
+      "path": "LICENSES/visual/Font-Awesome-Free-6.7.2-LICENSE.txt",
+      "bytes": 7427,
+      "sha256": "9b914eae88817d63b576eab5aafde7068c7a1abae125d7cdfb034f1da43a9afc"
+    },
+    {
+      "path": "LICENSES/visual/NASA-HiRISE-PIA22783-NOTICE.txt",
+      "bytes": 2695,
+      "sha256": "b55d947bd20745a5bb858854da40ed32cb79084be0d11bd4af3b837d8906c25e"
+    },
+    {
+      "path": "LICENSES/visual/Noto-Emoji-2.038-Apache-2.0.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "LICENSES/visual/Noto-Sans-SC-OFL-1.1.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8856,
+      "sha256": "d989b6aef3fe3ae339ea2c1fdf20ac02ab0fcef94e829a7697bded79e83ef557"
+    },
+    {
+      "path": "resources/app.manifest",
+      "bytes": 1309,
+      "sha256": "0c519f896a9dc2188540f7ed6ba014e146c0df418b299415cba012b842934cf4"
+    },
+    {
+      "path": "resources/app.rc",
+      "bytes": 1412,
+      "sha256": "a5c178f9fabf1a955328d48314acbe8296025569e3b8219ab5adbbaa07ba4320"
+    },
+    {
+      "path": "resources/app_downloaded.ico",
+      "bytes": 125966,
+      "sha256": "44a60ef6a4673d6a3f16d500c2d4fa5ed721d8bff0e52d844e488944ee618355"
+    },
+    {
+      "path": "resources/assets/asset_sources.json",
+      "bytes": 16689,
+      "sha256": "ebf9486c4f9f48c212c6c657d7bab455a8623c92dc1e20d14b82460c30077225"
+    },
+    {
+      "path": "resources/assets/bbs-logo-dark.png",
+      "bytes": 47940,
+      "sha256": "ce8d0c06b6df3a4f04e0e0c1185fe4ed853e97018a494168c50c0752302998e9"
+    },
+    {
+      "path": "resources/assets/bbs-logo-light.png",
+      "bytes": 52643,
+      "sha256": "4a05570fa4ab235a8975c22399810dbfaa346c668f90ce50f2ce2fe41ba03faf"
+    },
+    {
+      "path": "resources/assets/bold_uionly_report.json",
+      "bytes": 738,
+      "sha256": "758a169e6a1d921c3d7973b5958c48173a4ea14cb97770392cdea3f73538eff2"
+    },
+    {
+      "path": "resources/assets/fa-solid-900.ttf",
+      "bytes": 426112,
+      "sha256": "d2f0593540b0e33ba6de255a54f272d466e31144806956bea8cfdbf7edffc9bd"
+    },
+    {
+      "path": "resources/assets/font_conversion_report.json",
+      "bytes": 1062,
+      "sha256": "4dd6ce7c653cc4289f7dbe0b055937059525d2f12512a55539c0dd563bed3d61"
+    },
+    {
+      "path": "resources/assets/font_validation.json",
+      "bytes": 319,
+      "sha256": "77a62db418da108eefe1eb1ad1b6f289e04c070e29519a13ff248a8a0b8b6d9b"
+    },
+    {
+      "path": "resources/assets/hero-velvet-dunes.jpg",
+      "bytes": 678951,
+      "sha256": "c11dd0ca433ad471f5528d04cf7769b93b7fad9ecaba4e3636e8818e2fdbf9a8"
+    },
+    {
+      "path": "resources/assets/icons.lbap",
+      "bytes": 166888,
+      "sha256": "f1eb37a77e4807515da3ef36b6c042bd7b4a190e5d6336e602da3b2f0e165d69"
+    },
+    {
+      "path": "resources/assets/noto-shield-512-v2.038.png",
+      "bytes": 23138,
+      "sha256": "37b4cab9c23e85c5f5fe4a469be317cf4b4783c6ccf3ce2ef534af9121638f3c"
+    },
+    {
+      "path": "resources/assets/NotoSansSC-Bold-UIOnly.ttf",
+      "bytes": 286056,
+      "sha256": "df73cfec28bf57953dbf6f0648f99673e1f9c4ffcdac8c6b2caab8fbc1d6bfb6"
+    },
+    {
+      "path": "resources/assets/NotoSansSC-Regular-UI.ttf",
+      "bytes": 2482940,
+      "sha256": "358eb65bbb88f4ee42e227543519d69b7b5f1fb8256a89862d9fe33d68abae0b"
+    },
+    {
+      "path": "resources/assets/README.md",
+      "bytes": 4676,
+      "sha256": "1ffc3ceb2f814074360d7d7620daeb4c3b9d86786c03cbcb13d9434fbd8573d5"
+    },
+    {
+      "path": "resources/assets/ui-bold.lbap",
+      "bytes": 164486,
+      "sha256": "90c2cc13765145783b2fb4f4cb17f13f0ed194b0f7bfb41201a40e96b118831f"
+    },
+    {
+      "path": "resources/assets/ui-regular.lbap",
+      "bytes": 1507024,
+      "sha256": "1f8932f1785f676a2f2b93af59b511723a8a64b284f5e25c3df6d9b630a4d25f"
+    },
+    {
+      "path": "resources/integrations/abc.cab",
+      "bytes": 11652120,
+      "sha256": "8cd549e6e49ac19fe08437ed44c6c78230cc75e405b2731a78962c64743fb366"
+    },
+    {
+      "path": "resources/integrations/akari.cab",
+      "bytes": 113262236,
+      "sha256": "00b1b3c98850b3c51dfd3d332d68731608dec29009c3380dad9ee62a63ef8bb6"
+    },
+    {
+      "path": "resources/integrations/ltk.cab",
+      "bytes": 794400,
+      "sha256": "f652396894f00ce1a95e99e70c46be1369694c9626e6271b1448508ac98f0337"
+    },
+    {
+      "path": "resources/integrations/manifest.json",
+      "bytes": 289657,
+      "sha256": "41251d352dca348292e01e83733c80777e9af1c8cfcf1ddda86e7e4542847aea"
+    },
+    {
+      "path": "resources/integrations/rose.cab",
+      "bytes": 26699430,
+      "sha256": "5d208d9ff5e468121a524081ac3263a9c1ff469e7c924089a436753ac9d139bd"
+    },
+    {
+      "path": "resources/manual/bbs_manual.html",
+      "bytes": 619455,
+      "sha256": "c59d2268395544f76855478f0ea817cafa17e108a027856c5eb211d71b33064f"
+    },
+    {
+      "path": "resources/open_source_notices.txt",
+      "bytes": 108632,
+      "sha256": "7005877c336af763fc0f4452ba8151e06c0ce7271e264a288253f41279f97599"
+    },
+    {
+      "path": "run_tests.ps1",
+      "bytes": 4822,
+      "sha256": "7cc1acb97e0d32e7d87ad0fd0c8a95fc1909dafc654782cdc67e79cd332f9637"
+    },
+    {
+      "path": "run_tests.sh",
+      "bytes": 1050,
+      "sha256": "6e46ac923ea2870f473e1d09548b6f7748d67421f3e9d2b31256b7c99fb3092e"
+    },
+    {
+      "path": "scripts/collect_rose_diagnostics.py",
+      "bytes": 5367,
+      "sha256": "69164cafa75669be875d64463708d5e6acbc16f180c360d999386e535007694b"
+    },
+    {
+      "path": "scripts/package_source.py",
+      "bytes": 7792,
+      "sha256": "74ae7d3ef9f0fdefd9215501e95471e7d43a01511fa986bc0011eef8647141f7"
+    },
+    {
+      "path": "scripts/prepare_abc_integration.py",
+      "bytes": 4608,
+      "sha256": "f88049a0371be99b5c2e9b44adcb3122a427568158e120b20d953662242a2c5c"
+    },
+    {
+      "path": "scripts/prepare_integrations.py",
+      "bytes": 6889,
+      "sha256": "5571ee0eac55dc5951e4fd7e03d93aec48467389015d47197e1243dbd3d1d8f7"
+    },
+    {
+      "path": "scripts/prepare_ltk_unsigned.py",
+      "bytes": 1969,
+      "sha256": "2ec849da12d12e97770ddd2261f58c23a12a34f717713dbb62bd31aab863241a"
+    },
+    {
+      "path": "scripts/prepare_rose_compat.py",
+      "bytes": 4495,
+      "sha256": "635c12aa84f987755ec3a238166bf3369cac36061a76776be355d7751ed51c4c"
+    },
+    {
+      "path": "scripts/verify_integrations.py",
+      "bytes": 3791,
+      "sha256": "52a429edc1f9a00a1c518628bc5f0b6621a99c162e07ce7b095cfa4989c9ae80"
+    },
+    {
+      "path": "src/app/legal_zh.h",
+      "bytes": 9461,
+      "sha256": "b392a1f507bd6fc0215788542f2b9a5c1fad8f7cd52448e60810854cf363f7c5"
+    },
+    {
+      "path": "src/app/main.cpp",
+      "bytes": 259636,
+      "sha256": "ee1e8f108761313fc88b32249a962da2f6d55b3c6183b04d384541766eda237d"
+    },
+    {
+      "path": "src/app/tool_verification.h",
+      "bytes": 3720,
+      "sha256": "781cf8f781e0dea40423681d1ae5cfb8d62822a0ae3913b7c95a8d4fe46a6495"
+    },
+    {
+      "path": "src/app/ui_assets.h",
+      "bytes": 8822,
+      "sha256": "63cf3e59856c55a0738f56e4a51517bc89e79d6c562d57e01952947f9a6e3121"
+    },
+    {
+      "path": "src/app/ui_geometry.h",
+      "bytes": 702,
+      "sha256": "57a6f73e70d523f7e6bf8ebac5daad9d78669b44618258f6fb2365ed0bcf395c"
+    },
+    {
+      "path": "src/common/limits_shared.h",
+      "bytes": 852,
+      "sha256": "f1721529708acdbfeb5f18060080f19645cd7409df429545cbb377d3bce6902a"
+    },
+    {
+      "path": "src/common/platform.h",
+      "bytes": 1071,
+      "sha256": "1358956ad6889f2cfd95082aa2f655368d00f94abc918c0677d038dee5e9f6a5"
+    },
+    {
+      "path": "src/common/utf.h",
+      "bytes": 2246,
+      "sha256": "8c5c0d50812629607e9bb464e99658b8339bdd5480c2f8d64582301dfc2c5e20"
+    },
+    {
+      "path": "src/common/window_geometry.h",
+      "bytes": 1717,
+      "sha256": "c12a342f088e312e65c4a5395555260e7f5b481eccef080cdcffa1e8ba7c3c95"
+    },
+    {
+      "path": "src/common/winutil.h",
+      "bytes": 6390,
+      "sha256": "ad5d28d3ad5db6d9e02edc1dfad7376c4152cfddfab3c0ce7aa33122559d8c4f"
+    },
+    {
+      "path": "src/core/config.cpp",
+      "bytes": 23363,
+      "sha256": "41f627afd63845296cc7f9073b33d311b29df9af3ef0985cae5174d7e625d1c1"
+    },
+    {
+      "path": "src/core/config.h",
+      "bytes": 2872,
+      "sha256": "61488e69db34f804099fecc48cc9470a2396a33e4fd2bf1e49f5427e07eb0665"
+    },
+    {
+      "path": "src/core/file_ops.cpp",
+      "bytes": 82409,
+      "sha256": "c4f974cc6f9d4d3a3e18dc3f0baf66c158dad442cc4a74ed9116fb40ba891954"
+    },
+    {
+      "path": "src/core/file_ops.h",
+      "bytes": 7862,
+      "sha256": "734e2e14061b5694595a0690f3d8a2457855b2a0165e7c2500a5afc3a6a4365e"
+    },
+    {
+      "path": "src/core/game_detect.cpp",
+      "bytes": 26720,
+      "sha256": "95cee774c7ce19534dcb19371ffaee56705a341dac71ccd53cd733e91032044d"
+    },
+    {
+      "path": "src/core/game_detect.h",
+      "bytes": 1352,
+      "sha256": "e30fa29d644e80acabf34ca9eb4958dff49e86b284562f32a92a28c35a9deef3"
+    },
+    {
+      "path": "src/core/logger.cpp",
+      "bytes": 34815,
+      "sha256": "6180450adc03ba3eb1e92ccb888f7b0449fcba6dfbe052961d75e261e01cf458"
+    },
+    {
+      "path": "src/core/logger.h",
+      "bytes": 4398,
+      "sha256": "e8f4a9c1a798a1aa788fcde94fc48c1d296db35cfd2a312c69de4aca3bdf070a"
+    },
+    {
+      "path": "src/core/monitor.cpp",
+      "bytes": 8657,
+      "sha256": "2d85afc0fbb3361ca58f300cd822a9e05ef003c049c33a5ed527cda952ece35a"
+    },
+    {
+      "path": "src/core/monitor.h",
+      "bytes": 1642,
+      "sha256": "2637f4606db1fd5886b58a9beb048faae689bcfec05502d95e36a0d7d18f92f6"
+    },
+    {
+      "path": "src/core/path_policy.cpp",
+      "bytes": 12817,
+      "sha256": "6b3b8b40760e35559231db49283308aeee66ac69ccd32247f463d2d06df66b00"
+    },
+    {
+      "path": "src/core/path_policy.h",
+      "bytes": 1376,
+      "sha256": "8f00e7b249c138c5402781320910bb4a76dfa9a70878f4a9a34a8820fa7e168a"
+    },
+    {
+      "path": "src/core/root_store.cpp",
+      "bytes": 34433,
+      "sha256": "94b28765883c6d09bb3076e38f041de4f185e3903d358f35d3c5771cc47b5ee0"
+    },
+    {
+      "path": "src/core/root_store.h",
+      "bytes": 2266,
+      "sha256": "96e363a11311f5b1f14f2743c09b6f107e8481f45cd8f4629f5c223731ba39a1"
+    },
+    {
+      "path": "src/core/service.cpp",
+      "bytes": 90604,
+      "sha256": "b84a41b29f1acc9ce065851d5a75c17017e27ff56f0e2ec1c86cf5b2148798e3"
+    },
+    {
+      "path": "src/core/service.h",
+      "bytes": 6918,
+      "sha256": "96e2e7bf2ff42878df6d6caa2ca38b73441832817d2707bf4e0b228d93c3710c"
+    },
+    {
+      "path": "src/core/sync_engine.cpp",
+      "bytes": 21082,
+      "sha256": "03729137b670b4e4610c8b741027a9003e5a08d9aca345e53ba6335bbe6e8c59"
+    },
+    {
+      "path": "src/core/sync_engine.h",
+      "bytes": 3340,
+      "sha256": "6caf6938e5e66ef4a733c441989abcfef335561e0f1da15f77072133e672da8e"
+    },
+    {
+      "path": "src/core/tool_manager.cpp",
+      "bytes": 65708,
+      "sha256": "f8336fefaf03cfc06c5118d38c01cfb6bd27a3688cc964dff22a6f3869bc5da8"
+    },
+    {
+      "path": "src/core/tool_manager.h",
+      "bytes": 1117,
+      "sha256": "37ea1a161406e7aa639491f76a7c7fed4045bd935f9ac1bba235ea5681fe8c88"
+    },
+    {
+      "path": "tests/private/aux_test_hooks.h",
+      "bytes": 849,
+      "sha256": "7baf82319990ff17269fa31ad200223cd20027738de55e2765ed138bfe8cba81"
+    },
+    {
+      "path": "tests/test_aux_safety.cpp",
+      "bytes": 65251,
+      "sha256": "dcd4ac95465bdea360cd5d04fff34a25e37d05b80e977ea1057c6e5d21f5217b"
+    },
+    {
+      "path": "tests/test_bridge_contract.cpp",
+      "bytes": 6588,
+      "sha256": "bd3fe0b89920d1a5ec55c27cd66021c8fa006642e7cc84ed0b98ef2009836ef5"
+    },
+    {
+      "path": "tests/test_config_concurrency.cpp",
+      "bytes": 9732,
+      "sha256": "cf549d5833fc6fd9406861d47f4a843876e509a256677785abdcd7a77b4e4d84"
+    },
+    {
+      "path": "tests/test_core_bugs.cpp",
+      "bytes": 10163,
+      "sha256": "6095cf33fe492b2fd24bab8affb2a64a83ed967f8c3a84be60a4765b74043c85"
+    },
+    {
+      "path": "tests/test_experience.cpp",
+      "bytes": 8925,
+      "sha256": "d458624a574af03a5ddba9fdf40ccf843f67d5d85b0f503b6dd8b91fbe4e9059"
+    },
+    {
+      "path": "tests/test_file_safety.cpp",
+      "bytes": 54375,
+      "sha256": "ee4dbb21bdc9c87bfebcb1b9c667b8ea8a132c0e1fc65535de5fd5ac846d4b1a"
+    },
+    {
+      "path": "tests/test_fixture.h",
+      "bytes": 1321,
+      "sha256": "dbdd8f28be363e8e9e9b3c2d625f64e6f99822cc30416ca9da01fbfc9e02773b"
+    },
+    {
+      "path": "tests/test_isolation.h",
+      "bytes": 4139,
+      "sha256": "2da4f5c0140fa203e96f5989666fae88b2c2a829e43c7da06b9e6d5853fbd12e"
+    },
+    {
+      "path": "tests/test_rose_diagnostics.py",
+      "bytes": 4961,
+      "sha256": "1a2e041906f61b5334f3e1408ee96b03e71715acc5c8857372e21e226be9f67f"
+    },
+    {
+      "path": "tests/test_service_safety.cpp",
+      "bytes": 104708,
+      "sha256": "6035a22fb37b3e7d0a0b121c4068f5f0dc09993dbb778932e32ebfd6565391e5"
+    },
+    {
+      "path": "tests/test_stress.cpp",
+      "bytes": 12320,
+      "sha256": "bbb26740b61e8a409930291537a836e4b8f1da409fdfd632d533f3df9892ba59"
+    },
+    {
+      "path": "tests/test_sync.cpp",
+      "bytes": 10972,
+      "sha256": "a6be2ee95ca3c55bea9460c4ba5fca8d52b9ba5c54adfac20f85758dc39c6951"
+    },
+    {
+      "path": "tests/test_sync_semantics.cpp",
+      "bytes": 17773,
+      "sha256": "ac801e493fa96ee61da926439174e839661951b714c2f2d1f1bc3112347152c8"
+    },
+    {
+      "path": "tests/test_tool_manager.cpp",
+      "bytes": 51869,
+      "sha256": "f2a01561e3237db1185c3e200114222b89c3a511ade303dc983698f940de4140"
+    },
+    {
+      "path": "tests/test_ui_geometry.cpp",
+      "bytes": 2277,
+      "sha256": "964c4ec00d66f8a74d3564105b772dbeb2089bc51be4ae1617c6c7f610225067"
+    },
+    {
+      "path": "tests/test_winver.cpp",
+      "bytes": 6662,
+      "sha256": "58a4a0d5335e907c0fb2eacb280de18818ecf89cb28cedd8f4c83876063e08e8"
+    },
+    {
+      "path": "tests/tool_runtime_probe.cpp",
+      "bytes": 2993,
+      "sha256": "47ed10d01518de5669078619b2d6ccc2cf5ec5a7b7a6d134aadecfc1e3cc7643"
+    },
+    {
+      "path": "tests/ui_perf.ps1",
+      "bytes": 13657,
+      "sha256": "d6123c64fb1f1394268dbe93c1092dadd5c54cecd9277a7485bd99764d5e6835"
+    },
+    {
+      "path": "tests/ui_regression.ps1",
+      "bytes": 33094,
+      "sha256": "ea4b950852a19c8a824450de3c65729fd6762d0074d3a461813e275e402c9291"
+    },
+    {
+      "path": "tests/verify_abc_package.py",
+      "bytes": 3512,
+      "sha256": "4caec39d8b788025806e1fd0200a9aa297fd40ec3cb3ae1b2d8b7b67769f80d6"
+    },
+    {
+      "path": "tests/verify_ltk_compatibility.ps1",
+      "bytes": 5187,
+      "sha256": "6e74038194b07c33443a92f25a2547cc687d372f1ca6cd2c7fdf0949c14fa14f"
+    },
+    {
+      "path": "third_party/json/json.hpp",
+      "bytes": 919975,
+      "sha256": "9bea4c8066ef4a1c206b2be5a36302f8926f7fdc6087af5d20b417d0cf103ea6"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 6069,
+      "sha256": "47dda4f786f74869fe5fbc9b74ae717a22f5a806802577ed0ce280adf0e5fa79"
+    },
+    {
+      "path": "toolchain.lock.json",
+      "bytes": 3444,
+      "sha256": "3b8aaf3445f1fe1ea226b16e8c9d9a3f7de950042bbf9c5984c9d019109767b7"
+    },
+    {
+      "path": "功能清单.html",
+      "bytes": 27002,
+      "sha256": "398aaa82f706ac5c3dccf159d0614f5594eab5b84e4eb1732b658b3f411b9e60"
+    },
+    {
+      "path": "功能清单.md",
+      "bytes": 14183,
+      "sha256": "54339bc6888525d71de730945ce3a88520fc6b2773f4fda44dfc6899af123863"
+    },
+    {
+      "path": "源码交接说明_3.3.9.md",
+      "bytes": 3365,
+      "sha256": "9e4c00cce3e6b99d495c622ed9e64326912b96a4edd2094fac5178b9bdfc4fc4"
+    }
+  ]
+}

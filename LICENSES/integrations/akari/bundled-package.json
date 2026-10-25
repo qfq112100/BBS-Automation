@@ -1,0 +1,33 @@
+{
+  "name": "league-akari",
+  "version": "1.5.1",
+  "author": {
+    "name": "hanxven",
+    "email": "hanxven@gmail.com"
+  },
+  "description": "League Akari",
+  "main": "./out/main/main.js",
+  "dependencies": {
+    "@babel/runtime": "^8.0.0",
+    "@electron-toolkit/preload": "^3.0.2",
+    "@electron-toolkit/utils": "^4.0.0",
+    "axios-retry": "^4.5.0",
+    "better-sqlite3": "^12.11.1",
+    "luaparse": "^0.3.1",
+    "mime-types": "^3.0.2",
+    "mobx": "^6.16.1",
+    "reflect-metadata": "^0.2.2",
+    "regedit": "^5.1.4",
+    "typeorm": "^1.0.0",
+    "winston": "^3.19.0",
+    "ws": "^8.21.0",
+    "zod": "^4.4.3"
+  },
+  "optionalDependencies": {
+    "league-akari-native-win32": "workspace:*"
+  },
+  "packageManager": "yarn@4.14.1+sha512.64df448055b2d37ba269d7db535a469b8da93f8ef1140c25fd7a83c00a8fbaacb214ca0e02553b92a2c54cef78bb67d0b4817fab02001df0e24fac0faccc3b42",
+  "workspaces": [
+    "native/win32-x64"
+  ]
+}

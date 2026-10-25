@@ -1,0 +1,266 @@
+[
+  {
+    "path": "d3dcompiler_47.dll",
+    "machine": "0x8664",
+    "architecture": "x64",
+    "imports": [
+      "ADVAPI32.dll",
+      "KERNEL32.dll",
+      "RPCRT4.dll"
+    ],
+    "delayImports": [],
+    "hasCLRDirectory": false
+  },
+  {
+    "path": "dxcompiler.dll",
+    "machine": "0x8664",
+    "architecture": "x64",
+    "imports": [
+      "ADVAPI32.dll",
+      "KERNEL32.dll",
+      "ole32.dll",
+      "OLEAUT32.dll",
+      "USER32.dll"
+    ],
+    "delayImports": [],
+    "hasCLRDirectory": false
+  },
+  {
+    "path": "dxil.dll",
+    "machine": "0x8664",
+    "architecture": "x64",
+    "imports": [
+      "ADVAPI32.dll",
+      "KERNEL32.dll",
+      "ole32.dll"
+    ],
+    "delayImports": [],
+    "hasCLRDirectory": false
+  },
+  {
+    "path": "ffmpeg.dll",
+    "machine": "0x8664",
+    "architecture": "x64",
+    "imports": [
+      "KERNEL32.dll"
+    ],
+    "delayImports": [],
+    "hasCLRDirectory": false
+  },
+  {
+    "path": "LeagueAkari.exe",
+    "machine": "0x8664",
+    "architecture": "x64",
+    "imports": [
+      "CRYPT32.dll",
+      "DWrite.dll",
+      "KERNEL32.dll",
+      "ntdll.dll",
+      "VERSION.dll",
+      "WINMM.dll",
+      "WS2_32.dll"
+    ],
+    "delayImports": [
+      "ADVAPI32.dll",
+      "api-ms-win-core-handle-l1-1-0.dll",
+      "api-ms-win-core-realtime-l1-1-1.dll",
+      "api-ms-win-core-synch-l1-2-0.dll",
+      "api-ms-win-core-winrt-l1-1-0.dll",
+      "api-ms-win-core-winrt-string-l1-1-0.dll",
+      "api-ms-win-power-base-l1-1-0.dll",
+      "api-ms-win-shcore-scaling-l1-1-1.dll",
+      "bcryptprimitives.dll",
+      "bthprops.cpl",
+      "CFGMGR32.dll",
+      "COMCTL32.dll",
+      "COMDLG32.dll",
+      "d3d11.dll",
+      "d3d12.dll",
+      "dbghelp.dll",
+      "dcomp.dll",
+      "dhcpcsvc.DLL",
+      "dwmapi.dll",
+      "dxgi.dll",
+      "ffmpeg.dll",
+      "FONTSUB.dll",
+      "GDI32.dll",
+      "HID.DLL",
+      "IPHLPAPI.DLL",
+      "MF.dll",
+      "MFPlat.DLL",
+      "MFReadWrite.dll",
+      "MMDevAPI.DLL",
+      "ncrypt.dll",
+      "ole32.dll",
+      "OLEACC.dll",
+      "OLEAUT32.dll",
+      "pdh.dll",
+      "PROPSYS.dll",
+      "RPCRT4.dll",
+      "Secur32.dll",
+      "SETUPAPI.dll",
+      "SHELL32.dll",
+      "SHLWAPI.dll",
+      "UIAutomationCore.DLL",
+      "urlmon.dll",
+      "USER32.dll",
+      "USERENV.dll",
+      "UxTheme.dll",
+      "wevtapi.dll",
+      "WINHTTP.dll",
+      "WINSPOOL.DRV",
+      "WINTRUST.dll",
+      "WINUSB.DLL",
+      "WTSAPI32.dll"
+    ],
+    "hasCLRDirectory": false
+  },
+  {
+    "path": "libEGL.dll",
+    "machine": "0x8664",
+    "architecture": "x64",
+    "imports": [
+      "KERNEL32.dll"
+    ],
+    "delayImports": [],
+    "hasCLRDirectory": false
+  },
+  {
+    "path": "libGLESv2.dll",
+    "machine": "0x8664",
+    "architecture": "x64",
+    "imports": [
+      "dxgi.dll",
+      "GDI32.dll",
+      "KERNEL32.dll",
+      "USER32.dll"
+    ],
+    "delayImports": [
+      "d3d9.dll"
+    ],
+    "hasCLRDirectory": false
+  },
+  {
+    "path": "resources/app.asar.unpacked/node_modules/better-sqlite3/build/Release/better_sqlite3.node",
+    "machine": "0x8664",
+    "architecture": "x64",
+    "imports": [
+      "KERNEL32.dll"
+    ],
+    "delayImports": [
+      "node.exe"
+    ],
+    "hasCLRDirectory": false
+  },
+  {
+    "path": "resources/app.asar.unpacked/node_modules/league-akari-native-win32/addons/akari-input-win64.node",
+    "machine": "0x8664",
+    "architecture": "x64",
+    "imports": [
+      "KERNEL32.dll",
+      "USER32.dll"
+    ],
+    "delayImports": [
+      "node.exe"
+    ],
+    "hasCLRDirectory": false
+  },
+  {
+    "path": "resources/app.asar.unpacked/node_modules/league-akari-native-win32/addons/akari-tools-win64.node",
+    "machine": "0x8664",
+    "architecture": "x64",
+    "imports": [
+      "ADVAPI32.dll",
+      "KERNEL32.dll",
+      "ntdll.dll",
+      "USER32.dll"
+    ],
+    "delayImports": [
+      "node.exe"
+    ],
+    "hasCLRDirectory": false
+  },
+  {
+    "path": "resources/app.asar.unpacked/resources/akari-updater.exe",
+    "machine": "0x8664",
+    "architecture": "x64",
+    "imports": [
+      "advapi32.dll",
+      "api-ms-win-core-synch-l1-2-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "bcryptprimitives.dll",
+      "combase.dll",
+      "comctl32.dll",
+      "kernel32.dll",
+      "KERNEL32.dll",
+      "ntdll.dll",
+      "ole32.dll",
+      "oleaut32.dll",
+      "pdh.dll",
+      "powrprof.dll",
+      "psapi.dll",
+      "shell32.dll",
+      "user32.dll",
+      "VCRUNTIME140.dll"
+    ],
+    "delayImports": [],
+    "hasCLRDirectory": false
+  },
+  {
+    "path": "resources/app.asar.unpacked/resources/elevate.exe",
+    "machine": "0x14c",
+    "architecture": "x86",
+    "imports": [
+      "ADVAPI32.dll",
+      "KERNEL32.dll",
+      "SHELL32.dll"
+    ],
+    "delayImports": [],
+    "hasCLRDirectory": false
+  },
+  {
+    "path": "resources/app.asar.unpacked/resources/magic/magic.darwin-arm64.node",
+    "format": "not-PE"
+  },
+  {
+    "path": "resources/app.asar.unpacked/resources/magic/magic.win32-x64.node",
+    "machine": "0x8664",
+    "architecture": "x64",
+    "imports": [
+      "KERNEL32.dll"
+    ],
+    "delayImports": [
+      "node.exe"
+    ],
+    "hasCLRDirectory": false
+  },
+  {
+    "path": "vk_swiftshader.dll",
+    "machine": "0x8664",
+    "architecture": "x64",
+    "imports": [
+      "GDI32.dll",
+      "KERNEL32.dll",
+      "USER32.dll"
+    ],
+    "delayImports": [],
+    "hasCLRDirectory": false
+  },
+  {
+    "path": "vulkan-1.dll",
+    "machine": "0x8664",
+    "architecture": "x64",
+    "imports": [
+      "ADVAPI32.dll",
+      "CFGMGR32.dll",
+      "KERNEL32.dll"
+    ],
+    "delayImports": [],
+    "hasCLRDirectory": false
+  }
+]

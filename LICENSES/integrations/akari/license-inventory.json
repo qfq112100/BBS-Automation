@@ -1,0 +1,1436 @@
+[
+  {
+    "source": "resources/app.asar:node_modules/@babel/runtime/LICENSE",
+    "copy": "licenses/asar/node_modules/@babel/runtime/LICENSE",
+    "size": 1106,
+    "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+  },
+  {
+    "source": "resources/app.asar:node_modules/@colors/colors/LICENSE",
+    "copy": "licenses/asar/node_modules/@colors/colors/LICENSE",
+    "size": 1235,
+    "sha256": "58597ded729a5e749cc323e2ae6e533a31be3622737b33e0239ba075ca14b515"
+  },
+  {
+    "source": "resources/app.asar:node_modules/@dabh/diagnostics/LICENSE",
+    "copy": "licenses/asar/node_modules/@dabh/diagnostics/LICENSE",
+    "size": 1119,
+    "sha256": "77cc8fe282841077c532a9d92bda47add7bd0e1f5f4d7e91a9f91bff69faa86a"
+  },
+  {
+    "source": "resources/app.asar:node_modules/@electron-toolkit/preload/LICENSE",
+    "copy": "licenses/asar/node_modules/@electron-toolkit/preload/LICENSE",
+    "size": 1074,
+    "sha256": "14e3f2932ddf62cc5ee8f65f24a74b223a31f164709ca19a731b39ce60874d32"
+  },
+  {
+    "source": "resources/app.asar:node_modules/@electron-toolkit/utils/LICENSE",
+    "copy": "licenses/asar/node_modules/@electron-toolkit/utils/LICENSE",
+    "size": 1074,
+    "sha256": "14e3f2932ddf62cc5ee8f65f24a74b223a31f164709ca19a731b39ce60874d32"
+  },
+  {
+    "source": "resources/app.asar:node_modules/@isaacs/cliui/LICENSE.txt",
+    "copy": "licenses/asar/node_modules/@isaacs/cliui/LICENSE.txt",
+    "size": 731,
+    "sha256": "2dc0465729366c3a7890dfa9e972a1ba7048a26c02116fb8b419a6a1ac110149"
+  },
+  {
+    "source": "resources/app.asar:node_modules/@isaacs/cliui/node_modules/ansi-regex/license",
+    "copy": "licenses/asar/node_modules/@isaacs/cliui/node_modules/ansi-regex/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/@isaacs/cliui/node_modules/emoji-regex/LICENSE-MIT.txt",
+    "copy": "licenses/asar/node_modules/@isaacs/cliui/node_modules/emoji-regex/LICENSE-MIT.txt",
+    "size": 1077,
+    "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a"
+  },
+  {
+    "source": "resources/app.asar:node_modules/@isaacs/cliui/node_modules/string-width/license",
+    "copy": "licenses/asar/node_modules/@isaacs/cliui/node_modules/string-width/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/@isaacs/cliui/node_modules/strip-ansi/license",
+    "copy": "licenses/asar/node_modules/@isaacs/cliui/node_modules/strip-ansi/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/@isaacs/fs-minipass/LICENSE",
+    "copy": "licenses/asar/node_modules/@isaacs/fs-minipass/LICENSE",
+    "size": 765,
+    "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/@npmcli/fs/LICENSE.md",
+    "copy": "licenses/asar/node_modules/@npmcli/fs/LICENSE.md",
+    "size": 798,
+    "sha256": "27d998b503b18cdb16c49e93da04069a99ba8a1d7e18d67146de8e242f9a6d21"
+  },
+  {
+    "source": "resources/app.asar:node_modules/@npmcli/fs/lib/cp/LICENSE",
+    "copy": "licenses/asar/node_modules/@npmcli/fs/lib/cp/LICENSE",
+    "size": 1084,
+    "sha256": "1e76029602ae9b21cc4e612db2496d92febed882ba13ba745f8b3309e85f9d39"
+  },
+  {
+    "source": "resources/app.asar:node_modules/@pkgjs/parseargs/LICENSE",
+    "copy": "licenses/asar/node_modules/@pkgjs/parseargs/LICENSE",
+    "size": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "source": "resources/app.asar:node_modules/@so-ric/colorspace/LICENSE.md",
+    "copy": "licenses/asar/node_modules/@so-ric/colorspace/LICENSE.md",
+    "size": 1139,
+    "sha256": "56dbea61ecd8a624c37c7a1c282a2ec4b72a4b2a03fbc6eeb7210bdc4ec25d75"
+  },
+  {
+    "source": "resources/app.asar:node_modules/@sqltools/formatter/LICENSE",
+    "copy": "licenses/asar/node_modules/@sqltools/formatter/LICENSE",
+    "size": 1091,
+    "sha256": "2f5a1284f0b1fad3aedbf891553f8e44d64ef4cfe7c9d44d105463adf19b09bb"
+  },
+  {
+    "source": "resources/app.asar:node_modules/@types/node/LICENSE",
+    "copy": "licenses/asar/node_modules/@types/node/LICENSE",
+    "size": 1141,
+    "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+  },
+  {
+    "source": "resources/app.asar:node_modules/@types/triple-beam/LICENSE",
+    "copy": "licenses/asar/node_modules/@types/triple-beam/LICENSE",
+    "size": 1141,
+    "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+  },
+  {
+    "source": "resources/app.asar:node_modules/abbrev/LICENSE",
+    "copy": "licenses/asar/node_modules/abbrev/LICENSE",
+    "size": 2011,
+    "sha256": "9e0d5c7989f7e9f07d7c4b158aceff270f235eb7464ace41c5e7b200834a43e0"
+  },
+  {
+    "source": "resources/app.asar:node_modules/agent-base/LICENSE",
+    "copy": "licenses/asar/node_modules/agent-base/LICENSE",
+    "size": 1101,
+    "sha256": "8d8c55319c7729d57be811c747452636688d54f19701ee0752b6b15ad3771d9a"
+  },
+  {
+    "source": "resources/app.asar:node_modules/ansi-regex/license",
+    "copy": "licenses/asar/node_modules/ansi-regex/license",
+    "size": 1109,
+    "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+  },
+  {
+    "source": "resources/app.asar:node_modules/ansi-styles/license",
+    "copy": "licenses/asar/node_modules/ansi-styles/license",
+    "size": 1109,
+    "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+  },
+  {
+    "source": "resources/app.asar:node_modules/ansis/LICENSE",
+    "copy": "licenses/asar/node_modules/ansis/LICENSE",
+    "size": 740,
+    "sha256": "87ec186ac7438102db7ee5dae084510a81277ef631235c7712639c146c554737"
+  },
+  {
+    "source": "resources/app.asar:node_modules/async/LICENSE",
+    "copy": "licenses/asar/node_modules/async/LICENSE",
+    "size": 1063,
+    "sha256": "d9fed24f132985934fca621c4dc1dfb53e03377a24d0568d424383d7eaa9c0ac"
+  },
+  {
+    "source": "resources/app.asar:node_modules/asynckit/LICENSE",
+    "copy": "licenses/asar/node_modules/asynckit/LICENSE",
+    "size": 1078,
+    "sha256": "1953150d5d4b10c7542cee6f6e0c613b2682545233f069d75cfff1936386ce10"
+  },
+  {
+    "source": "resources/app.asar:node_modules/axios/LICENSE",
+    "copy": "licenses/asar/node_modules/axios/LICENSE",
+    "size": 1084,
+    "sha256": "82761059eaedacb3356803aea8a170d8298609f91b14fc32ee1bfb40d690183c"
+  },
+  {
+    "source": "resources/app.asar:node_modules/axios-retry/LICENSE",
+    "copy": "licenses/asar/node_modules/axios-retry/LICENSE",
+    "size": 567,
+    "sha256": "b154cf0653d7aa3c2ecc68448383ae0ace8a3ce695b7aa50739d390998dc1d38"
+  },
+  {
+    "source": "resources/app.asar:node_modules/balanced-match/LICENSE.md",
+    "copy": "licenses/asar/node_modules/balanced-match/LICENSE.md",
+    "size": 1096,
+    "sha256": "a1bd5deadb6a06dd74efa852c1b8b23f63b67f2214fbe9c8bd591da51da69268"
+  },
+  {
+    "source": "resources/app.asar:node_modules/base64-js/LICENSE",
+    "copy": "licenses/asar/node_modules/base64-js/LICENSE",
+    "size": 1081,
+    "sha256": "5b37224c080cdcc97c871ada971c224e9926370fe74f11b539aa1cf9f3b1aca1"
+  },
+  {
+    "source": "resources/app.asar:node_modules/better-sqlite3/LICENSE",
+    "copy": "licenses/asar/node_modules/better-sqlite3/LICENSE",
+    "size": 1078,
+    "sha256": "09856b52897c91ab67e7456ef43067019f31dfd3b87fda72e655736b1ebdee55"
+  },
+  {
+    "source": "resources/app.asar:node_modules/bindings/LICENSE.md",
+    "copy": "licenses/asar/node_modules/bindings/LICENSE.md",
+    "size": 1108,
+    "sha256": "85fde19744c84cfacb04aed732c0392ba221231b26090d3271d2ed865bfc0792"
+  },
+  {
+    "source": "resources/app.asar:node_modules/bl/LICENSE.md",
+    "copy": "licenses/asar/node_modules/bl/LICENSE.md",
+    "size": 1216,
+    "sha256": "9377db95383c8befacf05c6e465d969d756edf178487ca1344fdf3ba147c596f"
+  },
+  {
+    "source": "resources/app.asar:node_modules/brace-expansion/LICENSE",
+    "copy": "licenses/asar/node_modules/brace-expansion/LICENSE",
+    "size": 1096,
+    "sha256": "68f12f6e2c33688699249c01d8f9623c534da20aa71989c57b061b7bc1676d14"
+  },
+  {
+    "source": "resources/app.asar:node_modules/buffer/LICENSE",
+    "copy": "licenses/asar/node_modules/buffer/LICENSE",
+    "size": 1106,
+    "sha256": "06bafa45fdad2579ba0e43b0c9b2c6290287c99c4203c300254a462b38a307f6"
+  },
+  {
+    "source": "resources/app.asar:node_modules/cacache/LICENSE.md",
+    "copy": "licenses/asar/node_modules/cacache/LICENSE.md",
+    "size": 755,
+    "sha256": "720836c9bdad386485a492ab41fe08007ecf85ca278ddd8f9333494dcac4949d"
+  },
+  {
+    "source": "resources/app.asar:node_modules/call-bind-apply-helpers/LICENSE",
+    "copy": "licenses/asar/node_modules/call-bind-apply-helpers/LICENSE",
+    "size": 1071,
+    "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292"
+  },
+  {
+    "source": "resources/app.asar:node_modules/chownr/LICENSE",
+    "copy": "licenses/asar/node_modules/chownr/LICENSE",
+    "size": 765,
+    "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/cliui/LICENSE.txt",
+    "copy": "licenses/asar/node_modules/cliui/LICENSE.txt",
+    "size": 731,
+    "sha256": "2dc0465729366c3a7890dfa9e972a1ba7048a26c02116fb8b419a6a1ac110149"
+  },
+  {
+    "source": "resources/app.asar:node_modules/cliui/node_modules/ansi-regex/license",
+    "copy": "licenses/asar/node_modules/cliui/node_modules/ansi-regex/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/cliui/node_modules/ansi-styles/license",
+    "copy": "licenses/asar/node_modules/cliui/node_modules/ansi-styles/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/cliui/node_modules/strip-ansi/license",
+    "copy": "licenses/asar/node_modules/cliui/node_modules/strip-ansi/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/cliui/node_modules/wrap-ansi/license",
+    "copy": "licenses/asar/node_modules/cliui/node_modules/wrap-ansi/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/color/LICENSE",
+    "copy": "licenses/asar/node_modules/color/LICENSE",
+    "size": 1059,
+    "sha256": "4c0844caafd3db9a4b643ea493558873710f4e9c8b257887ba066e5e80557848"
+  },
+  {
+    "source": "resources/app.asar:node_modules/color/node_modules/color-convert/LICENSE",
+    "copy": "licenses/asar/node_modules/color/node_modules/color-convert/LICENSE",
+    "size": 1140,
+    "sha256": "fa0eb15e44179d20f3fc2c7bb60835f781c278ae6774ce6ad8e21069d88e4853"
+  },
+  {
+    "source": "resources/app.asar:node_modules/color-convert/LICENSE",
+    "copy": "licenses/asar/node_modules/color-convert/LICENSE",
+    "size": 1087,
+    "sha256": "693866fc419c6f61c8570438ec00659d156ec2b4d4a4d04091711f5f11a365d4"
+  },
+  {
+    "source": "resources/app.asar:node_modules/color-convert/node_modules/color-name/LICENSE",
+    "copy": "licenses/asar/node_modules/color-convert/node_modules/color-name/LICENSE",
+    "size": 1085,
+    "sha256": "c064f7a3e353bc1bc977f3c897941c75ef763f44f41677e0a15370ca0853d6e2"
+  },
+  {
+    "source": "resources/app.asar:node_modules/color-name/LICENSE",
+    "copy": "licenses/asar/node_modules/color-name/LICENSE",
+    "size": 1078,
+    "sha256": "7357445bac398c76c0aef75a587009fe406d40de6a79789eb5b7ecbbad317ef2"
+  },
+  {
+    "source": "resources/app.asar:node_modules/color-string/LICENSE",
+    "copy": "licenses/asar/node_modules/color-string/LICENSE",
+    "size": 1082,
+    "sha256": "8984783ab2478bbee455f0eb6c375b5b62c57c86d4a55f6bf96dfd08e8d48a10"
+  },
+  {
+    "source": "resources/app.asar:node_modules/combined-stream/License",
+    "copy": "licenses/asar/node_modules/combined-stream/License",
+    "size": 1085,
+    "sha256": "47eb8ca82c798246774946d1be0f9aa08f025fa8325ced0947aeeb4c05fe5547"
+  },
+  {
+    "source": "resources/app.asar:node_modules/core-util-is/LICENSE",
+    "copy": "licenses/asar/node_modules/core-util-is/LICENSE",
+    "size": 1077,
+    "sha256": "33b734d60042d0fe0c92dd1fc1e874193a1c899ec3e276a2eb935d2d0bf5b710"
+  },
+  {
+    "source": "resources/app.asar:node_modules/cross-spawn/LICENSE",
+    "copy": "licenses/asar/node_modules/cross-spawn/LICENSE",
+    "size": 1105,
+    "sha256": "aaa78451b6fecd1b9c4594c796c133c0e90cad100372ff8bc6de615e9ef9adf1"
+  },
+  {
+    "source": "resources/app.asar:node_modules/dayjs/LICENSE",
+    "copy": "licenses/asar/node_modules/dayjs/LICENSE",
+    "size": 1072,
+    "sha256": "5faab7526d055651be3aab769d58897be6bd91f3d39d137f25f12dba1b31d5dc"
+  },
+  {
+    "source": "resources/app.asar:node_modules/debug/LICENSE",
+    "copy": "licenses/asar/node_modules/debug/LICENSE",
+    "size": 1139,
+    "sha256": "3a61c6c96caf5c1d9b623fb9b04c822b783dfcb78aa7e49c76a3f643e6ed7f95"
+  },
+  {
+    "source": "resources/app.asar:node_modules/decompress-response/license",
+    "copy": "licenses/asar/node_modules/decompress-response/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/dedent/LICENSE.md",
+    "copy": "licenses/asar/node_modules/dedent/LICENSE.md",
+    "size": 1038,
+    "sha256": "76c9d5f5ea942054715c026f33f8717c9e24603196a3737b8899afa216bcbdab"
+  },
+  {
+    "source": "resources/app.asar:node_modules/deep-extend/LICENSE",
+    "copy": "licenses/asar/node_modules/deep-extend/LICENSE",
+    "size": 1093,
+    "sha256": "e17120ad3deff741c2ca5cbe511971ca33971a1ba6e49694c6498309bb2680b9"
+  },
+  {
+    "source": "resources/app.asar:node_modules/delayed-stream/License",
+    "copy": "licenses/asar/node_modules/delayed-stream/License",
+    "size": 1085,
+    "sha256": "47eb8ca82c798246774946d1be0f9aa08f025fa8325ced0947aeeb4c05fe5547"
+  },
+  {
+    "source": "resources/app.asar:node_modules/detect-libc/LICENSE",
+    "copy": "licenses/asar/node_modules/detect-libc/LICENSE",
+    "size": 11357,
+    "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+  },
+  {
+    "source": "resources/app.asar:node_modules/dunder-proto/LICENSE",
+    "copy": "licenses/asar/node_modules/dunder-proto/LICENSE",
+    "size": 1073,
+    "sha256": "2b770a704c15de238c3f622b01b0044ddd60b49ee30608ea6991ebf19db7a7a1"
+  },
+  {
+    "source": "resources/app.asar:node_modules/emoji-regex/LICENSE-MIT.txt",
+    "copy": "licenses/asar/node_modules/emoji-regex/LICENSE-MIT.txt",
+    "size": 1077,
+    "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a"
+  },
+  {
+    "source": "resources/app.asar:node_modules/enabled/LICENSE",
+    "copy": "licenses/asar/node_modules/enabled/LICENSE",
+    "size": 1119,
+    "sha256": "77cc8fe282841077c532a9d92bda47add7bd0e1f5f4d7e91a9f91bff69faa86a"
+  },
+  {
+    "source": "resources/app.asar:node_modules/encoding/LICENSE",
+    "copy": "licenses/asar/node_modules/encoding/LICENSE",
+    "size": 935,
+    "sha256": "2453d3b90aa23715eec80b25fcda1bebf71052ad41a6694d58a9aa867d103c81"
+  },
+  {
+    "source": "resources/app.asar:node_modules/end-of-stream/LICENSE",
+    "copy": "licenses/asar/node_modules/end-of-stream/LICENSE",
+    "size": 1078,
+    "sha256": "3fe8d55a98dbf260eace67c00cf9bc53edb46234e840098a0b93df3096b97fb6"
+  },
+  {
+    "source": "resources/app.asar:node_modules/env-paths/license",
+    "copy": "licenses/asar/node_modules/env-paths/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/es-define-property/LICENSE",
+    "copy": "licenses/asar/node_modules/es-define-property/LICENSE",
+    "size": 1071,
+    "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292"
+  },
+  {
+    "source": "resources/app.asar:node_modules/es-errors/LICENSE",
+    "copy": "licenses/asar/node_modules/es-errors/LICENSE",
+    "size": 1071,
+    "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292"
+  },
+  {
+    "source": "resources/app.asar:node_modules/es-object-atoms/LICENSE",
+    "copy": "licenses/asar/node_modules/es-object-atoms/LICENSE",
+    "size": 1071,
+    "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292"
+  },
+  {
+    "source": "resources/app.asar:node_modules/es-set-tostringtag/LICENSE",
+    "copy": "licenses/asar/node_modules/es-set-tostringtag/LICENSE",
+    "size": 1073,
+    "sha256": "1a3aeb1f1398bd697d57c3c585faadf59d825aca6e3162cd7eeb72ff76eb2466"
+  },
+  {
+    "source": "resources/app.asar:node_modules/escalade/license",
+    "copy": "licenses/asar/node_modules/escalade/license",
+    "size": 1104,
+    "sha256": "9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97"
+  },
+  {
+    "source": "resources/app.asar:node_modules/expand-template/LICENSE",
+    "copy": "licenses/asar/node_modules/expand-template/LICENSE",
+    "size": 1082,
+    "sha256": "0967624813244bf47da346449804af853437433cbdeb8c977f1e0d4bd14e0a3b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/exponential-backoff/LICENSE",
+    "copy": "licenses/asar/node_modules/exponential-backoff/LICENSE",
+    "size": 11351,
+    "sha256": "f5afc95c69e116ea6b1755f91a8763f53eadb78b4f1582a08d2d18586a03a117"
+  },
+  {
+    "source": "resources/app.asar:node_modules/fdir/LICENSE",
+    "copy": "licenses/asar/node_modules/fdir/LICENSE",
+    "size": 1053,
+    "sha256": "9a39f2aadab11a3697edd668ff2d8ad885b649737b7ab4d3bf12b34e5ada0c86"
+  },
+  {
+    "source": "resources/app.asar:node_modules/fecha/LICENSE",
+    "copy": "licenses/asar/node_modules/fecha/LICENSE",
+    "size": 1080,
+    "sha256": "382372d4059c129f65cc19770c463bf3820701e2ff3f8b88666d806cdc803b1c"
+  },
+  {
+    "source": "resources/app.asar:node_modules/file-uri-to-path/LICENSE",
+    "copy": "licenses/asar/node_modules/file-uri-to-path/LICENSE",
+    "size": 1083,
+    "sha256": "75070206e4ee2a749be52444cecc05101ca8d314c9d6d335ff914046cbf086a0"
+  },
+  {
+    "source": "resources/app.asar:node_modules/fn.name/LICENSE",
+    "copy": "licenses/asar/node_modules/fn.name/LICENSE",
+    "size": 1120,
+    "sha256": "d12a751f8b027f264c79ae82adfa717be6e78feb57799edf8739667d7a0ef52d"
+  },
+  {
+    "source": "resources/app.asar:node_modules/follow-redirects/LICENSE",
+    "copy": "licenses/asar/node_modules/follow-redirects/LICENSE",
+    "size": 1136,
+    "sha256": "bfa8a54bb952ccda79f0f1889721d108f5b605babbb2b8a3705ffb52f4132eb7"
+  },
+  {
+    "source": "resources/app.asar:node_modules/foreground-child/LICENSE",
+    "copy": "licenses/asar/node_modules/foreground-child/LICENSE",
+    "size": 775,
+    "sha256": "93f5d82a8d59442fe3275383453a255fef761647fb28265644010ba799806148"
+  },
+  {
+    "source": "resources/app.asar:node_modules/form-data/License",
+    "copy": "licenses/asar/node_modules/form-data/License",
+    "size": 1118,
+    "sha256": "e5b780d4f38d1d3328e3e53186c4e62d3fa149ea6f2bacd5de5ad0c30ac85343"
+  },
+  {
+    "source": "resources/app.asar:node_modules/form-data/node_modules/mime-types/LICENSE",
+    "copy": "licenses/asar/node_modules/form-data/node_modules/mime-types/LICENSE",
+    "size": 1167,
+    "sha256": "71f83c4c0621102a56d9853812777b85751bce7e9726f686f5b056c1f8a4b0e6"
+  },
+  {
+    "source": "resources/app.asar:node_modules/fs-constants/LICENSE",
+    "copy": "licenses/asar/node_modules/fs-constants/LICENSE",
+    "size": 1079,
+    "sha256": "2281f2db407bdbb54f069eec38128b2dee2c0c952f52b786ef1faecb81767b3c"
+  },
+  {
+    "source": "resources/app.asar:node_modules/fs-minipass/LICENSE",
+    "copy": "licenses/asar/node_modules/fs-minipass/LICENSE",
+    "size": 765,
+    "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/function-bind/LICENSE",
+    "copy": "licenses/asar/node_modules/function-bind/LICENSE",
+    "size": 1052,
+    "sha256": "773e131a7684726005a7e4688a80b4620033bc08499bc1404dd1a1eb3bca725e"
+  },
+  {
+    "source": "resources/app.asar:node_modules/get-caller-file/LICENSE.md",
+    "copy": "licenses/asar/node_modules/get-caller-file/LICENSE.md",
+    "size": 745,
+    "sha256": "902dbb4154679fb2b8d7c33878183f45b268d01eae5e5033dddaa8852d45f213"
+  },
+  {
+    "source": "resources/app.asar:node_modules/get-east-asian-width/license",
+    "copy": "licenses/asar/node_modules/get-east-asian-width/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/get-intrinsic/LICENSE",
+    "copy": "licenses/asar/node_modules/get-intrinsic/LICENSE",
+    "size": 1071,
+    "sha256": "39c5ec504cf6bd5cd782a7c695828e09189df79f5d94840e4f08feb97b9fd416"
+  },
+  {
+    "source": "resources/app.asar:node_modules/get-proto/LICENSE",
+    "copy": "licenses/asar/node_modules/get-proto/LICENSE",
+    "size": 1071,
+    "sha256": "be46ce1e3b0479af9ce82d22b465a6d7d2ff084fca0aaf3d54172da2b5eb5781"
+  },
+  {
+    "source": "resources/app.asar:node_modules/github-from-package/LICENSE",
+    "copy": "licenses/asar/node_modules/github-from-package/LICENSE",
+    "size": 1073,
+    "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/glob/LICENSE",
+    "copy": "licenses/asar/node_modules/glob/LICENSE",
+    "size": 775,
+    "sha256": "cdbc258d13806538e727964c2436a8806e6e2496ccd616224aace6f7bf98dbc1"
+  },
+  {
+    "source": "resources/app.asar:node_modules/gopd/LICENSE",
+    "copy": "licenses/asar/node_modules/gopd/LICENSE",
+    "size": 1071,
+    "sha256": "d90bf0a089da4cf43d644ed240a0b3825dcdb705e64e38371d56995a4cc9e4c5"
+  },
+  {
+    "source": "resources/app.asar:node_modules/graceful-fs/LICENSE",
+    "copy": "licenses/asar/node_modules/graceful-fs/LICENSE",
+    "size": 791,
+    "sha256": "f65c5d9f22a317b2a10803bd1868461ce6499c2ed7217bc80c0cc772a748789c"
+  },
+  {
+    "source": "resources/app.asar:node_modules/has-symbols/LICENSE",
+    "copy": "licenses/asar/node_modules/has-symbols/LICENSE",
+    "size": 1071,
+    "sha256": "206c1adcf206dc0031b11232f5b054ec5f1662407ab1ca415247921cab2068ab"
+  },
+  {
+    "source": "resources/app.asar:node_modules/has-tostringtag/LICENSE",
+    "copy": "licenses/asar/node_modules/has-tostringtag/LICENSE",
+    "size": 1067,
+    "sha256": "e2560e002e13281578c75c850061d9255c33d16d732939e8c2db64c2506642fa"
+  },
+  {
+    "source": "resources/app.asar:node_modules/hasown/LICENSE",
+    "copy": "licenses/asar/node_modules/hasown/LICENSE",
+    "size": 1083,
+    "sha256": "bf9b0d665be2a689851eea667ca9f42066ea1d903b38349c51e6a44b2577680a"
+  },
+  {
+    "source": "resources/app.asar:node_modules/http-cache-semantics/LICENSE",
+    "copy": "licenses/asar/node_modules/http-cache-semantics/LICENSE",
+    "size": 1274,
+    "sha256": "ab868ad5a2ef5068560d9cd3b2180ec63c140bb4c5cae1ba779d300a0ac74fa3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/http-proxy-agent/LICENSE",
+    "copy": "licenses/asar/node_modules/http-proxy-agent/LICENSE",
+    "size": 1102,
+    "sha256": "71368fd0f5b4129191e9afcd1e1ef2dc89a9090d3e4d80bbab92dafd032b3bef"
+  },
+  {
+    "source": "resources/app.asar:node_modules/https-proxy-agent/LICENSE",
+    "copy": "licenses/asar/node_modules/https-proxy-agent/LICENSE",
+    "size": 1101,
+    "sha256": "8d8c55319c7729d57be811c747452636688d54f19701ee0752b6b15ad3771d9a"
+  },
+  {
+    "source": "resources/app.asar:node_modules/iconv-lite/LICENSE",
+    "copy": "licenses/asar/node_modules/iconv-lite/LICENSE",
+    "size": 1064,
+    "sha256": "ac779f7314c74f232ef847ea86e714abe25cf6eeb5cc97b69451b74e2af6492d"
+  },
+  {
+    "source": "resources/app.asar:node_modules/ieee754/LICENSE",
+    "copy": "licenses/asar/node_modules/ieee754/LICENSE",
+    "size": 1465,
+    "sha256": "18d45466ba3253deae04667e267a91ea8de8548f18c1125264d1c9db28194cc1"
+  },
+  {
+    "source": "resources/app.asar:node_modules/if-async/LICENSE",
+    "copy": "licenses/asar/node_modules/if-async/LICENSE",
+    "size": 1080,
+    "sha256": "7098e739ef37a6b845839844092bfe610254bc62d3fe8874eddcecb94e4f0b67"
+  },
+  {
+    "source": "resources/app.asar:node_modules/inherits/LICENSE",
+    "copy": "licenses/asar/node_modules/inherits/LICENSE",
+    "size": 749,
+    "sha256": "5ffe28e7ade7d8f10d85d5337a73fd793dac5c462fb9a28fbf8c5046c7fbca3b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/ini/LICENSE",
+    "copy": "licenses/asar/node_modules/ini/LICENSE",
+    "size": 765,
+    "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/ip-address/LICENSE",
+    "copy": "licenses/asar/node_modules/ip-address/LICENSE",
+    "size": 1061,
+    "sha256": "f8d791359a50cbcac82c29cb7b0b1b889b28be76fdd35b8ee33f0f7c8704702a"
+  },
+  {
+    "source": "resources/app.asar:node_modules/is-fullwidth-code-point/license",
+    "copy": "licenses/asar/node_modules/is-fullwidth-code-point/license",
+    "size": 1109,
+    "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+  },
+  {
+    "source": "resources/app.asar:node_modules/is-retry-allowed/license",
+    "copy": "licenses/asar/node_modules/is-retry-allowed/license",
+    "size": 1198,
+    "sha256": "f1a592365975e533851daadd56db86e5739764b713a3afba65dd660415832243"
+  },
+  {
+    "source": "resources/app.asar:node_modules/is-stream/license",
+    "copy": "licenses/asar/node_modules/is-stream/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/isexe/LICENSE",
+    "copy": "licenses/asar/node_modules/isexe/LICENSE",
+    "size": 765,
+    "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/jackspeak/LICENSE.md",
+    "copy": "licenses/asar/node_modules/jackspeak/LICENSE.md",
+    "size": 1550,
+    "sha256": "2c7c5d22ed5a8ee968c64757710979afcd77438c48b4a265b94e615babd8a901"
+  },
+  {
+    "source": "resources/app.asar:node_modules/jsbn/LICENSE",
+    "copy": "licenses/asar/node_modules/jsbn/LICENSE",
+    "size": 1544,
+    "sha256": "e0e396530fd1624126e9a7e0df94811e4062e03baeccb07bc33c934b0fd93a85"
+  },
+  {
+    "source": "resources/app.asar:node_modules/kuler/LICENSE",
+    "copy": "licenses/asar/node_modules/kuler/LICENSE",
+    "size": 1055,
+    "sha256": "5a2d5efbffa24832919e9834f4edc11ce027790ee50a47a2c1904bf69c2a5c76"
+  },
+  {
+    "source": "resources/app.asar:node_modules/logform/LICENSE",
+    "copy": "licenses/asar/node_modules/logform/LICENSE",
+    "size": 1092,
+    "sha256": "ccf635c9ede66a9dba49dc14f29fba61bb41149f47d3f5cae1825061c327d1e0"
+  },
+  {
+    "source": "resources/app.asar:node_modules/lru-cache/LICENSE",
+    "copy": "licenses/asar/node_modules/lru-cache/LICENSE",
+    "size": 775,
+    "sha256": "451ec07eeb9c4e1b86de9abdaa426462a8be48f887ec7421cf0bbb9c769555ab"
+  },
+  {
+    "source": "resources/app.asar:node_modules/luaparse/LICENSE",
+    "copy": "licenses/asar/node_modules/luaparse/LICENSE",
+    "size": 1068,
+    "sha256": "bedf97319fd3fb51c22dc5a44daf603ca4b2515ae75cae8ac677fb6bd40ec34e"
+  },
+  {
+    "source": "resources/app.asar:node_modules/make-fetch-happen/LICENSE",
+    "copy": "licenses/asar/node_modules/make-fetch-happen/LICENSE",
+    "size": 765,
+    "sha256": "a806e21000ee60cfd64a6f1416f29c7552b4834701974e86c0156f99c0cdd806"
+  },
+  {
+    "source": "resources/app.asar:node_modules/math-intrinsics/LICENSE",
+    "copy": "licenses/asar/node_modules/math-intrinsics/LICENSE",
+    "size": 1073,
+    "sha256": "2b770a704c15de238c3f622b01b0044ddd60b49ee30608ea6991ebf19db7a7a1"
+  },
+  {
+    "source": "resources/app.asar:node_modules/mime-db/LICENSE",
+    "copy": "licenses/asar/node_modules/mime-db/LICENSE",
+    "size": 1172,
+    "sha256": "cc1dfd4dafa27271e8212cd3b274eeb3f262e40a6fdab36ddc3f9696f706f58b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/mime-types/LICENSE",
+    "copy": "licenses/asar/node_modules/mime-types/LICENSE",
+    "size": 1167,
+    "sha256": "71f83c4c0621102a56d9853812777b85751bce7e9726f686f5b056c1f8a4b0e6"
+  },
+  {
+    "source": "resources/app.asar:node_modules/mime-types/node_modules/mime-db/LICENSE",
+    "copy": "licenses/asar/node_modules/mime-types/node_modules/mime-db/LICENSE",
+    "size": 1172,
+    "sha256": "cc1dfd4dafa27271e8212cd3b274eeb3f262e40a6fdab36ddc3f9696f706f58b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/mimic-response/license",
+    "copy": "licenses/asar/node_modules/mimic-response/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/minimatch/LICENSE",
+    "copy": "licenses/asar/node_modules/minimatch/LICENSE",
+    "size": 775,
+    "sha256": "d11323827fa4edeaafc437cc5b91b6971b335f0127efeeb42bf5122fe8657e8f"
+  },
+  {
+    "source": "resources/app.asar:node_modules/minimist/LICENSE",
+    "copy": "licenses/asar/node_modules/minimist/LICENSE",
+    "size": 1073,
+    "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/minipass/LICENSE",
+    "copy": "licenses/asar/node_modules/minipass/LICENSE",
+    "size": 787,
+    "sha256": "833faa18ac4b83a6372c05b3643d0d44ecd27d6627b8cd19b0f48fe74260cf39"
+  },
+  {
+    "source": "resources/app.asar:node_modules/minipass-collect/LICENSE",
+    "copy": "licenses/asar/node_modules/minipass-collect/LICENSE",
+    "size": 775,
+    "sha256": "b630651f34d0e0284ea940601bbe0a58f306ad7e9819e351d9dfab812f8d0f38"
+  },
+  {
+    "source": "resources/app.asar:node_modules/minipass-fetch/LICENSE",
+    "copy": "licenses/asar/node_modules/minipass-fetch/LICENSE",
+    "size": 1308,
+    "sha256": "1dedee6f84f5875ce4dc398d4d767274eb952a43cfd510a6ada856b2ed347472"
+  },
+  {
+    "source": "resources/app.asar:node_modules/minipass-flush/LICENSE",
+    "copy": "licenses/asar/node_modules/minipass-flush/LICENSE",
+    "size": 765,
+    "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/minipass-flush/node_modules/minipass/LICENSE",
+    "copy": "licenses/asar/node_modules/minipass-flush/node_modules/minipass/LICENSE",
+    "size": 787,
+    "sha256": "a5a110eb524bf3217958e405b5e3411277e915a2f5902c330348877000337e53"
+  },
+  {
+    "source": "resources/app.asar:node_modules/minipass-pipeline/LICENSE",
+    "copy": "licenses/asar/node_modules/minipass-pipeline/LICENSE",
+    "size": 765,
+    "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/minipass-pipeline/node_modules/minipass/LICENSE",
+    "copy": "licenses/asar/node_modules/minipass-pipeline/node_modules/minipass/LICENSE",
+    "size": 787,
+    "sha256": "a5a110eb524bf3217958e405b5e3411277e915a2f5902c330348877000337e53"
+  },
+  {
+    "source": "resources/app.asar:node_modules/minipass-sized/LICENSE",
+    "copy": "licenses/asar/node_modules/minipass-sized/LICENSE",
+    "size": 765,
+    "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/minipass-sized/node_modules/minipass/LICENSE",
+    "copy": "licenses/asar/node_modules/minipass-sized/node_modules/minipass/LICENSE",
+    "size": 787,
+    "sha256": "a5a110eb524bf3217958e405b5e3411277e915a2f5902c330348877000337e53"
+  },
+  {
+    "source": "resources/app.asar:node_modules/minizlib/LICENSE",
+    "copy": "licenses/asar/node_modules/minizlib/LICENSE",
+    "size": 1339,
+    "sha256": "df05697a04b8997c79d423930534e59cc18828f6e22d0c8c2d62fcbea1c4f50b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/mkdirp/LICENSE",
+    "copy": "licenses/asar/node_modules/mkdirp/LICENSE",
+    "size": 1180,
+    "sha256": "9781d22b8ca2072edecea2107d8bf8da2b7d4dbe28c88017f772d0de032920df"
+  },
+  {
+    "source": "resources/app.asar:node_modules/mkdirp-classic/LICENSE",
+    "copy": "licenses/asar/node_modules/mkdirp-classic/LICENSE",
+    "size": 1118,
+    "sha256": "a255b85c1a510ecfe660c4d442ecdbc1e9d07f4b4d3d7f90443f7e5570591e0a"
+  },
+  {
+    "source": "resources/app.asar:node_modules/mobx/LICENSE",
+    "copy": "licenses/asar/node_modules/mobx/LICENSE",
+    "size": 1084,
+    "sha256": "8fc7f323662b01cdbfcae37b82644cfb52dceb3101afb2ce8c50c78b0fb47d42"
+  },
+  {
+    "source": "resources/app.asar:node_modules/ms/license.md",
+    "copy": "licenses/asar/node_modules/ms/license.md",
+    "size": 1079,
+    "sha256": "1662fae9b5314d11cf51284e2dcd1f006a354f7343f08712a730fcff9a359801"
+  },
+  {
+    "source": "resources/app.asar:node_modules/napi-build-utils/LICENSE",
+    "copy": "licenses/asar/node_modules/napi-build-utils/LICENSE",
+    "size": 1069,
+    "sha256": "9c6a91d2847bd9bfd493c1ca87b9c3f96302cfd069667e6dd4a6278e69a33a31"
+  },
+  {
+    "source": "resources/app.asar:node_modules/negotiator/LICENSE",
+    "copy": "licenses/asar/node_modules/negotiator/LICENSE",
+    "size": 1177,
+    "sha256": "553d4d20029a24e315b428a1a54a9e109eaa340f2e958a4f50a92362c2c4070b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/node-abi/LICENSE",
+    "copy": "licenses/asar/node_modules/node-abi/LICENSE",
+    "size": 1069,
+    "sha256": "9a508cd4122f2dc1cc39f8ab0b6950efbc49fb087a581c7177a4b8c9d5d0d6a1"
+  },
+  {
+    "source": "resources/app.asar:node_modules/node-addon-api/LICENSE.md",
+    "copy": "licenses/asar/node_modules/node-addon-api/LICENSE.md",
+    "size": 1150,
+    "sha256": "89024017b88a9f2b763f79b941a4f2db3b4428edfcacdc0b23866b2da633ad0c"
+  },
+  {
+    "source": "resources/app.asar:node_modules/node-gyp/LICENSE",
+    "copy": "licenses/asar/node_modules/node-gyp/LICENSE",
+    "size": 1102,
+    "sha256": "662a1b0115251cfb29c6aed0f221f8847bc49c6365d1c53a62c9f4bccc2489c3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/node-gyp/gyp/LICENSE",
+    "copy": "licenses/asar/node_modules/node-gyp/gyp/LICENSE",
+    "size": 1537,
+    "sha256": "ca90abb6ed71de0774461ef9f928de33e748b617aeb79f9e52415cf08d69230e"
+  },
+  {
+    "source": "resources/app.asar:node_modules/node-gyp/gyp/pylib/packaging/LICENSE",
+    "copy": "licenses/asar/node_modules/node-gyp/gyp/pylib/packaging/LICENSE",
+    "size": 197,
+    "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+  },
+  {
+    "source": "resources/app.asar:node_modules/node-gyp/gyp/pylib/packaging/LICENSE.APACHE",
+    "copy": "licenses/asar/node_modules/node-gyp/gyp/pylib/packaging/LICENSE.APACHE",
+    "size": 10174,
+    "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+  },
+  {
+    "source": "resources/app.asar:node_modules/node-gyp/gyp/pylib/packaging/LICENSE.BSD",
+    "copy": "licenses/asar/node_modules/node-gyp/gyp/pylib/packaging/LICENSE.BSD",
+    "size": 1344,
+    "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+  },
+  {
+    "source": "resources/app.asar:node_modules/node-gyp/node_modules/env-paths/license",
+    "copy": "licenses/asar/node_modules/node-gyp/node_modules/env-paths/license",
+    "size": 1109,
+    "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+  },
+  {
+    "source": "resources/app.asar:node_modules/node-gyp/node_modules/isexe/LICENSE",
+    "copy": "licenses/asar/node_modules/node-gyp/node_modules/isexe/LICENSE",
+    "size": 775,
+    "sha256": "6dab8081cbcd304cfe3958576d6680cb33f49d39a5f43c53a1d0cf3666d29bd3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/node-gyp/node_modules/which/LICENSE",
+    "copy": "licenses/asar/node_modules/node-gyp/node_modules/which/LICENSE",
+    "size": 765,
+    "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/nopt/LICENSE",
+    "copy": "licenses/asar/node_modules/nopt/LICENSE",
+    "size": 765,
+    "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/once/LICENSE",
+    "copy": "licenses/asar/node_modules/once/LICENSE",
+    "size": 765,
+    "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/one-time/LICENSE",
+    "copy": "licenses/asar/node_modules/one-time/LICENSE",
+    "size": 1115,
+    "sha256": "3b2a6a268aa815dec121d614245e03b5c68db1f044d5b525e36db7d5dc7fb9c3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/p-map/license",
+    "copy": "licenses/asar/node_modules/p-map/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/package-json-from-dist/LICENSE.md",
+    "copy": "licenses/asar/node_modules/package-json-from-dist/LICENSE.md",
+    "size": 1764,
+    "sha256": "a49c9ba464796f65b59fca3f1e6ca40912df1e859f575383223f7ec6c5baae09"
+  },
+  {
+    "source": "resources/app.asar:node_modules/path-key/license",
+    "copy": "licenses/asar/node_modules/path-key/license",
+    "size": 1109,
+    "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+  },
+  {
+    "source": "resources/app.asar:node_modules/path-scurry/LICENSE.md",
+    "copy": "licenses/asar/node_modules/path-scurry/LICENSE.md",
+    "size": 1552,
+    "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004"
+  },
+  {
+    "source": "resources/app.asar:node_modules/picomatch/LICENSE",
+    "copy": "licenses/asar/node_modules/picomatch/LICENSE",
+    "size": 1091,
+    "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9"
+  },
+  {
+    "source": "resources/app.asar:node_modules/prebuild-install/LICENSE",
+    "copy": "licenses/asar/node_modules/prebuild-install/LICENSE",
+    "size": 1079,
+    "sha256": "0aa9add6a9158efad3e6649e3affd607c7e2629f6677af19f9988c8fbb0757b0"
+  },
+  {
+    "source": "resources/app.asar:node_modules/proc-log/LICENSE",
+    "copy": "licenses/asar/node_modules/proc-log/LICENSE",
+    "size": 742,
+    "sha256": "dc32a0dee275e0a9aeffbc974dbf4899a30dcdc2e5ffa8934aecb69261065864"
+  },
+  {
+    "source": "resources/app.asar:node_modules/progress/LICENSE",
+    "copy": "licenses/asar/node_modules/progress/LICENSE",
+    "size": 1098,
+    "sha256": "d7d2a7786de7c7cfd96f920c6f12927d74e1d2a861ca4498bf465c3bc3f4c21c"
+  },
+  {
+    "source": "resources/app.asar:node_modules/promise-retry/LICENSE",
+    "copy": "licenses/asar/node_modules/promise-retry/LICENSE",
+    "size": 1056,
+    "sha256": "b1344bd78ebcbf8a359225ec444d038a653c6a5f9ecf405a50d4a5c11fbf27d1"
+  },
+  {
+    "source": "resources/app.asar:node_modules/proxy-from-env/LICENSE",
+    "copy": "licenses/asar/node_modules/proxy-from-env/LICENSE",
+    "size": 1087,
+    "sha256": "f55828df4b8752c48e765a806465b76a103e3cb363379c569b15a1df2ba2d79e"
+  },
+  {
+    "source": "resources/app.asar:node_modules/pump/LICENSE",
+    "copy": "licenses/asar/node_modules/pump/LICENSE",
+    "size": 1078,
+    "sha256": "3fe8d55a98dbf260eace67c00cf9bc53edb46234e840098a0b93df3096b97fb6"
+  },
+  {
+    "source": "resources/app.asar:node_modules/rc/LICENSE.APACHE2",
+    "copy": "licenses/asar/node_modules/rc/LICENSE.APACHE2",
+    "size": 586,
+    "sha256": "e8734448285a2dd773d40136ed5d5e8163a70701dd540cdc796cfca232f67d55"
+  },
+  {
+    "source": "resources/app.asar:node_modules/rc/LICENSE.BSD",
+    "copy": "licenses/asar/node_modules/rc/LICENSE.BSD",
+    "size": 1516,
+    "sha256": "65e7e4d223688c601f42959defde380f8c4aa677fa4706da3b4a53f129bd78a3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/rc/LICENSE.MIT",
+    "copy": "licenses/asar/node_modules/rc/LICENSE.MIT",
+    "size": 1088,
+    "sha256": "d72dea1a8cdf3f4dfa2f594253d0c5b37baefc76e806f5ecb0e426393edcd505"
+  },
+  {
+    "source": "resources/app.asar:node_modules/readable-stream/LICENSE",
+    "copy": "licenses/asar/node_modules/readable-stream/LICENSE",
+    "size": 2337,
+    "sha256": "ec62dc96da0099b87f4511736c87309335527fb7031639493e06c95728dc8c54"
+  },
+  {
+    "source": "resources/app.asar:node_modules/reflect-metadata/LICENSE",
+    "copy": "licenses/asar/node_modules/reflect-metadata/LICENSE",
+    "size": 9141,
+    "sha256": "c5217b0544ea9c91d010863582d6f6b35ec50e4146c34dee085ddcec5dd92def"
+  },
+  {
+    "source": "resources/app.asar:node_modules/regedit/LICENSE",
+    "copy": "licenses/asar/node_modules/regedit/LICENSE",
+    "size": 1077,
+    "sha256": "74f43180ac14fc614489f07e512c49172931b38bf6c506760fcfa596d5219edd"
+  },
+  {
+    "source": "resources/app.asar:node_modules/retry/License",
+    "copy": "licenses/asar/node_modules/retry/License",
+    "size": 1139,
+    "sha256": "01ad164273e8e095abc9dbd1c21e194594a671af7d528cb43ee7b4c903ba7da3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/safe-buffer/LICENSE",
+    "copy": "licenses/asar/node_modules/safe-buffer/LICENSE",
+    "size": 1081,
+    "sha256": "c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac"
+  },
+  {
+    "source": "resources/app.asar:node_modules/safe-stable-stringify/LICENSE",
+    "copy": "licenses/asar/node_modules/safe-stable-stringify/LICENSE",
+    "size": 1079,
+    "sha256": "3a6d6de49d284a36c5d271ef0e62eca1838cc460dd7630e3f2c347c8f5b2232a"
+  },
+  {
+    "source": "resources/app.asar:node_modules/safer-buffer/LICENSE",
+    "copy": "licenses/asar/node_modules/safer-buffer/LICENSE",
+    "size": 1094,
+    "sha256": "4bc935e71be198c67ddf3c2b5fddb195f6edc182bfc155a96a6db61b44b494b9"
+  },
+  {
+    "source": "resources/app.asar:node_modules/semver/LICENSE",
+    "copy": "licenses/asar/node_modules/semver/LICENSE",
+    "size": 765,
+    "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/shebang-command/license",
+    "copy": "licenses/asar/node_modules/shebang-command/license",
+    "size": 1116,
+    "sha256": "69dee148a2cc470554dfa7142e830662062394d0fe67cddd379aba90dc60d6b3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/shebang-regex/license",
+    "copy": "licenses/asar/node_modules/shebang-regex/license",
+    "size": 1109,
+    "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+  },
+  {
+    "source": "resources/app.asar:node_modules/signal-exit/LICENSE.txt",
+    "copy": "licenses/asar/node_modules/signal-exit/LICENSE.txt",
+    "size": 790,
+    "sha256": "b173e19b9a78df305577ace0e52ef45a4bcc915ea28b47b256dc3b68dcb1f7e7"
+  },
+  {
+    "source": "resources/app.asar:node_modules/simple-concat/LICENSE",
+    "copy": "licenses/asar/node_modules/simple-concat/LICENSE",
+    "size": 1081,
+    "sha256": "d4c2065e2b936e62a4eb400efb4576edec9ca1388a9f78aa288e147275e7bc8b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/simple-get/LICENSE",
+    "copy": "licenses/asar/node_modules/simple-get/LICENSE",
+    "size": 1081,
+    "sha256": "d4c2065e2b936e62a4eb400efb4576edec9ca1388a9f78aa288e147275e7bc8b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/smart-buffer/LICENSE",
+    "copy": "licenses/asar/node_modules/smart-buffer/LICENSE",
+    "size": 1087,
+    "sha256": "c46e2c333e1c9e6fcfd130cf91b8e54bf67b60fabbc04996f7e199b990353ff3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/socks/LICENSE",
+    "copy": "licenses/asar/node_modules/socks/LICENSE",
+    "size": 1082,
+    "sha256": "4f4f28866154c8d758241a64296e8790d45d7d912ff7b029930778c06d8f2a72"
+  },
+  {
+    "source": "resources/app.asar:node_modules/socks-proxy-agent/LICENSE",
+    "copy": "licenses/asar/node_modules/socks-proxy-agent/LICENSE",
+    "size": 1101,
+    "sha256": "8d8c55319c7729d57be811c747452636688d54f19701ee0752b6b15ad3771d9a"
+  },
+  {
+    "source": "resources/app.asar:node_modules/sprintf-js/LICENSE",
+    "copy": "licenses/asar/node_modules/sprintf-js/LICENSE",
+    "size": 1513,
+    "sha256": "f8287e4dd9480be58c56aca4a55c23b782c43a86e69aabad78fff4df0d29edef"
+  },
+  {
+    "source": "resources/app.asar:node_modules/sql-highlight/LICENSE",
+    "copy": "licenses/asar/node_modules/sql-highlight/LICENSE",
+    "size": 1071,
+    "sha256": "6c09537d6f5116f6339e83153095d0f7b524c4f1b627d870be0d912e436ed5da"
+  },
+  {
+    "source": "resources/app.asar:node_modules/ssri/LICENSE.md",
+    "copy": "licenses/asar/node_modules/ssri/LICENSE.md",
+    "size": 760,
+    "sha256": "3749709146345fa15546aaba4e3ab1b3b92a4d930077b5bc32d90815cb63afaf"
+  },
+  {
+    "source": "resources/app.asar:node_modules/stack-trace/License",
+    "copy": "licenses/asar/node_modules/stack-trace/License",
+    "size": 1101,
+    "sha256": "c5ece09265dbd6335030832335dec72919b9ecfd4db126cb9bb9b8d023970304"
+  },
+  {
+    "source": "resources/app.asar:node_modules/string_decoder/LICENSE",
+    "copy": "licenses/asar/node_modules/string_decoder/LICENSE",
+    "size": 2338,
+    "sha256": "11f2aafb37d06b3ee5bdaf06e9811141d0da05263c316f3d627f45c20d43261b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/string-width/license",
+    "copy": "licenses/asar/node_modules/string-width/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/string-width/node_modules/ansi-regex/license",
+    "copy": "licenses/asar/node_modules/string-width/node_modules/ansi-regex/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/string-width/node_modules/emoji-regex/LICENSE-MIT.txt",
+    "copy": "licenses/asar/node_modules/string-width/node_modules/emoji-regex/LICENSE-MIT.txt",
+    "size": 1077,
+    "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a"
+  },
+  {
+    "source": "resources/app.asar:node_modules/string-width/node_modules/strip-ansi/license",
+    "copy": "licenses/asar/node_modules/string-width/node_modules/strip-ansi/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/string-width-cjs/license",
+    "copy": "licenses/asar/node_modules/string-width-cjs/license",
+    "size": 1109,
+    "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+  },
+  {
+    "source": "resources/app.asar:node_modules/strip-ansi/license",
+    "copy": "licenses/asar/node_modules/strip-ansi/license",
+    "size": 1109,
+    "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+  },
+  {
+    "source": "resources/app.asar:node_modules/strip-ansi-cjs/license",
+    "copy": "licenses/asar/node_modules/strip-ansi-cjs/license",
+    "size": 1109,
+    "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+  },
+  {
+    "source": "resources/app.asar:node_modules/strip-json-comments/license",
+    "copy": "licenses/asar/node_modules/strip-json-comments/license",
+    "size": 1119,
+    "sha256": "6fb9754611c20f6649f68805e8c990e83261f29316e29de9e6cedae607b8634c"
+  },
+  {
+    "source": "resources/app.asar:node_modules/sumchecker/LICENSE",
+    "copy": "licenses/asar/node_modules/sumchecker/LICENSE",
+    "size": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "source": "resources/app.asar:node_modules/tar/LICENSE",
+    "copy": "licenses/asar/node_modules/tar/LICENSE",
+    "size": 765,
+    "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/tar/node_modules/chownr/LICENSE.md",
+    "copy": "licenses/asar/node_modules/tar/node_modules/chownr/LICENSE.md",
+    "size": 1764,
+    "sha256": "a49c9ba464796f65b59fca3f1e6ca40912df1e859f575383223f7ec6c5baae09"
+  },
+  {
+    "source": "resources/app.asar:node_modules/tar/node_modules/yallist/LICENSE.md",
+    "copy": "licenses/asar/node_modules/tar/node_modules/yallist/LICENSE.md",
+    "size": 1764,
+    "sha256": "a49c9ba464796f65b59fca3f1e6ca40912df1e859f575383223f7ec6c5baae09"
+  },
+  {
+    "source": "resources/app.asar:node_modules/tar-fs/LICENSE",
+    "copy": "licenses/asar/node_modules/tar-fs/LICENSE",
+    "size": 1078,
+    "sha256": "3fe8d55a98dbf260eace67c00cf9bc53edb46234e840098a0b93df3096b97fb6"
+  },
+  {
+    "source": "resources/app.asar:node_modules/tar-stream/LICENSE",
+    "copy": "licenses/asar/node_modules/tar-stream/LICENSE",
+    "size": 1078,
+    "sha256": "3fe8d55a98dbf260eace67c00cf9bc53edb46234e840098a0b93df3096b97fb6"
+  },
+  {
+    "source": "resources/app.asar:node_modules/tar-stream/node_modules/end-of-stream/LICENSE",
+    "copy": "licenses/asar/node_modules/tar-stream/node_modules/end-of-stream/LICENSE",
+    "size": 1078,
+    "sha256": "3fe8d55a98dbf260eace67c00cf9bc53edb46234e840098a0b93df3096b97fb6"
+  },
+  {
+    "source": "resources/app.asar:node_modules/text-hex/LICENSE",
+    "copy": "licenses/asar/node_modules/text-hex/LICENSE",
+    "size": 1113,
+    "sha256": "544fca830d3b5582e63459cdf81ba2c452aff3b3db6131bd15f46cbb66d3a13c"
+  },
+  {
+    "source": "resources/app.asar:node_modules/through2/LICENSE",
+    "copy": "licenses/asar/node_modules/through2/LICENSE",
+    "size": 1811,
+    "sha256": "2cb181dde66fd7dea0dd4f728497bf41672f3b848c0278e98a67b54c53d80f00"
+  },
+  {
+    "source": "resources/app.asar:node_modules/through2/node_modules/readable-stream/LICENSE",
+    "copy": "licenses/asar/node_modules/through2/node_modules/readable-stream/LICENSE",
+    "size": 1096,
+    "sha256": "6239c6144c31e58cf925c34483606969c555574d64ffa96518ab5d7f45c75d43"
+  },
+  {
+    "source": "resources/app.asar:node_modules/through2/node_modules/string_decoder/LICENSE",
+    "copy": "licenses/asar/node_modules/through2/node_modules/string_decoder/LICENSE",
+    "size": 1076,
+    "sha256": "21a82bbee91262a076c2e34533d51d73475d55e889f1c42cf884c86b2a0d5773"
+  },
+  {
+    "source": "resources/app.asar:node_modules/tinyglobby/LICENSE",
+    "copy": "licenses/asar/node_modules/tinyglobby/LICENSE",
+    "size": 1076,
+    "sha256": "22c68811e174cbbfb3813d4135918df4f540959c14d872e601d9abe83d3cde8f"
+  },
+  {
+    "source": "resources/app.asar:node_modules/triple-beam/LICENSE",
+    "copy": "licenses/asar/node_modules/triple-beam/LICENSE",
+    "size": 1066,
+    "sha256": "8774f6f7c9a92be674d3a2bc33c2781032bd932005fff4b9684f02ec2ea27649"
+  },
+  {
+    "source": "resources/app.asar:node_modules/tslib/LICENSE.txt",
+    "copy": "licenses/asar/node_modules/tslib/LICENSE.txt",
+    "size": 655,
+    "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751"
+  },
+  {
+    "source": "resources/app.asar:node_modules/tunnel-agent/LICENSE",
+    "copy": "licenses/asar/node_modules/tunnel-agent/LICENSE",
+    "size": 9140,
+    "sha256": "d446a8c73d7bbe4872d6524b15ae206f9a2d7eb53f8c9cb6e6c893a43acc5276"
+  },
+  {
+    "source": "resources/app.asar:node_modules/typeorm/node_modules/debug/LICENSE",
+    "copy": "licenses/asar/node_modules/typeorm/node_modules/debug/LICENSE",
+    "size": 1139,
+    "sha256": "3a61c6c96caf5c1d9b623fb9b04c822b783dfcb78aa7e49c76a3f643e6ed7f95"
+  },
+  {
+    "source": "resources/app.asar:node_modules/typeorm/node_modules/fdir/LICENSE",
+    "copy": "licenses/asar/node_modules/typeorm/node_modules/fdir/LICENSE",
+    "size": 1053,
+    "sha256": "9a39f2aadab11a3697edd668ff2d8ad885b649737b7ab4d3bf12b34e5ada0c86"
+  },
+  {
+    "source": "resources/app.asar:node_modules/typeorm/node_modules/picomatch/LICENSE",
+    "copy": "licenses/asar/node_modules/typeorm/node_modules/picomatch/LICENSE",
+    "size": 1091,
+    "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9"
+  },
+  {
+    "source": "resources/app.asar:node_modules/typeorm/node_modules/tinyglobby/LICENSE",
+    "copy": "licenses/asar/node_modules/typeorm/node_modules/tinyglobby/LICENSE",
+    "size": 1076,
+    "sha256": "22c68811e174cbbfb3813d4135918df4f540959c14d872e601d9abe83d3cde8f"
+  },
+  {
+    "source": "resources/app.asar:node_modules/undici/LICENSE",
+    "copy": "licenses/asar/node_modules/undici/LICENSE",
+    "size": 1090,
+    "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27"
+  },
+  {
+    "source": "resources/app.asar:node_modules/undici/lib/web/fetch/LICENSE",
+    "copy": "licenses/asar/node_modules/undici/lib/web/fetch/LICENSE",
+    "size": 1071,
+    "sha256": "a21d6c8d3fc631198b97e57584697f7f9c37805c71c6cf9a12e4442b40394b88"
+  },
+  {
+    "source": "resources/app.asar:node_modules/undici-types/LICENSE",
+    "copy": "licenses/asar/node_modules/undici-types/LICENSE",
+    "size": 1090,
+    "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27"
+  },
+  {
+    "source": "resources/app.asar:node_modules/unique-filename/LICENSE",
+    "copy": "licenses/asar/node_modules/unique-filename/LICENSE",
+    "size": 717,
+    "sha256": "11734bf6e540e2c021413451205315e5053932de9df9e81279cf2acad6f135ed"
+  },
+  {
+    "source": "resources/app.asar:node_modules/unique-slug/LICENSE",
+    "copy": "licenses/asar/node_modules/unique-slug/LICENSE",
+    "size": 734,
+    "sha256": "8e8b31dd3582eb47f1b28bd6f009b54cd926adb9431e8424db7c2eae7c4af437"
+  },
+  {
+    "source": "resources/app.asar:node_modules/util-deprecate/LICENSE",
+    "copy": "licenses/asar/node_modules/util-deprecate/LICENSE",
+    "size": 1102,
+    "sha256": "0154425673db15cdfa80ecba2c9b1f1a867f7197a006764712849bfc3a93cbb7"
+  },
+  {
+    "source": "resources/app.asar:node_modules/which/LICENSE",
+    "copy": "licenses/asar/node_modules/which/LICENSE",
+    "size": 765,
+    "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/winston/LICENSE",
+    "copy": "licenses/asar/node_modules/winston/LICENSE",
+    "size": 1058,
+    "sha256": "e61f2ace04e689d21ba1a7bc54d933bcb6e35ebeb887fb5831b880be5de192a7"
+  },
+  {
+    "source": "resources/app.asar:node_modules/winston-transport/LICENSE",
+    "copy": "licenses/asar/node_modules/winston-transport/LICENSE",
+    "size": 1103,
+    "sha256": "9108281e9d40182f550b7330b3928f2d82fde8cf213a9e95f565df60bdf417c6"
+  },
+  {
+    "source": "resources/app.asar:node_modules/wrap-ansi/license",
+    "copy": "licenses/asar/node_modules/wrap-ansi/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/wrap-ansi/node_modules/ansi-regex/license",
+    "copy": "licenses/asar/node_modules/wrap-ansi/node_modules/ansi-regex/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/wrap-ansi/node_modules/ansi-styles/license",
+    "copy": "licenses/asar/node_modules/wrap-ansi/node_modules/ansi-styles/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/wrap-ansi/node_modules/emoji-regex/LICENSE-MIT.txt",
+    "copy": "licenses/asar/node_modules/wrap-ansi/node_modules/emoji-regex/LICENSE-MIT.txt",
+    "size": 1077,
+    "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a"
+  },
+  {
+    "source": "resources/app.asar:node_modules/wrap-ansi/node_modules/string-width/license",
+    "copy": "licenses/asar/node_modules/wrap-ansi/node_modules/string-width/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/wrap-ansi/node_modules/strip-ansi/license",
+    "copy": "licenses/asar/node_modules/wrap-ansi/node_modules/strip-ansi/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/wrap-ansi-cjs/license",
+    "copy": "licenses/asar/node_modules/wrap-ansi-cjs/license",
+    "size": 1117,
+    "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+  },
+  {
+    "source": "resources/app.asar:node_modules/wrap-ansi-cjs/node_modules/string-width/license",
+    "copy": "licenses/asar/node_modules/wrap-ansi-cjs/node_modules/string-width/license",
+    "size": 1109,
+    "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+  },
+  {
+    "source": "resources/app.asar:node_modules/wrappy/LICENSE",
+    "copy": "licenses/asar/node_modules/wrappy/LICENSE",
+    "size": 765,
+    "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/ws/LICENSE",
+    "copy": "licenses/asar/node_modules/ws/LICENSE",
+    "size": 1183,
+    "sha256": "2b29dcfe0d6471f7e8c92c5fb38c9f93edee10330937055440192f1832b1ecef"
+  },
+  {
+    "source": "resources/app.asar:node_modules/xtend/LICENSE",
+    "copy": "licenses/asar/node_modules/xtend/LICENSE",
+    "size": 1078,
+    "sha256": "82e67379203d5794e7c44549847d8d64ae6904591381682360470898bd306821"
+  },
+  {
+    "source": "resources/app.asar:node_modules/y18n/LICENSE",
+    "copy": "licenses/asar/node_modules/y18n/LICENSE",
+    "size": 731,
+    "sha256": "2034cce3b6fafcddd642c4175e01d3ddfc332a53b9f20fdc46b1466dc89ac469"
+  },
+  {
+    "source": "resources/app.asar:node_modules/yallist/LICENSE",
+    "copy": "licenses/asar/node_modules/yallist/LICENSE",
+    "size": 765,
+    "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+  },
+  {
+    "source": "resources/app.asar:node_modules/yargs/LICENSE",
+    "copy": "licenses/asar/node_modules/yargs/LICENSE",
+    "size": 1146,
+    "sha256": "2f1a503bfab84b3ba7393627308b3274501e459e3b5185bbb56bbf16cb1602d4"
+  },
+  {
+    "source": "resources/app.asar:node_modules/yargs-parser/LICENSE.txt",
+    "copy": "licenses/asar/node_modules/yargs-parser/LICENSE.txt",
+    "size": 731,
+    "sha256": "365496ca1f56da40b23c9815fc40fa9005847b2f8f8fd1c1a4929ef25ec8cd1d"
+  },
+  {
+    "source": "resources/app.asar:node_modules/zod/LICENSE",
+    "copy": "licenses/asar/node_modules/zod/LICENSE",
+    "size": 1072,
+    "sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8"
+  },
+  {
+    "source": "resources/app.asar:LICENSE",
+    "copy": "licenses/asar/LICENSE",
+    "size": 1085,
+    "sha256": "be8867438c9c9b43b7c450bf35d7e7e5d4caa1c4dd4031f68fc705caeb096413"
+  },
+  {
+    "source": "LICENSE.electron.txt",
+    "copy": "licenses/payload/LICENSE.electron.txt",
+    "size": 1096,
+    "sha256": "5154e165bd6c2cc0cfbcd8916498c7abab0497923bafcd5cb07673fe8480087d"
+  },
+  {
+    "source": "resources/app.asar.unpacked/node_modules/better-sqlite3/LICENSE",
+    "copy": "licenses/payload/resources/app.asar.unpacked/node_modules/better-sqlite3/LICENSE",
+    "size": 1078,
+    "sha256": "09856b52897c91ab67e7456ef43067019f31dfd3b87fda72e655736b1ebdee55"
+  }
+]

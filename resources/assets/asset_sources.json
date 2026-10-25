@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "collected_date": "2026-10-23",
+  "project": "LOLBackup V3 single-file native desktop delivery",
+  "scope": "Asset agent writes only resources/assets/* and LICENSES/visual/*; no app.rc, main, or build changes.",
+  "no_generated_artwork": true,
+  "download_method": "Actual binaries downloaded with bounded PowerShell curl.exe calls. Images visually inspected with SDK read_image. Font instances/subsets reuse existing licensed outlines only.",
+  "runtime_font_validation": {
+    "method": "Windows System.Drawing.Text.PrivateFontCollection.AddFontFile",
+    "families": [
+      "Noto Sans SC",
+      "Font Awesome 6 Free Solid"
+    ],
+    "regular_and_bold_available": true
+  },
+  "research_limitations": [
+    "web_search service returned HTTP401 authentication failure; plugin configuration was not changed.",
+    "Unsplash original pages returned bot verification, so candidate images were rejected and removed; no unknown Unsplash author/page was invented.",
+    "NASA HiRISE image source/API fully retrieved; official policy pages currently failed HTTP502/429/403. Policy-body retrieval remains explicitly incomplete, not represented by error-page text."
+  ],
+  "assets": [
+    {
+      "file": "hero-velvet-dunes.jpg",
+      "role": "selected_hero",
+      "title": "The Velvety Blue Dunes of Melas Chasma",
+      "author": "NASA/JPL-Caltech/Univ. of Arizona (HiRISE / Mars Reconnaissance Orbiter)",
+      "source_page": "https://science.nasa.gov/photojournal/the-velvety-blue-dunes-of-melas-chasma/",
+      "source_page_legacy": "https://photojournal.jpl.nasa.gov/catalog/PIA22783",
+      "download_url": "https://images-assets.nasa.gov/image/PIA22783/PIA22783~orig.jpg",
+      "metadata_url": "https://images-assets.nasa.gov/image/PIA22783/metadata.json",
+      "original_image_id": "PIA22783 / ESP_055322_1680",
+      "capture_date": "2018-05-16",
+      "published_date": "2018-10-01",
+      "dimensions": [
+        2880,
+        1800
+      ],
+      "format": "JPEG",
+      "license": "Public-domain NASA/HiRISE imagery; NASA/HiRISE image-use policy applies",
+      "license_urls": [
+        "https://www.uahirise.org/media/usage.php",
+        "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+      ],
+      "license_notice": "LICENSES/visual/NASA-HiRISE-PIA22783-NOTICE.txt",
+      "license_verification_status": "Official source page and NASA API metadata retrieved and saved. Live policy body unavailable: HiRISE HTTP502 maintenance; NASA brand HTTP429; JPL HTTP403. No error page is represented as a license copy. Do not confuse NASA public-domain mission imagery with third-party citizen-processed images that may carry NC licenses.",
+      "attribution": "Hero photography: NASA/JPL-Caltech/Univ. of Arizona, PIA22783, The Velvety Blue Dunes of Melas Chasma.",
+      "converted": false,
+      "conversion": "None: exact original JPEG downloaded from NASA; no local crop, recolor, generated texture, decoration, or AI image.",
+      "bytes": 678951,
+      "sha256": "c11dd0ca433ad471f5528d04cf7769b93b7fad9ecaba4e3636e8818e2fdbf9a8",
+      "original_sha256": "c11dd0ca433ad471f5528d04cf7769b93b7fad9ecaba4e3636e8818e2fdbf9a8"
+    },
+    {
+      "file": "NotoSansSC-VF.ttf",
+      "role": "original_source_font_not_for_embedding",
+      "author": "Adobe / Google Noto contributors",
+      "source_page": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+      "download_url": "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+      "license": "SIL Open Font License 1.1",
+      "license_source_url": "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/notosanssc/OFL.txt",
+      "license_file": "LICENSES/visual/Noto-Sans-SC-OFL-1.1.txt",
+      "reserved_font_names": [
+        "Source"
+      ],
+      "family": "Noto Sans SC Thin",
+      "typographic_family": "Noto Sans SC",
+      "version": "2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603",
+      "converted": false,
+      "source_revision_note": "Official Google Fonts main URL was mutable; exact downloaded original is preserved and pinned by SHA256.",
+      "bytes": 17772300,
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "original_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "file": "NotoSansSC-Regular-UI.ttf",
+      "role": "selected_ui_regular_and_chinese_paths",
+      "author": "Adobe / Google Noto contributors",
+      "source_file": "NotoSansSC-VF.ttf",
+      "source_page": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+      "license": "SIL Open Font License 1.1",
+      "license_file": "LICENSES/visual/Noto-Sans-SC-OFL-1.1.txt",
+      "family": "Noto Sans SC",
+      "style": "Regular",
+      "weight": 400,
+      "unicode_count": 7976,
+      "glyph_count": 8636,
+      "converted": true,
+      "conversion": "fontTools4.61.1 mechanical variable-font instancing at wght400 and subsetting: ASCII, all GB2312 (including all6763 Han), project src/resources UI characters, punctuation/arrows; original glyph outlines only. GDI+ compatible family/style linking fixed; copyright/OFL metadata preserved. No Reserved Font Name Source is used.",
+      "bytes": 2482940,
+      "sha256": "358eb65bbb88f4ee42e227543519d69b7b5f1fb8256a89862d9fe33d68abae0b",
+      "source_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "original_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "file": "NotoSansSC-Bold-UI.ttf",
+      "role": "full_GB2312_bold_optional_not_smallest",
+      "author": "Adobe / Google Noto contributors",
+      "source_file": "NotoSansSC-VF.ttf",
+      "source_page": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+      "license": "SIL Open Font License 1.1",
+      "license_file": "LICENSES/visual/Noto-Sans-SC-OFL-1.1.txt",
+      "family": "Noto Sans SC",
+      "style": "Bold",
+      "weight": 700,
+      "unicode_count": 7976,
+      "glyph_count": 8636,
+      "converted": true,
+      "conversion": "Same mechanical process as Regular at wght700; all GB2312 Han and ASCII coverage validated. Preserved as full-bold alternate.",
+      "bytes": 2483508,
+      "sha256": "01b818d93def6087dda8a21e857ce08472b13b0692af86c2ed16180e2e5e69ce",
+      "source_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "original_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "file": "NotoSansSC-Bold-UIOnly.ttf",
+      "role": "selected_compact_bold_for_fixed_ui_only",
+      "author": "Adobe / Google Noto contributors",
+      "source_file": "NotoSansSC-Bold-UI.ttf",
+      "source_original": "NotoSansSC-VF.ttf",
+      "source_page": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+      "license": "SIL Open Font License 1.1",
+      "license_file": "LICENSES/visual/Noto-Sans-SC-OFL-1.1.txt",
+      "family": "Noto Sans SC",
+      "style": "Bold",
+      "weight": 700,
+      "unicode_count": 1316,
+      "glyph_count": 1651,
+      "project_ui_chinese_characters": 522,
+      "missing_project_ui_chinese": 0,
+      "converted": true,
+      "conversion": "Mechanical fontTools4.61.1 subset of static weight700. Retains project src .cpp/.h/.hpp text, original available ASCII/LatinExt/punctuation/arrows. NOT for arbitrary Chinese paths; use regular GB2312 for paths. No new glyphs drawn.",
+      "bytes": 286056,
+      "sha256": "df73cfec28bf57953dbf6f0648f99673e1f9c4ffcdac8c6b2caab8fbc1d6bfb6",
+      "source_sha256": "01b818d93def6087dda8a21e857ce08472b13b0692af86c2ed16180e2e5e69ce",
+      "original_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "file": "fa-solid-900.ttf",
+      "role": "selected_ui_icon_font",
+      "author": "Fonticons, Inc.",
+      "source_page": "https://github.com/FortAwesome/Font-Awesome/tree/6.7.2",
+      "download_url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/webfonts/fa-solid-900.ttf",
+      "version": "6.7.2",
+      "license": "SIL Open Font License 1.1 for TTF; package LICENSE also contains CC-BY4.0 for SVG/JS and MIT for code",
+      "license_source_url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/LICENSE.txt",
+      "license_file": "LICENSES/visual/Font-Awesome-Free-6.7.2-LICENSE.txt",
+      "family": "Font Awesome 6 Free Solid",
+      "style": "Solid",
+      "converted": false,
+      "conversion": "None; complete original official pinned-version TTF retained (not subset).",
+      "common_glyphs": {
+        "shield": "f132",
+        "home": "f015",
+        "save": "f0c7",
+        "logs": "f15c",
+        "settings": "f013",
+        "folder": "f07c",
+        "sync": "f2f1",
+        "check": "f00c",
+        "warning": "f071",
+        "close": "f00d",
+        "info": "f05a",
+        "arrow_left": "f060",
+        "history": "f1da"
+      },
+      "bytes": 426112,
+      "sha256": "d2f0593540b0e33ba6de255a54f272d466e31144806956bea8cfdbf7edffc9bd",
+      "original_sha256": "d2f0593540b0e33ba6de255a54f272d466e31144806956bea8cfdbf7edffc9bd"
+    },
+    {
+      "file": "noto-shield-512-v2.038.png",
+      "role": "selected_app_icon_source_png_parent_only_converts_to_ico",
+      "author": "Google Inc. / Noto Emoji contributors",
+      "title": "Noto Emoji U+1F6E1 shield",
+      "source_page": "https://github.com/googlefonts/noto-emoji/blob/v2.038/png/512/emoji_u1f6e1.png",
+      "download_url": "https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.038/png/512/emoji_u1f6e1.png",
+      "version": "v2.038",
+      "dimensions": [
+        512,
+        512
+      ],
+      "format": "PNG",
+      "license": "Apache License 2.0 (image resources, not font license)",
+      "license_source_url": "https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.038/LICENSE",
+      "license_file": "LICENSES/visual/Noto-Emoji-2.038-Apache-2.0.txt",
+      "license_evidence": "resources/assets/evidence/noto-emoji-2.038-README.md lines28-34 distinguish PNG images from OFL fonts",
+      "attribution": "Shield icon: Noto Emoji by Google and contributors, Apache-2.0, v2.038. No artwork changes; PNG-to-ICO container/size conversion only by parent build agent.",
+      "converted": false,
+      "conversion": "None by asset agent; original existing 512px PNG was downloaded, not designed or upscaled.",
+      "bytes": 23138,
+      "sha256": "37b4cab9c23e85c5f5fe4a469be317cf4b4783c6ccf3ce2ef534af9121638f3c",
+      "original_sha256": "37b4cab9c23e85c5f5fe4a469be317cf4b4783c6ccf3ce2ef534af9121638f3c"
+    },
+    {
+      "file": "twemoji-shield-72.png",
+      "role": "candidate_not_selected_for_active_exe",
+      "author": "Twitter, Inc. and other contributors / Twemoji contributors",
+      "title": "Twemoji U+1F6E1 shield",
+      "source_page": "https://github.com/jdecked/twemoji/blob/v15.1.0/assets/72x72/1f6e1.png",
+      "download_url": "https://cdn.jsdelivr.net/gh/jdecked/twemoji@v15.1.0/assets/72x72/1f6e1.png",
+      "version": "v15.1.0",
+      "dimensions": [
+        72,
+        72
+      ],
+      "format": "PNG",
+      "license": "Creative Commons Attribution 4.0 International",
+      "license_source_url": "https://fastly.jsdelivr.net/gh/jdecked/twemoji@v15.1.0/LICENSE-GRAPHICS",
+      "license_file": "LICENSES/visual/Twemoji-15.1.0-CC-BY-4.0.txt",
+      "license_evidence": "resources/assets/evidence/twemoji-15.1.0-README.md lines215-219",
+      "attribution": "Twemoji shield by Twitter, Inc. and other contributors, CC BY4.0, via jdecked/twemoji v15.1.0; unmodified PNG.",
+      "converted": false,
+      "bytes": 850,
+      "sha256": "14507cfc799d2855cf0d49832541c4729eac707e256e73d3f83aa9d72a8bb123",
+      "original_sha256": "14507cfc799d2855cf0d49832541c4729eac707e256e73d3f83aa9d72a8bb123"
+    },
+    {
+      "file": "tools/fonttools-4.61.1-py3-none-any.whl",
+      "role": "build_time_tool_not_for_embedding",
+      "author": "Just van Rossum and fontTools contributors",
+      "source_page": "https://pypi.org/project/fonttools/4.61.1/",
+      "download_url": "https://files.pythonhosted.org/packages/c7/4e/ce75a57ff3aebf6fc1f4e9d508b8e5810618a33d900ad6c19eb30b290b97/fonttools-4.61.1-py3-none-any.whl",
+      "license": "MIT",
+      "license_file": "LICENSES/visual/fontTools-4.61.1-MIT.txt",
+      "converted": false,
+      "usage": "Official pure-Python wheel extracted locally only; no pip or system installation. Not linked into EXE.",
+      "bytes": 1148996,
+      "sha256": "17d2bf5d541add43822bcf0c43d7d847b160c9bb01d15d5007d84e2217aaa371",
+      "original_sha256": "17d2bf5d541add43822bcf0c43d7d847b160c9bb01d15d5007d84e2217aaa371"
+    }
+  ],
+  "rejected_downloads": [
+    {
+      "file_removed_after_inspection": "hero-violet-candidate.jpg",
+      "download_url": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?fm=jpg&q=90&w=1920",
+      "author": "Rodion Kutsaev (original CDN EXIF)",
+      "bytes": 474924,
+      "sha256": "da14e51f1451e82815aef7dbfd67ec3af1480791d934218fa4c43f474d647bf1",
+      "reason": "Rejected: too colorful and original Unsplash page could not be verified; not redistributed.",
+      "redistributed": false
+    },
+    {
+      "file_removed_after_inspection": "hero-dark-candidate.jpg",
+      "download_url": "https://images.unsplash.com/photo-1550859492-d5da9d8e45f3?fm=jpg&q=90&w=1920",
+      "author": null,
+      "bytes": 91277,
+      "sha256": "ef14ac579a9814866cb9086735049a02a9b9c32374ca793af9fa1b18e1ed6e38",
+      "reason": "Rejected: not dark enough, author/original page unverified; not redistributed.",
+      "redistributed": false
+    },
+    {
+      "file_removed_after_inspection": "PIA11968-candidate.jpg",
+      "download_url": "https://images-assets.nasa.gov/image/PIA11968/PIA11968~large.jpg",
+      "author": "NASA/JPL-Caltech",
+      "bytes": 339912,
+      "sha256": "782f21011bc3951803750a1ddb58c3458b2742f0ea36c976c5905c2206404f71",
+      "reason": "Rejected: marked circular field and starfield not suitable minimalist hero.",
+      "redistributed": false
+    },
+    {
+      "file_removed_after_inspection": "PIA23646-candidate.jpg",
+      "download_url": "https://images-assets.nasa.gov/image/PIA23646/PIA23646~large.jpg",
+      "author": "NASA/JPL-Caltech",
+      "bytes": 453319,
+      "sha256": "9c48b8cf4bb0148e101ecdf2f8f14864b060c541acf6d5b56987f2d2c33a4b28",
+      "reason": "Rejected: noisy starfield; dark blue dune photo chosen instead.",
+      "redistributed": false
+    },
+    {
+      "file_removed_after_inspection": "noto-shield-512.png",
+      "download_url": "https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.047/png/512/emoji_u1f6e1.png",
+      "author": "Google / Noto Emoji contributors",
+      "bytes": 23138,
+      "sha256": "37b4cab9c23e85c5f5fe4a469be317cf4b4783c6ccf3ce2ef534af9121638f3c",
+      "reason": "Duplicate bitmap; root v2.047 LICENSE returned OFL while README classifies PNG under Apache. Re-downloaded exact identical bitmap from v2.038 with unambiguous Apache2 LICENSE, retained only that version.",
+      "redistributed": false
+    }
+  ],
+  "license_files": [
+    {
+      "file": "LICENSES/visual/Font-Awesome-Free-6.7.2-LICENSE.txt",
+      "bytes": 7427,
+      "sha256": "9b914eae88817d63b576eab5aafde7068c7a1abae125d7cdfb034f1da43a9afc",
+      "kind": "complete_upstream_license"
+    },
+    {
+      "file": "LICENSES/visual/Noto-Sans-SC-OFL-1.1.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "kind": "complete_upstream_license"
+    },
+    {
+      "file": "LICENSES/visual/Noto-Emoji-2.038-Apache-2.0.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "kind": "complete_upstream_license"
+    },
+    {
+      "file": "LICENSES/visual/Twemoji-15.1.0-CC-BY-4.0.txt",
+      "bytes": 18524,
+      "sha256": "8ae9438818c26e4873b91d8c6ad620526c011e27e125677f13031eda903f007c",
+      "kind": "complete_upstream_license"
+    },
+    {
+      "file": "LICENSES/visual/fontTools-4.61.1-MIT.txt",
+      "bytes": 1072,
+      "sha256": "6787208f83f659ccbc2223b2fde952ffa6f7e8aca62f1a8a2bf5bc51bb1b2383",
+      "kind": "complete_upstream_license"
+    },
+    {
+      "file": "LICENSES/visual/NASA-HiRISE-PIA22783-NOTICE.txt",
+      "bytes": 2695,
+      "sha256": "b55d947bd20745a5bb858854da40ed32cb79084be0d11bd4af3b837d8906c25e",
+      "kind": "attribution_provenance_notice_not_publisher_policy"
+    },
+    {
+      "file": "LICENSES/visual/ATTRIBUTION.txt",
+      "bytes": 2527,
+      "sha256": "0e8bbf0a0f3895bf83869091f1e44858ef1d966f67af8a965fedf32876142fc2",
+      "kind": "attribution_provenance_notice_not_publisher_policy"
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BBS自动化 3.3.9 · 功能清单</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #020617;
+    --card: rgba(15, 23, 42, 0.55);
+    --line: #1e293b;
+    --txt: #e2e8f0;
+    --dim: #94a3b8;
+    --faint: #64748b;
+    --cyan: #22d3ee;
+    --emerald: #34d399;
+    --amber: #fbbf24;
+    --rose: #fb7185;
+    --violet: #a78bfa;
+  }
+  body {
+    font-family: 'JetBrains Mono', 'Noto Sans SC', -apple-system, 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--txt);
+    padding: 2rem 1.5rem 3rem;
+    line-height: 1.65;
+    background-image:
+      linear-gradient(rgba(30, 41, 59, 0.35) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(30, 41, 59, 0.35) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+  .container { max-width: 1180px; margin: 0 auto; }
+
+  /* ---------- 头部 ---------- */
+  .header { margin-bottom: 1.5rem; }
+  .header-row { display: flex; align-items: center; gap: .75rem; }
+  .pulse { width: 11px; height: 11px; border-radius: 50%; background: var(--cyan); animation: pulse 2s infinite; flex: none; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .45; } }
+  h1 { font-size: 1.55rem; font-weight: 700; letter-spacing: -.02em; }
+  .subtitle { color: var(--dim); font-size: .82rem; margin: .35rem 0 0 1.6rem; }
+
+  .meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: .6rem;
+    margin-top: 1.1rem;
+  }
+  .meta-item {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: .55rem;
+    padding: .6rem .8rem;
+  }
+  .meta-item .k { color: var(--faint); font-size: .68rem; letter-spacing: .04em; }
+  .meta-item .v { color: var(--txt); font-size: .78rem; margin-top: .15rem; word-break: break-all; }
+
+  /* ---------- 导航 ---------- */
+  nav {
+    position: sticky; top: 0; z-index: 10;
+    display: flex; flex-wrap: wrap; gap: .35rem;
+    padding: .7rem 0;
+    background: linear-gradient(to bottom, #020617 70%, rgba(2,6,23,0));
+    margin-bottom: .6rem;
+  }
+  nav a {
+    font-size: .7rem; color: var(--dim); text-decoration: none;
+    border: 1px solid var(--line); border-radius: 999px;
+    padding: .2rem .6rem; background: rgba(15, 23, 42, .6);
+    transition: .15s;
+  }
+  nav a:hover { color: var(--cyan); border-color: var(--cyan); }
+
+  /* ---------- 区块 ---------- */
+  section {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: .8rem;
+    padding: 1.1rem 1.2rem 1.2rem;
+    margin-bottom: 1rem;
+    scroll-margin-top: 3.2rem;
+  }
+  .sec-head { display: flex; align-items: center; gap: .55rem; margin-bottom: .9rem; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+  .dot.c { background: var(--cyan); }
+  .dot.e { background: var(--emerald); }
+  .dot.a { background: var(--amber); }
+  .dot.r { background: var(--rose); }
+  .dot.v { background: var(--violet); }
+  h2 { font-size: .95rem; font-weight: 600; letter-spacing: -.01em; }
+  .num { color: var(--faint); font-size: .72rem; font-weight: 500; margin-left: auto; }
+  h3 { font-size: .8rem; color: var(--dim); font-weight: 600; margin: 1rem 0 .45rem; }
+  h3:first-of-type { margin-top: 0; }
+
+  /* ---------- 表格 ---------- */
+  .tw { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: .755rem; }
+  th {
+    text-align: left; color: var(--faint); font-weight: 600;
+    padding: .45rem .6rem; border-bottom: 1px solid var(--line);
+    white-space: nowrap; font-size: .7rem; letter-spacing: .03em;
+  }
+  td { padding: .5rem .6rem; border-bottom: 1px solid rgba(30, 41, 59, .55); vertical-align: top; color: var(--txt); }
+  tr:last-child td { border-bottom: none; }
+  tbody tr:hover td { background: rgba(34, 211, 238, .035); }
+  td:first-child { color: #f1f5f9; font-weight: 500; white-space: nowrap; }
+  td code, p code, li code {
+    font-family: inherit; color: var(--cyan);
+    background: #0b1220; border: 1px solid var(--line);
+    border-radius: 4px; padding: 0 .22rem; font-size: .95em;
+  }
+  td:first-child code { color: var(--cyan); }
+
+  /* ---------- 四步流程 ---------- */
+  .flow { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: .6rem; margin: .2rem 0 .9rem; }
+  .step {
+    border: 1px solid var(--line); border-radius: .55rem;
+    padding: .65rem .75rem; background: rgba(6, 78, 59, .18);
+    border-left: 2px solid var(--emerald);
+  }
+  .step .n { font-size: .66rem; color: var(--emerald); letter-spacing: .06em; }
+  .step .t { font-size: .8rem; font-weight: 600; margin: .1rem 0 .25rem; }
+  .step .d { font-size: .7rem; color: var(--dim); line-height: 1.55; }
+
+  /* ---------- 列表 ---------- */
+  ul.clean { list-style: none; font-size: .77rem; }
+  ul.clean li { padding-left: .9rem; position: relative; margin-bottom: .3rem; color: var(--txt); }
+  ul.clean li::before { content: '•'; position: absolute; left: .15rem; color: var(--faint); }
+
+  /* ---------- 提示框 ---------- */
+  .callout {
+    border: 1px solid var(--line); border-left: 2px solid var(--rose);
+    border-radius: .5rem; padding: .6rem .8rem; margin-top: .7rem;
+    background: rgba(136, 19, 55, .12); font-size: .74rem; color: var(--dim);
+  }
+  .callout b { color: var(--rose); font-weight: 600; }
+
+  .pills { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .7rem; }
+  .pill {
+    font-size: .68rem; padding: .15rem .5rem; border-radius: 999px;
+    border: 1px solid var(--line); color: var(--dim); background: #0b1220;
+  }
+  .pill b { color: var(--cyan); font-weight: 600; }
+
+  footer { text-align: center; color: #475569; font-size: .7rem; margin-top: 1.6rem; }
+  footer span { color: var(--faint); }
+</style>
+</head>
+<body>
+<section style="margin:24px;padding:20px;border:1px solid #64748b;border-radius:12px;color:#e2e8f0;background:#0f172a"><h2>当前交接版本：3.3.9</h2><p>ABC／Rose／Akari三工具；概览三快捷入口；ABC外服账号管理工具文案；侧栏打开总目录。LTK为保留签名的1.29.0配对。以下表格是原DIRECT阶段历史功能基线；当前源码与构建以<a href="README.md">README</a>及<a href="源码交接说明_3.3.9.md">交接说明</a>为准。</p></section>
+<div class="container">
+
+  <div class="header">
+    <div class="header-row">
+      <div class="pulse"></div>
+      <h1>BBS自动化 · 功能清单</h1>
+    </div>
+    <p class="subtitle">LOLBackup 3.3 DIRECT · 候选 3.3.0.0 单 EXE 工具集成版 · 按需释放完整运行时 · 验证数字以最终报告为准</p>
+  </div>
+
+  <div class="meta">
+    <div class="meta-item"><div class="k">发行程序</div><div class="v">dist\BBS自动工具.exe · x86 原生主程序 + 内嵌 x64 工具</div></div>
+    <div class="meta-item"><div class="k">运行前提</div><div class="v">BBS：Windows 10 build 10240+；x64 工具条件另列</div></div>
+    <div class="meta-item"><div class="k">源码根目录</div><div class="v">Desktop\BBS自动化源码包</div></div>
+    <div class="meta-item"><div class="k">清单生成</div><div class="v">2026-10-24</div></div>
+  </div>
+
+  <nav>
+    <a href="#s0">0 定位与范围</a>
+    <a href="#s1">1 主界面</a>
+    <a href="#s2">2 手动操作</a>
+    <a href="#s3">3 大厅联动</a>
+    <a href="#s4">4 缓存与恢复</a>
+    <a href="#s5">5 范围与风险</a>
+    <a href="#s6">6 设置项</a>
+    <a href="#s7">7 托盘与快捷键</a>
+    <a href="#s8">8 日志诊断</a>
+    <a href="#s9">9 关于与许可</a>
+    <a href="#s10">10 开发者与测试</a>
+    <a href="#s11">11 不承诺</a>
+    <a href="#tools">12 工具中心</a>
+    <a href="#s12">附 模块对应</a>
+  </nav>
+
+  <!-- 0 -->
+  <section id="s0">
+    <div class="sec-head"><span class="dot c"></span><h2>0 · 定位与业务范围</h2><span class="num">SCOPE</span></div>
+    <div class="tw">
+      <table>
+        <tbody>
+          <tr><td>程序性质</td><td>外服 DIRECT 备份 / 还原 + 工具中心；BBS UI/备份为原生 Win32 C++17，工具带独立运行时，不能对整个集成包承诺无 .NET / VC++ 条件</td></tr>
+          <tr><td>托管业务范围</td><td>目录 <code>saves/</code>、<code>shards/</code>；根文件 <code>bot_5.dll</code>、<code>config.ini</code>、<code>hc.dat</code>、<code>HID.dll</code>、<code>shards.json</code>、<code>user.ini</code>（2 目录 + 6 文件）</td></tr>
+          <tr><td>明确的边界</td><td>不备份整个游戏安装目录；不加载、不执行用户提供的 BOT 文件（仅作数据搬运）</td></tr>
+          <tr><td>客户端限定</td><td>仅外服 Riot 客户端；明确不识别、不操作国服 / 腾讯客户端</td></tr>
+          <tr><td>运行前提</td><td>一个 EXE 分发，约 140 MB 量级（准确大小以最终文件为准）；首次准备在 %LOCALAPPDATA%/LOLBackupV3/components/&lt;id&gt;/&lt;version&gt; 释放完整运行时</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="pills">
+      <span class="pill">托管范围 <b>2</b> 目录</span>
+      <span class="pill">托管范围 <b>6</b> 根文件</span>
+      <span class="pill">缓存即恢复源</span>
+      <span class="pill">日志视图 <b>200</b> 条</span>
+      <span class="pill">间隔 <b>1–1440</b> 分钟</span>
+    </div>
+  </section>
+
+  <!-- 1 -->
+  <section id="s1">
+    <div class="sec-head"><span class="dot c"></span><h2>1 · 主界面（五页 + 托盘）</h2><span class="num">UI</span></div>
+    <div class="tw">
+      <table>
+        <thead><tr><th>页面</th><th>功能</th><th>实现位置</th></tr></thead>
+        <tbody>
+          <tr><td>概览</td><td>缓存条目数、最近同步时间、下次镜像倒计时、大厅状态（在线 / 离线 / 检测中 / 未知）、存储位置（游戏目录 / 本地缓存）、执行状态四段：目录检查 → 文件任务 → 进度 → 最终回执</td><td><code>src/app/main.cpp</code></td></tr>
+          <tr><td>备份任务</td><td>立即备份、恢复到游戏、导入已有缓存、查看旧缓存、任务进度与取消</td><td><code>main.cpp</code></td></tr>
+          <tr><td>运行日志</td><td>最近 200 条（合并内部诊断）、刷新、打开日志文件夹、复制日志选区</td><td><code>main.cpp</code> + <code>logger</code></td></tr>
+          <tr><td>设置</td><td>目录与存储、备份节奏、桌面偏好、保存修改</td><td><code>main.cpp</code> + <code>config</code></td></tr>
+          <tr><td>工具中心（第 5 页）</td><td>Rose 1.4.9 + LTK 1.30.4、Akari 1.5.1；准备/检查、启动、请求关闭、打开目录、跟随、确认强停</td><td><code>main.cpp</code> + <code>tool_manager</code></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3>界面能力</h3>
+    <ul class="clean">
+      <li>原生 C++ 绘制，深浅双主题，5 页导航，DPI 适配，窗口位置记忆</li>
+      <li>内嵌 Noto Sans SC 中文字体与 Font Awesome 图标，仅在进程内存中注册，不安装系统字体</li>
+      <li>BBS 自身 UI/备份不需工具运行时；第三方工具会创建子进程、联网并加载自身 DLL，Rose 显式管理员启动可出现 UAC</li>
+    </ul>
+  </section>
+
+<section id="s2">
+<h2>2. 手动操作</h2><div class="tw"><table><tbody><tr><td>功能</td><td>DIRECT 行为</td><td>错误 / 边界</td></tr><tr><td>立即备份</td><td>Game → 缓存，直接覆盖白名单文件，不额外删除缓存差集</td><td>显式确认；按 Win32 返回结果报告</td></tr><tr><td>恢复到游戏</td><td>物理缓存白名单只枚举一次；每个文件均通过 CopyFileExW 直接覆盖到 Game</td><td>不等对局退出，不以大厅/游戏未知拒绝手动恢复；不删 Game 额外项</td></tr><tr><td>导入已有缓存</td><td>只复制显式选择源的白名单</td><td>不移动、不删除源</td></tr><tr><td>取消任务</td><td>原子取消标记/纪元旁路送达；枚举、复制进度和删除边界检查</td><td>无逐文件/逐块全系统进程探测；可能留下部分或截断的目标，不回滚</td></tr><tr><td>大厅联动开关</td><td>开启 / 暂停自动循环</td><td>不影响显式手动操作</td></tr><tr><td>打开缓存 / 旧缓存</td><td>Shell 打开目录，旧业务项可显式导入</td><td>无自动历史恢复</td></tr></tbody></table></div>
+</section>
+
+<section id="s3">
+<h2>3. 大厅联动与定时全量镜像</h2><div class="tw"><table><tbody><tr><td>阶段</td><td>行为</td></tr><tr><td>首次观测在线 / 大厅启动</td><td>独立监控默认 500ms；首次在线立即排队物理缓存 → Game，不等第二次确认，不等对局</td></tr><tr><td>大厅持续在线</td><td>按用户间隔（默认 5 分钟，1–1440）将物理 Game 白名单全量镜像到缓存，覆盖并删除受管差集</td></tr><tr><td><strong>完整空 Game</strong></td><td><strong>仅大厅确认在线时，空才作为物理真值清空全部受管缓存项</strong>，不动白名单外内容；枚举错误不得假装为空</td></tr><tr><td>大厅离线 / 未知</td><td>停止安排自动任务并请求取消；不追加对局结束/下线备份，不自动清理 Game</td></tr><tr><td>再次在线</td><td>再次恢复当时物理缓存，然后继续定时镜像；失败恢复不会冻结未来定时镜像</td></tr></tbody></table></div><p>在线(1) / 离线(0) / 未知(-1) 只驱动大厅调度。工作线程在文件及复制进度回调只读原子状态；不把对局运行或全会话进程检查作为写许可。</p>
+</section>
+
+<section id="s4">
+<h2>4. 缓存与恢复</h2><p>自动 fullMirror 在 <code>mirror/verified</code> 删除前边界仅额外做一次新鲜 <code>ProbeLobby</code>，确认仍在线才开始删除，不表示内容复验。离线/未知时即使 Game 随后变空，也不自动复制、删除或补派最终任务。恢复/逐文件/逐块仍无进程探测。取消使用 <code>PROGRESS_STOP</code> 留下当前部分目标，不使用 <code>PROGRESS_CANCEL</code> 删除式清理；错误、覆盖、截断无回滚。</p><ul class="clean"><li>缓存物理白名单是唯一恢复源；不读墓碑解释存活项，不从旧历史补齐。</li><li>同内容也覆盖；无 Game 全树预扫、哈希跳过、暂存原子替换或最终内容复验。</li><li>空缓存无文件可恢复，不伪造复制成功；不要求“干净保护”批准，也不会阻止后续在线定时镜像。</li><li>不提供快照、历史恢复点、滚动代、自愈或坏代回退；旧管理元数据和旧历史目录保留原状、忽略、不参与业务判定。</li></ul>
+</section>
+
+<section id="s5">
+<h2>5. 操作范围与直接模式风险</h2><div class="tw"><table><tbody><tr><td>项目</td><td>本版本约定</td></tr><tr><td>基本范围检查</td><td>配置绝对路径规范化、Game/缓存不重叠、重解析点与白名单检查保留；不是目录身份批准或强路径竞争隔离</td></tr><tr><td>移除的业务保护</td><td>无持久还原冻结、所有权认领、身份批准、对局等待、哈希跳过、业务暂存原子替换、最终复验、墓碑</td></tr><tr><td>Windows 系统边界</td><td>不改 ACL/系统安全策略，不绕过占用/权限；如实报告 Win32 权限、共享冲突、磁盘和路径错误</td></tr><tr><td>直接覆盖风险</td><td>错误/取消可能留下部分或截断的目标；已经复制/删除的变更不回滚</td></tr><tr><td>失败后续行为</td><td>本次失败明确报告，但还原失败不冻结未来定时镜像；下个周期以当时 Game 为真值</td></tr><tr><td>配置保存</td><td>严格解析、配置 CAS 与配置原子保存保留；损坏/不可读配置不被默认值覆盖，不等于业务文件原子复制</td></tr><tr><td>结果诚实</td><td>排队不是成功；部分失败/取消不报成功；成功不证明内容语义或不可变源快照</td></tr><tr><td>退出</td><td>先请求取消再等后台返回，不强杀 IO；极端内核/驱动阻塞无固定退出保证</td></tr></tbody></table></div>
+</section>
+
+  <!-- 6 -->
+  <section id="s6">
+    <div class="sec-head"><span class="dot a"></span><h2>6 · 设置项</h2><span class="num">SETTINGS</span></div>
+    <div class="tw">
+      <table>
+        <thead><tr><th>分组</th><th>设置项</th><th>取值 / 说明</th></tr></thead>
+        <tbody>
+          <tr><td>目录与存储</td><td>游戏目录</td><td>选择外服 <code>League of Legends\Game</code>；仅按文件布局 + 未认证版本资源启发式校验（非数字签名、非来源认证）</td></tr>
+          <tr><td></td><td>缓存目录</td><td>默认位于当前用户 LocalAppData 的 LOLBackupV3 缓存子目录，可改；所选目录直接使用，改地址不搬移旧文件</td></tr>
+          <tr><td>备份节奏</td><td>同步间隔</td><td>1–1440 分钟，默认 5（仅大厅在线时生效）</td></tr>
+          <tr><td>桌面偏好</td><td>界面主题</td><td>深色 / 浅色</td></tr>
+          <tr><td></td><td>关闭窗口时（含 Alt+F4）</td><td>每次询问 / 最小化到托盘 / 退出程序</td></tr>
+          <tr><td></td><td>开机启动</td><td>开 / 关（写 Run 键）</td></tr>
+          <tr><td>保存</td><td>保存修改</td><td>按钮或 Ctrl+S；有未保存修改时离开会拦截（保存并继续 / 放弃 / 取消）</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 7 -->
+  <section id="s7">
+    <div class="sec-head"><span class="dot c"></span><h2>7 · 托盘、快捷键与交互</h2><span class="num">UX</span></div>
+    <div class="tw">
+      <table>
+        <tbody>
+          <tr><td>托盘菜单</td><td>打开 BBS自动工具 / 立即备份… / 打开缓存文件夹 / 退出</td></tr>
+          <tr><td>快捷键</td><td><code>Ctrl+1–5</code> 切页、<code>Ctrl+S</code> 保存、<code>F5</code> 刷新状态与日志</td></tr>
+          <tr><td>单实例唤醒</td><td>再次双击 → 唤醒已有窗口</td></tr>
+          <tr><td>窗口记忆</td><td>保存并恢复 x/y/w/h，恢复时校验可见区域</td></tr>
+          <tr><td>关闭确认</td><td>未保存设置、退出与托盘二次确认，支持「记住这次选择」</td></tr>
+          <tr><td>隔离预览</td><td><code>--smoke</code> 模式禁用监控、计划、自启动与真实探测</td></tr>
+          <tr><td>关机处理</td><td>系统结束会话时提示「正在安全结束文件任务，请稍后重试关机」</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 8 -->
+  <section id="s8">
+    <div class="sec-head"><span class="dot a"></span><h2>8 · 日志与诊断</h2><span class="num">LOGS</span></div>
+    <div class="tw">
+      <table>
+        <tbody>
+          <tr><td>JSONL 日志</td><td>长路径安全、结构化记录（操作 / 阶段 / traceId / 耗时 / 错误码）</td></tr>
+          <tr><td>轮转</td><td>失败可观察的轮转机制，缺失轮转属正常，当前文件与轮转全缺才报错</td></tr>
+          <tr><td>UI 视图</td><td>合并内部诊断，显示最近 200 条</td></tr>
+          <tr><td>事件流</td><td>服务 → UI 的 JSON 事件（如 backup-finished、restore-finished），UI 只认服务最终回执；不以对局结束或下线事件启动额外备份/清理</td></tr>
+          <tr><td>探测审计</td><td>独立大厅状态/错误采样；默认 500ms，首次在线立即调度；无逐文件/逐块全系统进程探测</td></tr>
+          <tr><td>导出</td><td>复制日志选区、打开日志文件夹</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 9 -->
+  <section id="s9">
+    <div class="sec-head"><span class="dot v"></span><h2>9 · 关于与开源许可</h2><span class="num">LICENSE</span></div>
+    <ul class="clean">
+      <li>中文说明与授权原文双视图切换，原文完整保留、可复制核验，不联网下载</li>
+      <li>覆盖 nlohmann/json 3.11.3（MIT）、LLVM 工具链静态运行支持、Apache-2.0、Noto Sans SC（OFL）等</li>
+      <li>明确声明不隶属 Riot / NASA 等资源方；联系：QQ1121003655</li>
+    </ul>
+  </section>
+
+  <!-- 10 -->
+  <section id="s10">
+    <div class="sec-head"><span class="dot e"></span><h2>10 · 面向开发者 / 测试</h2><span class="num">DEV</span></div>
+    <div class="tw">
+      <table>
+        <thead><tr><th>功能</th><th>说明</th></tr></thead>
+        <tbody>
+          <tr><td>构建</td><td><code>build.ps1 -ToolchainBin &lt;便携 LLVM-MinGW&gt; -BuildDir &lt;out&gt; -Architecture x86 -Mode All</code>；无需 CMake，PowerShell 5.1+</td></tr>
+          <tr><td>测试</td><td>原有 11 个隔离目标及新增工具管理测试；下列是原有目标，不代表本次已全部通过：test_sync、test_sync_semantics、test_core_bugs、test_config_concurrency、test_bridge_contract、test_experience、test_stress、test_winver、test_service_safety、test_file_safety、test_aux_safety</td></tr>
+          <tr><td>隔离 UI 烟测</td><td><code>--smoke &lt;绝对临时根&gt; [--capture x.png] [--smoke-page 0..4] [--smoke-light] [--smoke-size W H]</code>；5 秒安全退出，只截自身窗口</td></tr>
+          <tr><td>只审不建</td><td><code>-AuditOnly</code> 对既有程序检查导入表；<code>cmake/</code> 内含二进制导入白名单与动态加载路径门禁</td></tr>
+          <tr><td>可注入测试钩子</td><td><code>Service::StartOptions</code> 可替换 monitorProbe / gameProbe / 时钟 / syncPeriodMs / onPhase</td></tr>
+          <tr><td>工具链锁定</td><td><code>toolchain.lock.json</code> 记录编译器、CMake、Ninja、JSON 输入版本与 SHA-256</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 11 -->
+  <section id="s11">
+    <div class="sec-head"><span class="dot r"></span><h2>11 · 明确不承诺</h2><span class="num">LIMITS</span></div>
+    <ul class="clean">
+      <li>候选 3.3.0.0 的测试通过数与性能收益以实际报告为准；原有目标与新增工具管理测试均待实际回归报告，不沿用旧计数，不提前宣称全部通过。</li>
+      <li>直接复制可能留下部分/截断目标，无回滚、无最终内容复验；不提前宣称提速比例。</li>
+      <li>未做商业代码签名，首次运行可能触发 Windows 来源提示</li>
+      <li>不声称已在 Win10 1909 虚拟机、所有 DPI、所有安全软件环境完成测试</li>
+      <li>硬件虚报刷盘成功、存储设备物理损坏、网络盘或内核驱动卡死，不在软件可保证范围</li>
+      <li>自动扫描仅限固定磁盘，协作上限为 2 秒 / 400 条 / 2048 候选，不做递归深扫</li>
+    </ul>
+    <div class="callout"><b>参考：</b>同目录 <code>docs/架构图.html</code> 展示四层同步模块与独立工具 worker，可与本清单对照阅读。</div>
+  </section>
+
+  <section id="tools">
+    <div class="sec-head"><span class="dot v"></span><h2>12 · 工具中心与完整运行时</h2><span class="num">TOOLS</span></div>
+    <ul class="clean">
+      <li>第 5 页管理 Rose 1.4.9（直接嵌入 LTK 1.30.4 host/dll/license）与 Akari 1.5.1 完整 Electron 应用。组件按版本释放，不是无运行文件的原生功能移植。</li>
+      <li>独立 worker，不让准备/检查/启动阻塞 DIRECT 快速恢复；跟随默认关闭，开启后在线启动、离线请求正常关闭、未知忽略，手动启动不要求在线。</li>
+      <li>已有无效目录只报错，不自动修复。请求关闭可能只缩到工具托盘；强停必须确认，仅限受管工具，不结束游戏或 Riot 客户端。</li>
+      <li>LTK 位于 Rose <code>_internal/injection/tools/{host,dll,license}</code>，按二进制许可移除上游签名并保留许可，不包含完整 GPL Manager UI。已有桌面 Rose-CN 与 <code>E:/Rose</code> 不变。</li>
+      <li>Rose/Pengu 涉及 .NET Framework 4.7.2；Akari x64 更新器需官方 VC++ x64 运行库（原包未带 VCRUNTIME140.dll）；工具条件不等于 x86 BBS 条件。Akari 官方不支持腾讯。</li>
+      <li>Rose 静态游戏构建兼容阈值 <code>2026-10-28T23:06:41Z</code> 不是电脑时间到期，后续构建需官方 patcher 更新；未做真实游戏注入，不保证账号或服务条款安全。</li>
+      <li>保留各工具和 Electron/Chromium/Node 等依赖许可；Akari MIT 不能覆盖其他依赖义务。工具 dry-run <code>--verify-tools &lt;绝对隔离根&gt;</code> 不启动真实工具、游戏或同步服务。</li>
+    </ul><p><a href="docs/工具中心使用说明.md">完整工具中心使用说明</a></p>
+  </section>
+
+  <!-- 附 -->
+  <section id="s12">
+    <div class="sec-head"><span class="dot c"></span><h2>附 · 模块与文件对应</h2><span class="num">MAP</span></div>
+    <div class="tw">
+      <table>
+        <thead><tr><th>模块</th><th>文件</th><th>职责</th></tr></thead>
+        <tbody>
+          <tr><td>界面层</td><td><code>src/app/main.cpp</code> · ui_assets.h · legal_zh.h</td><td>原生窗口、五页 UI、托盘、对话框、许可窗口、隔离烟测</td></tr>
+          <tr><td>工具管理</td><td><code>src/core/tool_manager.*</code></td><td>独立 worker、版本化完整组件、受管进程与大厅跟随</td></tr>
+          <tr><td>服务层</td><td><code>src/core/service.*</code></td><td>串行任务队列、独立监视线程、旁路取消、设置事务、友好事件</td></tr>
+          <tr><td>同步引擎</td><td><code>src/core/sync_engine.*</code></td><td>物理白名单 DIRECT 恢复、定时全量镜像</td></tr>
+          <tr><td>文件层</td><td><code>src/core/file_ops.*</code></td><td>直接 Win32 复制/删除、进度取消、真实错误</td></tr>
+          <tr><td>安全策略</td><td><code>src/core/path_policy.*</code></td><td>路径规范化、重解析点与根不重叠范围检查；旧元数据忽略</td></tr>
+          <tr><td>配置</td><td><code>src/core/config.*</code></td><td>严格配置、旧缺字段迁移、协作文件锁与持久化</td></tr>
+          <tr><td>日志</td><td><code>src/core/logger.*</code></td><td>长路径 JSONL 日志、失败可观察轮转、受控导出</td></tr>
+          <tr><td>探测</td><td><code>src/core/monitor.*</code> · game_detect.*</td><td>独立三态大厅采样、显式有限安装探测</td></tr>
+          <tr><td>公共</td><td><code>src/common/*</code></td><td>UTF 转换、Win32 资源 RAII、窗口几何、最低系统判断</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    BBS自动化（LOLBackup 3.3 DIRECT · 候选 3.3.0.0）· 功能清单 <span>·</span> DIRECT 候选策略说明；验证结果以实际报告为准 <span>·</span> 2026-10-24
+  </footer>
+
+</div>
+</body>
+</html>

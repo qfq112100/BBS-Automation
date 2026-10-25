@@ -1,0 +1,15 @@
+{
+  "version": "1.30.4",
+  "notes": "👉 **Download** [`LTK.Manager_1.30.4_x64-setup.exe`](https://github.com/LeagueToolkit/ltk-manager/releases/download/v1.30.4/LTK.Manager_1.30.4_x64-setup.exe)\n\n## [1.30.4](https://github.com/LeagueToolkit/ltk-manager/releases/tag/v1.30.4) - 2026-10-23\n\n### Added\n\n- support settings backup and restore\n- show disk usage and clear caches\n- support moving data location\n- support persistent effect conditions\n\n### Fixed\n\n- silence default toast on data writes\n- restart the manager as a child of the shell",
+  "pub_date": "2026-10-23T12:01:10.764Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSUzdkVUg2ZSt3b0t5eWtNUXpVMWNDVHRneHhVMW9VSTMzRWFHZEVKbVN5OFlDM1JWMENKVWxuK0RxYXNqRVdzSSsyV1V0Y21qMXlkQ0I0bjQ4V3NQSkVtUWx2akNzK0FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzU2ODY3CWZpbGU6TFRLIE1hbmFnZXJfMS4zMC40X3g2NC1zZXR1cC5leGUKRVpCQVIyVzh0NlY0SlZwMXdGMlFPV2xad0lkY1NUNXZLdWhpeGJuMzBJQnpzbGRxb01nRmZYcFp3bDIrTW5ja0tad296dXpoOFhTWVVpQVEwV3VnQ1E9PQo=",
+      "url": "https://github.com/LeagueToolkit/ltk-manager/releases/download/v1.30.4/LTK.Manager_1.30.4_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSUzdkVUg2ZSt3b0t5eWtNUXpVMWNDVHRneHhVMW9VSTMzRWFHZEVKbVN5OFlDM1JWMENKVWxuK0RxYXNqRVdzSSsyV1V0Y21qMXlkQ0I0bjQ4V3NQSkVtUWx2akNzK0FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzU2ODY3CWZpbGU6TFRLIE1hbmFnZXJfMS4zMC40X3g2NC1zZXR1cC5leGUKRVpCQVIyVzh0NlY0SlZwMXdGMlFPV2xad0lkY1NUNXZLdWhpeGJuMzBJQnpzbGRxb01nRmZYcFp3bDIrTW5ja0tad296dXpoOFhTWVVpQVEwV3VnQ1E9PQo=",
+      "url": "https://github.com/LeagueToolkit/ltk-manager/releases/download/v1.30.4/LTK.Manager_1.30.4_x64-setup.exe"
+    }
+  }
+}

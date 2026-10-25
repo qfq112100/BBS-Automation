@@ -1,0 +1,33 @@
+{
+  "tool": "fontTools 4.61.1",
+  "policy": "ASCII + all GB2312 + source UI text + punctuation/arrows; only original glyphs retained",
+  "requested_codepoints": 8395,
+  "source_existing_requested": 7974,
+  "source_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+  "results": [
+    {
+      "path": "NotoSansSC-Regular-UI.ttf",
+      "bytes": 2482940,
+      "sha256": "358eb65bbb88f4ee42e227543519d69b7b5f1fb8256a89862d9fe33d68abae0b",
+      "family": "Noto Sans SC",
+      "subfamily": "Regular",
+      "weight": 400,
+      "unicode_count": 7976,
+      "glyph_count": 8636,
+      "static": true,
+      "missing_requested_existing": 0
+    },
+    {
+      "path": "NotoSansSC-Bold-UI.ttf",
+      "bytes": 2483508,
+      "sha256": "01b818d93def6087dda8a21e857ce08472b13b0692af86c2ed16180e2e5e69ce",
+      "family": "Noto Sans SC",
+      "subfamily": "Bold",
+      "weight": 700,
+      "unicode_count": 7976,
+      "glyph_count": 8636,
+      "static": true,
+      "missing_requested_existing": 0
+    }
+  ]
+}

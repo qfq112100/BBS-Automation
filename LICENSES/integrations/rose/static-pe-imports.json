@@ -1,0 +1,1225 @@
+{
+  "binaries": [
+    {
+      "path": "_internal/_asyncio.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "python313.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "KERNEL32.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/_bz2.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "python313.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "KERNEL32.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/_cffi_backend.cp313-win_amd64.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "python313.dll",
+        "USER32.dll",
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/_ctypes.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "libffi-8.dll",
+        "ole32.dll",
+        "OLEAUT32.dll",
+        "KERNEL32.dll",
+        "python313.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/_decimal.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "python313.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "KERNEL32.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/_hashlib.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "libcrypto-3.dll",
+        "python313.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "KERNEL32.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/_lzma.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "python313.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "KERNEL32.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/_multiprocessing.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "WS2_32.dll",
+        "KERNEL32.dll",
+        "python313.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/_overlapped.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "WS2_32.dll",
+        "KERNEL32.dll",
+        "python313.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/_queue.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "python313.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "KERNEL32.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/_socket.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "WS2_32.dll",
+        "IPHLPAPI.DLL",
+        "RPCRT4.dll",
+        "KERNEL32.dll",
+        "python313.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/_ssl.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "WS2_32.dll",
+        "CRYPT32.dll",
+        "libcrypto-3.dll",
+        "libssl-3.dll",
+        "KERNEL32.dll",
+        "python313.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/_tkinter.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "tcl86t.dll",
+        "tk86t.dll",
+        "KERNEL32.dll",
+        "python313.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/_uuid.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "RPCRT4.dll",
+        "python313.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "KERNEL32.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/_wmi.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "PROPSYS.dll",
+        "OLEAUT32.dll",
+        "KERNEL32.dll",
+        "python313.dll",
+        "VCRUNTIME140_1.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": true
+    },
+    {
+      "path": "_internal/api-ms-win-core-console-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-datetime-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-debug-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-errorhandling-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-fibers-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-file-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-file-l1-2-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-file-l2-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-handle-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-heap-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-interlocked-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-libraryloader-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-localization-l1-2-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-memory-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-namedpipe-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-processenvironment-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-processthreads-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-processthreads-l1-1-1.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-profile-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-rtlsupport-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-string-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-synch-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-synch-l1-2-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-sysinfo-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-timezone-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-core-util-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-crt-conio-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-crt-convert-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-crt-environment-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-crt-filesystem-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-crt-heap-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-crt-locale-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-crt-math-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-crt-process-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-crt-runtime-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-crt-stdio-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-crt-string-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-crt-time-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/api-ms-win-crt-utility-l1-1-0.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/charset_normalizer/cd.cp313-win_amd64.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "python313.dll",
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/charset_normalizer/md.cp313-win_amd64.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "python313.dll",
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/cryptography/hazmat/bindings/_rust.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "python3.dll",
+        "api-ms-win-core-synch-l1-2-0.dll",
+        "bcryptprimitives.dll",
+        "USER32.dll",
+        "CRYPT32.dll",
+        "WS2_32.dll",
+        "ADVAPI32.dll",
+        "KERNEL32.dll",
+        "ntdll.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/cslol-dll.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/injection/tools/cslol-dll.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/injection/tools/mod-tools.exe",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "cslol-dll.dll",
+        "KERNEL32.dll",
+        "SHELL32.dll",
+        "MSVCP140.dll",
+        "VCRUNTIME140.dll",
+        "VCRUNTIME140_1.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/libcrypto-3.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "WS2_32.dll",
+        "ADVAPI32.dll",
+        "USER32.dll",
+        "bcrypt.dll",
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/libffi-8.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/libssl-3.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "libcrypto-3.dll",
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/MSVCP140.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "VCRUNTIME140.dll",
+        "VCRUNTIME140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "KERNEL32.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/Pengu Loader/core.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll"
+      ],
+      "has_delay_import_directory": true
+    },
+    {
+      "path": "_internal/Pengu Loader/ModernWpf.Controls.dll",
+      "machine": "0x14c",
+      "architecture": "x86/AnyCPU",
+      "managed_clr": true,
+      "imports": [
+        "mscoree.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/Pengu Loader/ModernWpf.dll",
+      "machine": "0x14c",
+      "architecture": "x86/AnyCPU",
+      "managed_clr": true,
+      "imports": [
+        "mscoree.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/Pengu Loader/Ookii.Dialogs.Wpf.dll",
+      "machine": "0x14c",
+      "architecture": "x86/AnyCPU",
+      "managed_clr": true,
+      "imports": [
+        "mscoree.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/Pengu Loader/Pengu Loader.exe",
+      "machine": "0x14c",
+      "architecture": "x86/AnyCPU",
+      "managed_clr": true,
+      "imports": [
+        "mscoree.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/Pengu Loader/System.ValueTuple.dll",
+      "machine": "0x14c",
+      "architecture": "x86/AnyCPU",
+      "managed_clr": true,
+      "imports": [
+        "mscoree.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/PIL/_imaging.cp313-win_amd64.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "python313.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/PIL/_imagingcms.cp313-win_amd64.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "USER32.dll",
+        "GDI32.dll",
+        "python313.dll",
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/PIL/_imagingft.cp313-win_amd64.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "python313.dll",
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/PIL/_imagingmath.cp313-win_amd64.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "python313.dll",
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/PIL/_imagingtk.cp313-win_amd64.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "PSAPI.DLL",
+        "python313.dll",
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/PIL/_webp.cp313-win_amd64.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "python313.dll",
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/psutil/_psutil_windows.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "ADVAPI32.dll",
+        "KERNEL32.dll",
+        "pdh.dll",
+        "POWRPROF.dll",
+        "PSAPI.DLL",
+        "SHELL32.dll",
+        "WS2_32.dll",
+        "python3.dll",
+        "IPHLPAPI.DLL",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/pyexpat.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "KERNEL32.dll",
+        "python313.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/python3.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/python313.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "VERSION.dll",
+        "WS2_32.dll",
+        "api-ms-win-core-path-l1-1-0.dll",
+        "bcrypt.dll",
+        "ADVAPI32.dll",
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-process-l1-1-0.dll",
+        "api-ms-win-crt-conio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/select.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "WS2_32.dll",
+        "python313.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "KERNEL32.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/tcl86t.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "KERNEL32.dll",
+        "ADVAPI32.dll",
+        "NETAPI32.dll",
+        "USER32.dll",
+        "USERENV.dll",
+        "WS2_32.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "zlib1.dll",
+        "VCRUNTIME140.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/tk86t.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "KERNEL32.dll",
+        "ADVAPI32.dll",
+        "GDI32.dll",
+        "USER32.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "SHELL32.dll",
+        "COMDLG32.dll",
+        "ole32.dll",
+        "COMCTL32.dll",
+        "IMM32.dll",
+        "VCRUNTIME140.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/ucrtbase.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "api-ms-win-core-errorhandling-l1-1-0.dll",
+        "api-ms-win-core-heap-l1-1-0.dll",
+        "api-ms-win-core-processthreads-l1-1-0.dll",
+        "api-ms-win-core-libraryloader-l1-1-0.dll",
+        "api-ms-win-core-synch-l1-1-0.dll",
+        "api-ms-win-core-debug-l1-1-0.dll",
+        "api-ms-win-core-processenvironment-l1-1-0.dll",
+        "api-ms-win-core-file-l1-1-0.dll",
+        "api-ms-win-core-string-l1-1-0.dll",
+        "api-ms-win-core-fibers-l1-1-0.dll",
+        "api-ms-win-core-file-l1-2-0.dll",
+        "api-ms-win-core-localization-l1-2-0.dll",
+        "api-ms-win-core-datetime-l1-1-0.dll",
+        "api-ms-win-core-sysinfo-l1-1-0.dll",
+        "api-ms-win-core-rtlsupport-l1-1-0.dll",
+        "api-ms-win-core-processthreads-l1-1-1.dll",
+        "api-ms-win-core-console-l1-1-0.dll",
+        "api-ms-win-core-handle-l1-1-0.dll",
+        "api-ms-win-core-namedpipe-l1-1-0.dll",
+        "api-ms-win-core-timezone-l1-1-0.dll",
+        "api-ms-win-core-file-l2-1-0.dll",
+        "api-ms-win-core-synch-l1-2-0.dll",
+        "api-ms-win-core-profile-l1-1-0.dll",
+        "api-ms-win-core-memory-l1-1-0.dll",
+        "api-ms-win-core-util-l1-1-0.dll",
+        "api-ms-win-core-interlocked-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/unicodedata.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "python313.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "KERNEL32.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/VCRUNTIME140.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "KERNEL32.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/VCRUNTIME140_1.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "VCRUNTIME140.dll",
+        "KERNEL32.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/xxhash/_xxhash.cp313-win_amd64.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "python313.dll",
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/zlib1.dll",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "KERNEL32.dll",
+        "msvcrt.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/zstandard/_cffi.cp313-win_amd64.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "python3.dll",
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "_internal/zstandard/backend_c.cp313-win_amd64.pyd",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "python313.dll",
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll"
+      ],
+      "has_delay_import_directory": false
+    },
+    {
+      "path": "Rose.exe",
+      "machine": "0x8664",
+      "architecture": "x64",
+      "managed_clr": false,
+      "imports": [
+        "USER32.dll",
+        "COMCTL32.dll",
+        "KERNEL32.dll",
+        "ADVAPI32.dll",
+        "GDI32.dll"
+      ],
+      "has_delay_import_directory": false
+    }
+  ],
+  "imports_not_bundled": [
+    "ADVAPI32.dll",
+    "COMCTL32.dll",
+    "COMDLG32.dll",
+    "CRYPT32.dll",
+    "GDI32.dll",
+    "IMM32.dll",
+    "IPHLPAPI.DLL",
+    "KERNEL32.dll",
+    "NETAPI32.dll",
+    "OLEAUT32.dll",
+    "POWRPROF.dll",
+    "PROPSYS.dll",
+    "PSAPI.DLL",
+    "RPCRT4.dll",
+    "SHELL32.dll",
+    "USER32.dll",
+    "USERENV.dll",
+    "VERSION.dll",
+    "WS2_32.dll",
+    "api-ms-win-core-path-l1-1-0.dll",
+    "bcrypt.dll",
+    "bcryptprimitives.dll",
+    "mscoree.dll",
+    "msvcrt.dll",
+    "ntdll.dll",
+    "ole32.dll",
+    "pdh.dll"
+  ]
+}

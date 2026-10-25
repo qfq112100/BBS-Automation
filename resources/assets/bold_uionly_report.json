@@ -1,0 +1,17 @@
+{
+  "file": "NotoSansSC-Bold-UIOnly.ttf",
+  "bytes": 286056,
+  "sha256": "df73cfec28bf57953dbf6f0648f99673e1f9c4ffcdac8c6b2caab8fbc1d6bfb6",
+  "source_file": "NotoSansSC-Bold-UI.ttf",
+  "source_sha256": "01b818d93def6087dda8a21e857ce08472b13b0692af86c2ed16180e2e5e69ce",
+  "family": "Noto Sans SC",
+  "style": "Bold",
+  "weight": 700,
+  "unicode_count": 1316,
+  "glyph_count": 1651,
+  "source_chinese_characters": 522,
+  "missing_ui_chinese": [],
+  "static": true,
+  "usage": "Only fixed UI titles/labels/numbers. Never arbitrary Chinese paths. Use Regular-UI.ttf for paths.",
+  "conversion": "fontTools4.61.1 subset of previously mechanically instanced weight700 original GoogleFonts Noto Sans SC; no new glyph design."
+}

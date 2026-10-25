@@ -1,0 +1,413 @@
+{
+  "name": "League Akari",
+  "version": "1.5.1",
+  "payloadDirectory": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\BBS-integration-work\\akari\\payload",
+  "entryRelativePath": "LeagueAkari.exe",
+  "architecture": "x64",
+  "archive": {
+    "url": "https://github.com/LeagueAkari/LeagueAkari/releases/download/v1.5.1/league-akari-win-x64.7z",
+    "bytes": 88579402,
+    "sha256": "9b7819d22a50afe13f6a0b382d45ec1da60d3979d25fa7e36f99b8e93221224a",
+    "publishedSha256": "9b7819d22a50afe13f6a0b382d45ec1da60d3979d25fa7e36f99b8e93221224a",
+    "digestVerified": true,
+    "digestSource": "https://github.com/LeagueAkari/LeagueAkari/releases/expanded_assets/v1.5.1"
+  },
+  "extractionTool": {
+    "url": "https://www.7-zip.org/a/7zr.exe",
+    "version": "26.04",
+    "sha256": "256feca8e274e5da655e2a284fabafd9f554365eb164862089dacd4e8276d282",
+    "authenticode": "NotSigned",
+    "scope": "extraction only; not bundled"
+  },
+  "mainExecutableAuthenticode": "NotSigned",
+  "applicationExecuted": false,
+  "originalPayloadFileCount": 70,
+  "originalPayloadBytes": 351465516,
+  "licenseInventory": "license-inventory.json",
+  "peImportInventory": "pe-imports.json",
+  "files": [
+    {
+      "path": "chrome_100_percent.pak",
+      "bytes": 116089,
+      "sha256": "34433fa04ddf5eb78b3b4e9c64a3af626e28641907ad7a6086614eb6a8f00a07"
+    },
+    {
+      "path": "chrome_200_percent.pak",
+      "bytes": 187558,
+      "sha256": "581c8d53199c10512d31a340699f9ad269f8eea5fe6bc49e05c1bde98ee612aa"
+    },
+    {
+      "path": "d3dcompiler_47.dll",
+      "bytes": 4741480,
+      "sha256": "c8e25abd3d45dfb55966a74613258c39b4a83ea2ac77f2f80903499f4d5c03f0"
+    },
+    {
+      "path": "dxcompiler.dll",
+      "bytes": 25666560,
+      "sha256": "9d89663d914973e5e17daf33b7acbf0bce96334dfa2612389cb0f212735d8cff"
+    },
+    {
+      "path": "dxil.dll",
+      "bytes": 1503600,
+      "sha256": "436f128f22050ae27323da61321a469de0678def7a4e6d86f9ccad4858724f0a"
+    },
+    {
+      "path": "ffmpeg.dll",
+      "bytes": 3096576,
+      "sha256": "998036e0acd14ebab88bd9a8c2fc58f6258bf351c6d1d4246ef1917ae4f6882b"
+    },
+    {
+      "path": "icudtl.dat",
+      "bytes": 10822192,
+      "sha256": "1cf67874b5a87a8363a86fb3f81e3cbbed54d389062dab8fb52308d5cf8c8612"
+    },
+    {
+      "path": "LeagueAkari-LICENSE.txt",
+      "bytes": 1064,
+      "sha256": "10fc4e0b3b20c879b62e91ca87dc0a234fc31c323794b4b4729be8c8fd32295b"
+    },
+    {
+      "path": "LeagueAkari.exe",
+      "bytes": 224338944,
+      "sha256": "4169091dda1e8c154f5c119f472670a5159003ca7f678579196d161d819a7584"
+    },
+    {
+      "path": "libEGL.dll",
+      "bytes": 522752,
+      "sha256": "cd27dbcbdce4e2ed0117a8ad06702d17c1bbafad40cf9a67849e1d9ebf551ac5"
+    },
+    {
+      "path": "libGLESv2.dll",
+      "bytes": 7964160,
+      "sha256": "9ec08aea153a72accc66765a6e4ccd6f41dfd5bb49ee45c5dc29ba1ce0962438"
+    },
+    {
+      "path": "LICENSE.electron.txt",
+      "bytes": 1096,
+      "sha256": "5154e165bd6c2cc0cfbcd8916498c7abab0497923bafcd5cb07673fe8480087d"
+    },
+    {
+      "path": "LICENSES.chromium.html",
+      "bytes": 19474757,
+      "sha256": "62e3b53be6bbbb2e7747b7a55c8b4f4a3cf38b95e0fff594737b3bfdac8cf373"
+    },
+    {
+      "path": "locales/en-US.pak",
+      "bytes": 562214,
+      "sha256": "446a0f711467b162cced38128932f712e4a53fe344a165110196c366fd3d87ea"
+    },
+    {
+      "path": "locales/zh-CN.pak",
+      "bytes": 567739,
+      "sha256": "78837eb8a17d34e371ed72b7c7d9262876592f409fc66b293461c5468386834c"
+    },
+    {
+      "path": "locales/zh-TW.pak",
+      "bytes": 560490,
+      "sha256": "fb77ff841f652f0ac8be02ce625559ae516c63081a45bde96f9277f241172eca"
+    },
+    {
+      "path": "resources/app.asar",
+      "bytes": 32600132,
+      "sha256": "37a079031f06fdd9b928a43ea7b1c5f82d62570be00cbd5831d2a1730cdbddd9"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/better-sqlite3/build/Release/better_sqlite3.node",
+      "bytes": 1920512,
+      "sha256": "163dbb597f6046d3b9f4457f7bd3309a095c9cdcf5e727aac84bf90c753ec793"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/better-sqlite3/lib/database.js",
+      "bytes": 4149,
+      "sha256": "02ea23bdd23d7ac5de0675a2f32fc686e76d5c6a32bd3e3891f360e72e07f61f"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/better-sqlite3/lib/index.js",
+      "bytes": 110,
+      "sha256": "82db11c4ee43a41d859988c5db42c3771dff565371f94bacbd1e4d8d6ceb47cd"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/better-sqlite3/lib/methods/aggregate.js",
+      "bytes": 1932,
+      "sha256": "e9f74eb919ec93fe089c95ddf25a98f1f631c80418fa34fb2346ca1bc29f1b82"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/better-sqlite3/lib/methods/backup.js",
+      "bytes": 2380,
+      "sha256": "ea29d34992bb02e006d0fdeda9675ac5d2bb227aaf57468decd997e9fc9c7dbf"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/better-sqlite3/lib/methods/function.js",
+      "bytes": 1396,
+      "sha256": "f431d49303b8bbdc044b1f1b455bdad21fc9b74b007de0acb22f08f25b4febd3"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/better-sqlite3/lib/methods/inspect.js",
+      "bytes": 174,
+      "sha256": "4975a78daee850adee62ba98719d0f223819a0ec135a07c0e302994bd8dbff61"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/better-sqlite3/lib/methods/pragma.js",
+      "bytes": 536,
+      "sha256": "8b1c54475bd4340b15e25c50d53d06308be65f8f919ecbe4aa9d285ca859ad5a"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/better-sqlite3/lib/methods/serialize.js",
+      "bytes": 625,
+      "sha256": "7a10ee5c2735384b7f0c361811bc6d017db29f62b203fd3c68a35f667e2c2605"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/better-sqlite3/lib/methods/table.js",
+      "bytes": 7144,
+      "sha256": "97c42d9ded1aa96c7d916b5b92f96b4e59581d50eaf629cd2c7afb78ff26a9ea"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/better-sqlite3/lib/methods/transaction.js",
+      "bytes": 2792,
+      "sha256": "bc8624a3ef689d8f78e5669020ad121e17acbc93b1d5ee5afe26860b1084c66c"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/better-sqlite3/lib/methods/wrappers.js",
+      "bytes": 1145,
+      "sha256": "a150a6271d23f4e5f8953b129f370ff096c7cdc4b812afbf080a6cf4ab741bcf"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/better-sqlite3/lib/sqlite-error.js",
+      "bytes": 717,
+      "sha256": "2582d61c27680dead168543f392eb102be621dfbef282a4ca4c7c21aa5e7c75d"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/better-sqlite3/lib/util.js",
+      "bytes": 331,
+      "sha256": "92b2e39e2151b43a2252e10b6d6de876ecaf0008336a4fa1dfe1317b20f1916f"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/better-sqlite3/LICENSE",
+      "bytes": 1078,
+      "sha256": "09856b52897c91ab67e7456ef43067019f31dfd3b87fda72e655736b1ebdee55"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/better-sqlite3/package.json",
+      "bytes": 945,
+      "sha256": "35f5841195912569932e7816ca09d03f6567a9c37a6668d4fdd450314d46e24b"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/league-akari-native-win32/addons/akari-input-win64.node",
+      "bytes": 173568,
+      "sha256": "45679104d0a4ce322486ee94d158319727d357e9c06652a032290659fdf5f806"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/league-akari-native-win32/addons/akari-tools-win64.node",
+      "bytes": 286720,
+      "sha256": "ee91369cf6660012303a993ff8ada1c46aa5a2a1bfd16206f5e13b0f61776000"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/league-akari-native-win32/dist/addon-binding.js",
+      "bytes": 1059,
+      "sha256": "b34f0099c63c2bb01ad69cca1de6ef44cf99a47d1b0277865e73f38f4156fc68"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/league-akari-native-win32/dist/bindings.js",
+      "bytes": 79,
+      "sha256": "ef1f170ad28f2d870a474d2f96ae353d770fff5f20e642cd8f9b6f1d7742df13"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/league-akari-native-win32/dist/errors.js",
+      "bytes": 694,
+      "sha256": "1dcf49af668f7703541d632631af9af85a1a706c480f1e976eb977b5f846e7a8"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/league-akari-native-win32/dist/index.js",
+      "bytes": 2044,
+      "sha256": "cf775227deca6a86cabfd1d4672e79536185eca9ad328b3ca72547dc5810ebe3"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/league-akari-native-win32/dist/input/definitions.js",
+      "bytes": 22027,
+      "sha256": "79dbacd9241f0305d990f34415f9c5aa8a23a6bd9fa58e7c85c32ef459b2d5a8"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/league-akari-native-win32/dist/input/index.js",
+      "bytes": 3588,
+      "sha256": "5fe1d73e76e9946d27c87b817c9bda80a610d81ac1687cc57bd2236ce2dbea76"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/league-akari-native-win32/dist/tools/index.js",
+      "bytes": 1282,
+      "sha256": "e404345f913cb414d5158f7ed54dd57ec9e14182d1c3a671c2c397d9af96fa93"
+    },
+    {
+      "path": "resources/app.asar.unpacked/node_modules/league-akari-native-win32/package.json",
+      "bytes": 1033,
+      "sha256": "8cf8733062468498ac29dcbea9f012bc4746b4a304e2d8cce10c0faa5a39914f"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/AKARI",
+      "bytes": 1604,
+      "sha256": "1f7760bc682d2837bf936ebb5a269bc889ac5649491e0ebd41a721f627a709d1"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/akari-updater.exe",
+      "bytes": 813056,
+      "sha256": "d8b4f7ae24efac023f195b03d7f3bf0c0098a08939eb61b892bb561b141f91fc"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/elevate.exe",
+      "bytes": 107520,
+      "sha256": "9b1fbf0c11c520ae714af8aa9af12cfd48503eedecd7398d8992ee94d1b4dc37"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/iconTemplate.png",
+      "bytes": 38051,
+      "sha256": "e361b6f0c10fa2fb7c6831ebbb76cd31c20c0c6ff37895914410faa6af33b107"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/LA_ICON.ico",
+      "bytes": 699556,
+      "sha256": "0a1fd3e936f23e9efb9ba3013bd3bcf3c72f14365adae65c5da6b0ce5e61da45"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/magic/magic.darwin-arm64.node",
+      "bytes": 50736,
+      "sha256": "27c23fa011aece43b844e3e5f3d8f69bcd8d6e176271d55dfb7b79603e96bcab"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/magic/magic.win32-x64.node",
+      "bytes": 109568,
+      "sha256": "26ee2a4172166bce8451eff690a44db84363c71880ec82aa617d8e11c0b5e51d"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/OPGG_ICON.ico",
+      "bytes": 15086,
+      "sha256": "f8d11111302dad1397280db856786f3e0638cb92851302a5db9de9543bf4f967"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/rebuild_WMI.bat",
+      "bytes": 613,
+      "sha256": "646cf7f35dd2dd754b80aa37fb443dce193942f603981ebcefb2dbc503617bb3"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/regedit-vbs/ArchitectureAgnosticRegistry.vbs",
+      "bytes": 3117,
+      "sha256": "9ce2fd5a286207580698f9c845f42a6d274a6d0199e3b5afe0cc2398f06d85fa"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/regedit-vbs/ArchitectureSpecificRegistry.vbs",
+      "bytes": 8997,
+      "sha256": "8a6d8550e0990f0ff8f4dfdbdfffdbc30ed7ec1adbea8f9bde1122122743cb5e"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/regedit-vbs/JsonSafeTest.wsf",
+      "bytes": 224,
+      "sha256": "440fbd3e6d41066c6b94b504438b09d32e41a57ad9a3de92f4e60076979c99e6"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/regedit-vbs/regCreateKey.wsf",
+      "bytes": 806,
+      "sha256": "eab82c3d0af2f509838065bc8abec9bd2ec31800aa0ff4ecca356210cbd1582f"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/regedit-vbs/regDeleteKey.wsf",
+      "bytes": 723,
+      "sha256": "61d862c3ad2675e10168dde62c5f865060994b7ff3fb40934bf38b33175b56d1"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/regedit-vbs/regDeleteValue.wsf",
+      "bytes": 747,
+      "sha256": "2d57c79ae0b9d0302293f71531c3bd20f4608abf037468f823e855ae6848a1e5"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/regedit-vbs/regList.wsf",
+      "bytes": 1084,
+      "sha256": "fcc2bde3ed615c65bac2d2726d57eb85be2cd6b4c40d2905fa9584d5970917c0"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/regedit-vbs/regListStream.wsf",
+      "bytes": 1172,
+      "sha256": "b094e0e90a019d9208989d34e5ac04994c0512692802a33bf626a6791fee0d7d"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/regedit-vbs/regPutValue.wsf",
+      "bytes": 1364,
+      "sha256": "e69389567855b09fc0de89773739013ec8a7ca9bcb788e14dcb64d9fe09a98c4"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/regedit-vbs/regUtil.vbs",
+      "bytes": 9452,
+      "sha256": "c5aafca627159e8207b3fe88bd35ea95678db61ce1babd635b8c519ffc0571b7"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/regedit-vbs/util.vbs",
+      "bytes": 4822,
+      "sha256": "572f00dfb007e2c99904975f8dae6b5c4a3aa067910ffad206478c5a98ea448b"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/regedit-vbs/wsRegReadList.wsf",
+      "bytes": 1438,
+      "sha256": "ca21eed9249090a190b73063090b95fb2357140bc63388189f4e3b2942df0afa"
+    },
+    {
+      "path": "resources/app.asar.unpacked/resources/regedit-vbs/wsRegReadListStream.wsf",
+      "bytes": 1397,
+      "sha256": "09c16914e315ea73b9303ce80caed0026f3882a510778840a7075b9f4716ce4e"
+    },
+    {
+      "path": "resources.pak",
+      "bytes": 6794158,
+      "sha256": "096373b7b5a9535b5ba60a37883d1d2010d28dafd90d4c819a902db09aef4ad1"
+    },
+    {
+      "path": "snapshot_blob.bin",
+      "bytes": 341312,
+      "sha256": "a578866594759d3c20b8fc40ca8f312c283a09113920ac14aea9c88ce0e8d9ba"
+    },
+    {
+      "path": "v8_context_snapshot.bin",
+      "bytes": 715208,
+      "sha256": "ed5e979db2aef4a152758f2b9b7b06349a1d3d5dd687fdb96e2b3fb730a465e0"
+    },
+    {
+      "path": "vk_swiftshader.dll",
+      "bytes": 5624320,
+      "sha256": "26a69fc92318e523c88adac22e12f455aa2ef7bc6182f84e2db18d797f4c6f5e"
+    },
+    {
+      "path": "vk_swiftshader_icd.json",
+      "bytes": 106,
+      "sha256": "32d83ff113fef532a9f97e0d2831f8656628ab1c99e9060f0332b1532839afd9"
+    },
+    {
+      "path": "vulkan-1.dll",
+      "bytes": 954880,
+      "sha256": "aea31f1ae00ad8e30278b53752f90eb27a2dc61baeb42824455e233e46855423"
+    }
+  ],
+  "payloadFileCount": 71,
+  "payloadBytes": 351466580,
+  "addedFiles": [
+    {
+      "path": "LeagueAkari-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/LeagueAkari/LeagueAkari/v1.5.1/LICENSE",
+      "sha256": "10fc4e0b3b20c879b62e91ca87dc0a234fc31c323794b4b4729be8c8fd32295b",
+      "reason": "Unmodified upstream MIT notice added alongside unmodified full app payload"
+    }
+  ],
+  "runtimeFindings": {
+    "separateElectronNodeInstallRequired": false,
+    "dotNetCLRDirectoryFound": false,
+    "vcRuntimeExternalImport": {
+      "module": "resources/app.asar.unpacked/resources/akari-updater.exe",
+      "architecture": "x64",
+      "dll": "VCRUNTIME140.dll",
+      "bundled": false
+    },
+    "qualification": "Static imports do not prove all runtime dependencies or Windows support; no application launch tested"
+  },
+  "licenseSources": {
+    "akariMIT": "https://github.com/LeagueAkari/LeagueAkari/blob/v1.5.1/LICENSE",
+    "upstreamNOTICE": "https://raw.githubusercontent.com/LeagueAkari/LeagueAkari/v1.5.1/NOTICE returned HTTP 404",
+    "electron": "payload/LICENSE.electron.txt",
+    "chromiumAndNode": "payload/LICENSES.chromium.html",
+    "thirdPartyAudit": "Preserved existing files; full redistribution/source-obligation review not completed"
+  }
+}

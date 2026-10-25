@@ -1,0 +1,47 @@
+LOLBackup V3 visual asset attribution
+====================================
+
+Selected hero photograph:
+NASA/JPL-Caltech/Univ. of Arizona — The Velvety Blue Dunes of Melas Chasma,
+PIA22783 / HiRISE ESP_055322_1680. Original camera observation, color-infrared.
+https://science.nasa.gov/photojournal/the-velvety-blue-dunes-of-melas-chasma/
+Public-domain mission imagery; see NASA-HiRISE-PIA22783-NOTICE.txt for provenance,
+policy references and the explicit current policy-body retrieval limitation.
+No endorsement by NASA/JPL/Caltech/University of Arizona is claimed.
+
+Selected application icon:
+Noto Emoji shield U+1F6E1 by Google and contributors, v2.038, Apache License 2.0.
+https://github.com/googlefonts/noto-emoji/tree/v2.038
+Original existing 512x512 PNG. No designed/generated icon; parent packaging may
+perform only PNG-to-ICO format/size conversion. Complete Apache-2.0 license
+in Noto-Emoji-2.038-Apache-2.0.txt.
+
+UI typography:
+Noto Sans SC — Copyright 2014-2021 Adobe, with Reserved Font Name 'Source'.
+Official Google Fonts variable TTF, SIL Open Font License 1.1.
+https://github.com/google/fonts/tree/main/ofl/notosanssc
+Mechanical static instances at weights400/700 and original-glyph subsets only.
+Family Noto Sans SC, styles Regular/Bold. No Reserved Font Name 'Source' used.
+Full OFL in Noto-Sans-SC-OFL-1.1.txt; font name/license metadata retained.
+
+UI icon font:
+Font Awesome Free 6.7.2, Fonticons, Inc. — complete original solid TTF.
+https://github.com/FortAwesome/Font-Awesome/tree/6.7.2
+Fonts licensed SIL OFL1.1; complete package LICENSE in
+Font-Awesome-Free-6.7.2-LICENSE.txt. Family: Font Awesome 6 Free Solid.
+
+Optional candidate, NOT selected for active EXE after high-resolution icon choice:
+Twemoji shield by Twitter, Inc. and other contributors, via jdecked/twemoji
+v15.1.0; Creative Commons Attribution 4.0 International; unchanged72px PNG.
+https://github.com/jdecked/twemoji/tree/v15.1.0
+https://creativecommons.org/licenses/by/4.0/
+Full license in Twemoji-15.1.0-CC-BY-4.0.txt. If candidate is not bundled into
+the executable, this candidate credit need not be placed in active EXE notices.
+
+Build-time-only font conversion tool:
+fontTools4.61.1, Copyright (c)2017 Just van Rossum, MIT License.
+Official PyPI wheel is kept for reproducibility; no pip/system install was used.
+The tool is not linked into, or required by, the executable.
+
+All images were genuinely downloaded. No AI image, self-drawn decoration,
+procedural texture, generated logo, or game publisher illustration was used.

@@ -1,0 +1,46 @@
+// icon: brightened mascot with per-size PNG entries (alpha preserved)
+// Resource text is UTF-8; do not let windres decode Chinese using the host ANSI codepage.
+#pragma code_page(65001)
+#include <winver.h>
+1 ICON "app_downloaded.ico"
+1 24 "app.manifest"
+201 RCDATA "assets/hero-velvet-dunes.jpg"
+202 RCDATA "assets/ui-regular.lbap"
+203 RCDATA "assets/ui-bold.lbap"
+204 RCDATA "assets/icons.lbap"
+205 RCDATA "open_source_notices.txt"
+206 RCDATA "assets/bbs-logo-light.png"
+207 RCDATA "assets/bbs-logo-dark.png"
+3100 RCDATA "integrations/manifest.json"
+3101 RCDATA "integrations/rose.cab"
+3102 RCDATA "integrations/akari.cab"
+3103 RCDATA "integrations/ltk.cab"
+3104 RCDATA "integrations/abc.cab"
+3200 RCDATA "manual/bbs_manual.html"
+1 VERSIONINFO
+FILEVERSION 3,3,17,0
+PRODUCTVERSION 3,3,17,0
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+FILESUBTYPE 0
+BEGIN
+ BLOCK "StringFileInfo"
+ BEGIN
+  BLOCK "040904b0"
+  BEGIN
+   VALUE "CompanyName", "LOLBackup - independent utility"
+   VALUE "FileDescription", L"BBS\x81EA\x52A8\x5DE5\x5177 - single-file native configuration vault"
+   VALUE "FileVersion", "3.3.17.0"
+   VALUE "InternalName", "LOLBackup"
+   VALUE "OriginalFilename", L"BBS\x81EA\x52A8\x5DE5\x5177.exe"
+   VALUE "ProductName", L"BBS\x81EA\x52A8\x5DE5\x5177"
+   VALUE "ProductVersion", "3.3.17.0"
+  END
+ END
+ BLOCK "VarFileInfo"
+ BEGIN
+  VALUE "Translation", 0x409, 1200
+ END
+END

@@ -1,0 +1,12 @@
+{
+  "NotoSansSC-Regular-UI.ttf": {
+    "missing_ascii_GB2312_han": 0,
+    "license_in_names": true
+  },
+  "NotoSansSC-Bold-UI.ttf": {
+    "missing_ascii_GB2312_han": 0,
+    "license_in_names": true
+  },
+  "GB2312_Han_count": 6763,
+  "source_version": "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+}
